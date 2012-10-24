@@ -1,4 +1,3 @@
-<? include('gzip-css.php'); ?>
 /*
 # -- BEGIN LICENSE BLOCK ----------------------------------
 #
@@ -17,9 +16,9 @@
 */
 
 /*
-@import "custom.css";
+@import "custom.css"; 
 */
-
+//quentin
 body {
 	margin: 0;
 	padding: 0;
@@ -203,17 +202,12 @@ ul {
 -------------------------------------------------------- */
 
 #prelude {
-	position: absolute;
+position:absolute;
+
 	top: 0;
 	left: 17em;
 	padding: 0;
 	font-size: 0.85em;
-}
-
-/* Les trois lignes suivantes à supprimer si vous souhaitez 
-que le prelude soit visible */
-#prelude, #prelude a {
-	color: #fff;
 }
 
 /* Titre
@@ -279,7 +273,6 @@ que le prelude soit visible */
 #blognav {
 	margin-top: 2em;
 }
-
 #blogextra {
 	width: 15em;
 	position: absolute;
@@ -287,7 +280,6 @@ que le prelude soit visible */
 	left: 1em;
 	text-align: right
 }
-
 /* content
 -------------------------------------------------------------- */
 
@@ -308,7 +300,7 @@ que le prelude soit visible */
 	font-size: 1em;
 	text-align: right;
 	color: #ada095;
-	border-top: 1px solid #933522;
+	border: 1px solid #933522;
 	margin-top: 0;
 	text-transform: lowercase;
 }
@@ -659,9 +651,6 @@ p.field label {
 	margin: 0;
 }
 
-
-
-
 ul.tags {
 	font-size: 1.2em;
 	line-height: 200%;
@@ -793,57 +782,52 @@ ul.tags .tag100 {
 }
 
 /* 
-* NUAGE DE TAGS 
-*      VU SUR http://tips.dotaddict.org/fiche/Creer-un-nuage-de-tags 
+* date sous forme calendrier
 */
-
-
-#sidebar .tags ul { list-style-type : none;
-}
-.dc-tags ul.tags, #sidebar .tags ul, .dc-tags ul.tags li , #sidebar .tags ul  li { margin:0; padding:0; }
-.dc-tags ul.tags li, #sidebar .tags ul li { display : inline; }
-#sidebar .tags ul li a { padding-left:16px; }
-
-.tags ul .tag0 {
-	font-size: 80%;
-}
-
-.tags ul .tag10 {
-	font-size: 90%;
+.date { /* date */
+	color: silver;
+	float: right;
+	line-height: 2.3em;
+	margin: 1.5em 0 5px 10px;
+	padding-left: 5px;
+	border-left: 1px solid silver;
+	font-size: .8em;
+	text-align: center;
+	position: relative;
+	right: 0;
 }
 
-.tags ul .tag30 {
-	font-size: 100%;
+.date_day { /* jour */
+	display: block;
+	font-size: 3em;
+	text-align: right;
 }
 
-.tags ul .tag40 {
-	font-size: 110%;
+.date_month { /* mois */
+	display: block;
+	font-size: 3em;
+	text-align: right;
+	font-weight: bold;
 }
 
-.tags ul .tag50 {
-	font-size: 120%;
+.date_year { /* annee */
+	display: block;
+	font-size: 1.4em;
+	line-height: .9em;
 }
 
-.tags ul .tag60 {
-	font-size: 130%;
+// ALBATOR news.google.fr pour twitter
+.icon-fc {
+    background-image: url("http://www.gstatic.com/news/img/3845041549-news-icons-fc.png");
 }
-
-.tags ul .tag70 {
-	font-size: 140%;
+.share-icon-twitter {
+    background-position: -16px -1px;
+    height: 14px;
+    width: 21px;
 }
-
-.tags ul .tag80 {
-	font-size: 150%;
+.nsg .nsg-share-bar-table .share-button {
+    opacity: 0.4;
 }
-
-.tags ul .tag90 {
-	font-size: 160%;
+.nsg .nsg-share-bar-table .hover .share-button {
+    opacity: 0.9999;
 }
-
-.tags ul .tag100 {
-	font-size: 170%;
-}
-/*
-
-FIN CUSTOM.CSS
-*/

@@ -42,54 +42,27 @@
 	color : #933522;
 }
 
-/* 
-* NUAGE DE TAGS 
-*      VU SUR http://tips.dotaddict.org/fiche/Creer-un-nuage-de-tags 
-*/
-
-
-#sidebar .tags ul { list-style-type : none;
+// ALBATOR news.google.fr pour twitter
+.icon-fc {
+    background-image: url("http://www.gstatic.com/news/img/3845041549-news-icons-fc.png");
 }
-.dc-tags ul.tags, #sidebar .tags ul, .dc-tags ul.tags li , #sidebar .tags ul  li { margin:0; padding:0; }
-.dc-tags ul.tags li, #sidebar .tags ul li { display : inline; }
-#sidebar .tags ul li a { padding-left:16px; }
-
-.tags ul .tag0 {
-	font-size: 80%;
+.share-icon-twitter {
+    background-position: -16px -1px;
+    height: 14px;
+    width: 21px;
 }
-
-.tags ul .tag10 {
-	font-size: 90%;
+.nsg .nsg-share-bar-table .share-button {
+    opacity: 0.4;
 }
-
-.tags ul .tag30 {
-	font-size: 100%;
+.nsg .nsg-share-bar-table .hover .share-button {
+    opacity: 0.9999;
 }
-
-.tags ul .tag40 {
-	font-size: 110%;
-}
-
-.tags ul .tag50 {
-	font-size: 120%;
-}
-
-.tags ul .tag60 {
-	font-size: 130%;
-}
-
-.tags ul .tag70 {
-	font-size: 140%;
-}
-
-.tags ul .tag80 {
-	font-size: 150%;
-}
-
-.tags ul .tag90 {
-	font-size: 160%;
-}
-
-.tags ul .tag100 {
-	font-size: 170%;
+// Pour les mobiles, on masque les menus
+@media screen and (max-width: 799px) {
+  #blogextra {
+    display:none;
+  }	
+  #sidebar {
+    display:none;
+  }	
 }
