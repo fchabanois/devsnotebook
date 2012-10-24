@@ -1,0 +1,5 @@
+====== Agilito ======
+  - Full disclosure: I am one of the developers of Agilito @Pete Boon: I use it every day, so my experience counters yours, but if you would care to outline which pressing features you miss I'd be happy to look them over. Feel free to add feature requests at http://agilito.googlecode.com/. As the review stands, it is neither helpful nor informational, neither for us developers or for prospective users. @UserStories: it would be great if there was a way to respond to reviews without opening a 2nd account, or at least a way to contact reviewers. I'm rating it a '5' because I can't submit a blank rating, and I don't want to unfairly skew the ratings, but I'm not going to rate my own product (which I think is the best of the open source tools available) a 1. (userstories.com)
+
+===== Drawbacks =====
+  - Not mature enough. Many features are missing to be useful. (userstories.com)

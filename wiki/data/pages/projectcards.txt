@@ -1,0 +1,4 @@
+====== Project cards ======
+
+  - AgileBuddy, ProjectCards and Agilo probably make up the next grouping and all focus on the backlog management areas of the process. They don't provide much, if anything, in the way of story and task boards or burndown charts.  //([[http://consultingblogs.emc.com/gavyndowst/archive/2009/08/06/reviewing-agile-process-management-tools-part-2.aspx|see the detailed review here]])//
+  - We use ProjectCards for ours. I had evaluated VersionOne (the full version, not their new light one), Mingle, Rally, ScrumWorks and a plugin for Serena TeamTrack (which we already use). ProjectCards was great that it was a simple tool which still supported the multiple teams we're running. VersionOne and Rally were just simply too heavy for what we needed (though both looked powerful). Rally refused to talk to us because we were under 75 users and wanted to host it ourselves. //([[http://en.how-to.mobi/index.php?sd=fr&id=35760|mobi]])//

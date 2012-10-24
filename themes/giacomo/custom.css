@@ -1,0 +1,95 @@
+/* ajoutez dans ce fichier vos personnalisations */
+
+
+/* Calendrier
+-------------------------------------------------------- */
+#calendar {
+}
+
+#calendar h2 {
+}
+
+#calendar table {
+	border-collapse : collapse;
+	font-size : .9em;
+	text-align:center;
+	margin : 0;
+	padding:0;
+}
+
+#calendar caption {
+	margin : 0 auto;
+	padding : 0 0 0.3em 0;
+	font-size : 1.2em;
+}
+
+#calendar abbr {
+	border : none;
+}
+
+#calendar th, .cal td {
+	border : none;
+	padding : 1px;
+}
+#calendar td {
+	text-align : center;
+}
+#calendar td a {
+	text-decoration : underline;
+	}
+#calendar td.active a {
+	font-weight : bold;
+	color : #933522;
+}
+
+/* 
+* NUAGE DE TAGS 
+*      VU SUR http://tips.dotaddict.org/fiche/Creer-un-nuage-de-tags 
+*/
+
+
+#sidebar .tags ul { list-style-type : none;
+}
+.dc-tags ul.tags, #sidebar .tags ul, .dc-tags ul.tags li , #sidebar .tags ul  li { margin:0; padding:0; }
+.dc-tags ul.tags li, #sidebar .tags ul li { display : inline; }
+#sidebar .tags ul li a { padding-left:16px; }
+
+.tags ul .tag0 {
+	font-size: 80%;
+}
+
+.tags ul .tag10 {
+	font-size: 90%;
+}
+
+.tags ul .tag30 {
+	font-size: 100%;
+}
+
+.tags ul .tag40 {
+	font-size: 110%;
+}
+
+.tags ul .tag50 {
+	font-size: 120%;
+}
+
+.tags ul .tag60 {
+	font-size: 130%;
+}
+
+.tags ul .tag70 {
+	font-size: 140%;
+}
+
+.tags ul .tag80 {
+	font-size: 150%;
+}
+
+.tags ul .tag90 {
+	font-size: 160%;
+}
+
+.tags ul .tag100 {
+	font-size: 170%;
+}

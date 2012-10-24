@@ -1,0 +1,8 @@
+====== Lean PM ======
+
+Website : http://sourceforge.net/projects/leanpm
+
+LeanPM is an agile project management tool. It aims at supporting the full life cycle of the project from the client requests to the product management all the way through project management using a Lean approach and actuals reporting.
+
+  - Great way to manage your agile project. There is plenty of room for improvements but it is already quite helpful at this stage.  //(sourceforge.net)//
+  - good project  //(sourceforge.net)//

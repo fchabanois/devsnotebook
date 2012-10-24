@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="FeedCreator 1.7.2-ppt DokuWiki" -->
+<?xml-stylesheet href="http://devsnotebook.free.fr/wiki/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="http://devsnotebook.free.fr/wiki/feed.php">
+        <title>Devsnotebook's wiki playground</title>
+        <description></description>
+        <link>http://devsnotebook.free.fr/wiki/</link>
+        <image rdf:resource="http://devsnotebook.free.fr/wiki/lib/images/favicon.ico" />
+       <dc:date>2012-08-27T00:30:36+02:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=playground:playground&amp;rev=1272616261&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="http://devsnotebook.free.fr/wiki/lib/images/favicon.ico">
+        <title>Devsnotebook's wiki</title>
+        <link>http://devsnotebook.free.fr/wiki/</link>
+        <url>http://devsnotebook.free.fr/wiki/lib/images/favicon.ico</url>
+    </image>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=playground:playground&amp;rev=1272616261&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-04-30T10:31:01+02:00</dc:date>
+        <title>playground:playground</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=playground:playground&amp;rev=1272616261&amp;do=diff</link>
+        <description></description>
+    </item>
+</rdf:RDF>

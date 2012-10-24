@@ -1,0 +1,3 @@
+====== Yoxel ======
+
+  -  Developed and using Yoxel (  http://yoxel.com  ). Mostly because the model is designed to work with a request tracker (internal or external, i.e. Trac, Bugzilla, Mantis, ...) Plus Yoxel is a customer portal so your customer can participate in the whole product management process.  

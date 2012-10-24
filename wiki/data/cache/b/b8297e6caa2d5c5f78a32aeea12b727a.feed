@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="FeedCreator 1.7.2-ppt DokuWiki" -->
+<?xml-stylesheet href="http://devsnotebook.free.fr/wiki/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="http://devsnotebook.free.fr/wiki/feed.php">
+        <title>Devsnotebook's wiki</title>
+        <description></description>
+        <link>http://devsnotebook.free.fr/wiki/</link>
+        <image rdf:resource="http://devsnotebook.free.fr/wiki/lib/images/favicon.ico" />
+       <dc:date>2012-10-24T08:40:27+02:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=agile_buddy&amp;rev=1273676887&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=agile_express&amp;rev=1273675000&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=agile_on_demand&amp;rev=1273676269&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=agilefant&amp;rev=1273675865&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=agiletool&amp;rev=1274344334&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=agilito&amp;rev=1273667295&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=agilo&amp;rev=1274253172&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=banana_scrum&amp;rev=1274253010&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=bright_green_projects&amp;rev=1274252785&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=cheatsheet&amp;rev=1272642483&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=conchango_for_team_system&amp;rev=1274254057&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=excel_openoffice&amp;rev=1274281130&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=explainpmt&amp;rev=1273676016&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=firescrum&amp;rev=1273675420&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=google_docs&amp;rev=1272714202&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=google_spreadsheets&amp;rev=1274253947&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=icescrum_icescrum&amp;rev=1274297914&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=jira_with_greenhopper&amp;rev=1274253760&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=leanpm&amp;rev=1273675159&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=mingle&amp;rev=1274253237&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=ms_project&amp;rev=1274262231&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=none&amp;rev=1274253822&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=ontime&amp;rev=1272715075&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=open_project_manager&amp;rev=1273674433&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=pivotal_tracker&amp;rev=1274253268&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=planigle&amp;rev=1272718750&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=planning_poker&amp;rev=1273666780&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=projectcards&amp;rev=1274252078&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=rally_dev&amp;rev=1274255577&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=rational_team_concert_rtc&amp;rev=1272716401&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=redmine&amp;rev=1273666360&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=retrospectiva&amp;rev=1272721934&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=retrospectivegames&amp;rev=1309039002&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=scjp6_questionspieges&amp;rev=1280438790&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=scjp_chapitre1_exercices&amp;rev=1280438007&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=scrum_desk&amp;rev=1274252720&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=scrum_for_team_system&amp;rev=1274253397&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=scrumdog&amp;rev=1274272870&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=scrumedge&amp;rev=1274252508&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=scrumninja&amp;rev=1273676433&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=scrumpad&amp;rev=1274253663&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=scrumworks&amp;rev=1274297928&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=scrumy&amp;rev=1274261432&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=silver_catalyst&amp;rev=1273676812&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=skinny_board&amp;rev=1272720003&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=start&amp;rev=1350154933&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=targetprocess&amp;rev=1274251576&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=tomos_software&amp;rev=1272715532&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=version_one&amp;rev=1274252541&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=winds_of_scrum&amp;rev=1273675593&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=xplanner&amp;rev=1274253631&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=xplive&amp;rev=1273676600&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devsnotebook.free.fr/wiki/doku.php?id=yoxel&amp;rev=1272714481&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="http://devsnotebook.free.fr/wiki/lib/images/favicon.ico">
+        <title>Devsnotebook's wiki</title>
+        <link>http://devsnotebook.free.fr/wiki/</link>
+        <url>http://devsnotebook.free.fr/wiki/lib/images/favicon.ico</url>
+    </image>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=agile_buddy&amp;rev=1273676887&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-12T17:08:07+02:00</dc:date>
+        <title>agile_buddy</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=agile_buddy&amp;rev=1273676887&amp;do=diff</link>
+        <description>*  AgileBuddy, ProjectCards and Agilo probably make up the next grouping and all focus on the backlog management areas of the process. They don't provide much, if anything, in the way of story and task boards or burndown charts.   (edit : However, to clarify, Agilebuddy does contain a burndown chart in the app. There is also a screen cap of it on the Agilebuddy homepage named “Iteration Burndown”)(see the detailed review here)</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=agile_express&amp;rev=1273675000&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-12T16:36:40+02:00</dc:date>
+        <title>agile_express</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=agile_express&amp;rev=1273675000&amp;do=diff</link>
+        <description>*   Express is completely open source and completely free. Project home page is:  &lt;http://agileexpress.sourceforge.net&gt;  . It has a very clean and easy to use web based UI written in Flex. It provides backlog management, iteration management, has a virtual wall, burndown charts and velocity comparison charts.  (LinkedIn3)
+	*  Try Agile Express &lt;http://sourceforge.net/projects/agileexpress&gt;. We've been using this for a while. (LinkedIn2)
+	*   Have a look at Express Jan,  &lt;http://agilexpress.sourc…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=agile_on_demand&amp;rev=1273676269&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-12T16:57:49+02:00</dc:date>
+        <title>agile_on_demand</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=agile_on_demand&amp;rev=1273676269&amp;do=diff</link>
+        <description>*  Serena Agile On Demand--Easy To Get Up-And-Running, Fast! I've been using Serena AOD since an initial preview, and I've always loved it, but with the latest changes in the current release...it's great! In a nutshell: The interface is easy to use and slick looking which makes it a snap to get new Agile users involved in projects. The background: I first used AOD to manage product marketing sprints with the product marketing team I was on. Being able to capture all items in the backlog (i.e. an…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=agilefant&amp;rev=1273675865&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-12T16:51:05+02:00</dc:date>
+        <title>agilefant</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=agilefant&amp;rev=1273675865&amp;do=diff</link>
+        <description>*  Yes, I agree that my rating of Agilefant is probably biased :-) (userstories.com)
+	*  Agilefant is a web-based tool written on Java and the tool is under active development. It is quite feature rich and allows to create products, projects, iterations, themes and user stories, has time tracking, burn down chart, some people allocations management. It works pretty fast. The missing features are release and iteration planning. The tool does not have the concept of releases at all and that is str…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=agiletool&amp;rev=1274344334&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-20T10:32:14+02:00</dc:date>
+        <title>agiletool</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=agiletool&amp;rev=1274344334&amp;do=diff</link>
+        <description>About the survey
+
+
+The votes (without comments) have been collected during Devsnotebook'survey.
+
+The comments have been collected :
+
+
+	*  On Forums
+		*  Any recommended tools for Agile and Scrum based software development?
+		*  Open source scrum project management tool? (LinkedIn2)
+		*  What scrum tools are you currently using? Why? (LinkedIn3)
+		*  &lt;http://en.how-to.mobi/index.php?sd=fr&amp;id=35760[How-to Mobi&gt;</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=agilito&amp;rev=1273667295&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-12T14:28:15+02:00</dc:date>
+        <title>agilito</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=agilito&amp;rev=1273667295&amp;do=diff</link>
+        <description>*  Full disclosure: I am one of the developers of Agilito @Pete Boon: I use it every day, so my experience counters yours, but if you would care to outline which pressing features you miss I'd be happy to look them over. Feel free to add feature requests at &lt;http://agilito.googlecode.com/&gt;. As the review stands, it is neither helpful nor informational, neither for us developers or for prospective users. @UserStories: it would be great if there was a way to respond to reviews without opening a 2n…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=agilo&amp;rev=1274253172&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T09:12:52+02:00</dc:date>
+        <title>agilo</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=agilo&amp;rev=1274253172&amp;do=diff</link>
+        <description>*   I use Agilo -  &lt;http://www.agile42.com/cms/pages/agilo&gt;   - and am quite happy with it. Very light, seamlessly integrating with ldap based authentication.  (LinkedIn3)
+	*  www.agile42.com has a pretty neat tool. Or you can install Trac from Edgewall and configure burndown plugin - takes more work though. (LinkedIn2)
+	*  Great Product and very helpful for the Scrum Process. I'm using Agilo Pro for Scrum in an Open Source Project (&lt;http://www.oksimo.org&gt;) and also at the University of Applied …</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=banana_scrum&amp;rev=1274253010&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T09:10:10+02:00</dc:date>
+        <title>banana_scrum</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=banana_scrum&amp;rev=1274253010&amp;do=diff</link>
+        <description>*   I'm using Banana Scrum (  &lt;http://www.bananascrum.com&gt;  ) - why? Because it is simple and matches Scrum workflow perfectly. But don't take my word for it - after all I'm Banana Scrum's Product Owner - check it yourself.  
+	*  I believe Banana Scrum is worth looking at. It has some really nice features. You can try it out without registering. (mobi)</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=bright_green_projects&amp;rev=1274252785&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T09:06:25+02:00</dc:date>
+        <title>bright_green_projects</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=bright_green_projects&amp;rev=1274252785&amp;do=diff</link>
+        <description>*  This is a GREAT tool and worth a try! I almost didn't evaluate BrightGreen, because it didn't have any previous feedback. I'm VERY GLAD I decided to give due diligence to my evaluation and took a look at BrightGreen. Once you get into this tool it's very intuitive and easy to understand. I was able to get up and running in minutes. They EXCEL at support and the live chat feature is phenomenal. The product backlog and sprint planning features are very intuitive and easy to navigate. I understa…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=cheatsheet&amp;rev=1272642483&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-04-30T17:48:03+02:00</dc:date>
+        <title>cheatsheet</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=cheatsheet&amp;rev=1272642483&amp;do=diff</link>
+        <description>H2
+
+H3
+
+H4
+
+H5
+
+
+du gras
+
+de l'italique
+
+du souligné
+
+des TT???
+
+du rayé
+
+un lien interne
+
+un autre lien interne
+
+un lien externe
+
+
+	*  des puces ordonnées
+	*  des puces ordonnées
+
+	*  des puces simples
+	*  des puces simples
+
+
+une ligne horizontale, c'est 4 tirets :</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=conchango_for_team_system&amp;rev=1274254057&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T09:27:37+02:00</dc:date>
+        <title>conchango_for_team_system</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=conchango_for_team_system&amp;rev=1274254057&amp;do=diff</link>
+        <description>*  I liked the Conchango plugin for TFS. Very customizable and flexible.  (mobi)
+
+Former users
+
+	*  Around here we've also been using Cochango plugin for TFS, but whatever the chosen tool may be the important thing is visibility. Around here we started to print our Burndown chart and take it to each Daily Scrum so that everybody sees it, because when you have an “electronic only” chart people tend to miss it for days. (mobi)</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=excel_openoffice&amp;rev=1274281130&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T16:58:50+02:00</dc:date>
+        <title>excel_openoffice</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=excel_openoffice&amp;rev=1274281130&amp;do=diff</link>
+        <description>Excel templates
+
+	*  &lt;http://www.frenchsug.org/pages/viewpage.action?pageId=589869&gt;
+	*  &lt;http://etreagile.thierrycros.net/home/index.php?post/2009/10/16/Outil-Excel-pour-Scrum-%3A-int%C3%A9r%C3%AAts-et-limites&gt;
+	*  &lt;http://scrumjeffsutherland.blogspot.com/2010/01/excel-spreadsheet-for-hyperproductive.html&gt;</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=explainpmt&amp;rev=1273676016&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-12T16:53:36+02:00</dc:date>
+        <title>explainpmt</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=explainpmt&amp;rev=1273676016&amp;do=diff</link>
+        <description>*  Simple, Useful, and Uncluttered. Too many tracking tools become tracking toil. ExplainPMT remains my favorite because it is Simple, Useful, and Uncluttered. (userstories.com) 
+	*  solid foundation for an open source tool. eXPlainPMT provides the fundamentals for agile project planning. After using the product off and on for over a year, we found virtually no defects in the product. The best part is that it's open source (free!) and Ruby, and I hope to see the community contribute to the tool.…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=firescrum&amp;rev=1273675420&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-12T16:43:40+02:00</dc:date>
+        <title>firescrum</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=firescrum&amp;rev=1273675420&amp;do=diff</link>
+        <description>Website : &lt;http://sourceforge.net/projects/firescrum/&gt;
+
+FireScrum is an intuitive and easy-to-use SCRUM projects management environment focused on Rich Internet Application(RIA) technology.
+
+
+	*  I really like to use my post-its to keep the things as simples as possible.However, now we are trying to follow FireScrum tool (www.firescrum.com), an open-source tool, to support our development. There are interesting features like task board (post-it like), online colaborative planning poker, burning …</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=google_docs&amp;rev=1272714202&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-01T13:43:22+02:00</dc:date>
+        <title>google_docs</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=google_docs&amp;rev=1272714202&amp;do=diff</link>
+        <description>*  We use Google Docs for planning sessions,Sprint user stories, hours, burn down charts, Retrospective Notes, etc.. We had distributed teams and Google docs worked great for the planning session and Sprint burndown hour updates bc multiple people can edit it at once with no problem. We ran into issue with Excel. (LinkedIn3)
+	*  quickly...here's a short list... Rally, planning poker, MS excel, Google docs (LinkedIn3)</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=google_spreadsheets&amp;rev=1274253947&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T09:25:47+02:00</dc:date>
+        <title>google_spreadsheets</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=google_spreadsheets&amp;rev=1274253947&amp;do=diff</link>
+        <description>*  We use a google docs spreadsheet at initial planning and prioritization with product owners but that's as technical as it gets. When development has started we use homegrown story cards and post-its for our visible workspace and Redmine for bug tracking (and maybe the wiki functionality for documentation). (LinkedIn3)
+	*  For a team distributed over three continents (America, Europe and Asia): Excel spreadshet containing both product and sprint backlog, with some easy feauteres to mark what s…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=icescrum_icescrum&amp;rev=1274297914&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T21:38:34+02:00</dc:date>
+        <title>icescrum_icescrum</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=icescrum_icescrum&amp;rev=1274297914&amp;do=diff</link>
+        <description>*  Interesting web-based tool. It has some really nice concepts on board. Planning poker powers user stories estimation. Stories represented by cards and there are several useful filters presets. When you add a user story it has template “As ... I want ... In order to ..”. which is very nice and helpful. The downside is usability. Some very important actions like Add Sprint, Burn Down chart, etc available only via context menu! I spent half an hour to figure out how to plan a release and it was …</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=jira_with_greenhopper&amp;rev=1274253760&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T09:22:40+02:00</dc:date>
+        <title>jira_with_greenhopper</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=jira_with_greenhopper&amp;rev=1274253760&amp;do=diff</link>
+        <description>*  Jira with Greenhopper works excellent. It is very flexible and has that scrum board feeling to it. I used to be a big fan of moving physical cards across a board, but this doesn't help if you have a distributed team. You also lose out on a lot of stats. Planning Poker is a must. (LinkedIn3)
+	*  I agree with Mikael Brodd, and Shane O'Neil. The core elements - a physical board with post-its and planning poker are a must. For distributed teams, find a common time and use Skype or GoToMeeting to …</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=leanpm&amp;rev=1273675159&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-12T16:39:19+02:00</dc:date>
+        <title>leanpm</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=leanpm&amp;rev=1273675159&amp;do=diff</link>
+        <description>Website : &lt;http://sourceforge.net/projects/leanpm&gt;
+
+LeanPM is an agile project management tool. It aims at supporting the full life cycle of the project from the client requests to the product management all the way through project management using a Lean approach and actuals reporting.</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=mingle&amp;rev=1274253237&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T09:13:57+02:00</dc:date>
+        <title>mingle</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=mingle&amp;rev=1274253237&amp;do=diff</link>
+        <description>*  Great visual metaphor. One of the best things about Mingle is its visual metaphor. You can set it up so that it looks just like your story wall. Of course, you can create multiple views, so that you can view the cards in whatever ways you like, using various sorting and grouping options. I also like that I can drag and drop a card from one column (Development) to another (Testing) and have certain triggers fire to change data. While this was lacking in early versions, it's there now and very …</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=ms_project&amp;rev=1274262231&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T11:43:51+02:00</dc:date>
+        <title>ms_project</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=ms_project&amp;rev=1274262231&amp;do=diff</link>
+        <description>*  MS Project. Makes it very easy to make the sprint backlog during the first (3) day team meeting and make it easy for team leads to breakdown large code works backlogs by title/ level within many titles and levels to smaller teams. (LinkedIn3)</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=none&amp;rev=1274253822&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T09:23:42+02:00</dc:date>
+        <title>none</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=none&amp;rev=1274253822&amp;do=diff</link>
+        <description>*  Mike Cohn taught me this one - for scrum boards, consider using a big sheet of velour cloth with velcro backed post-its. You can role up the cloth and take it with you anywhere. (LinkedIn2)
+	*  A whiteboard, index cards, sticky notes and colored marker pens. Because any computer-based tool obfuscates the very information that needs to be publicly and prominently displayed. Computer-based Agile tools simply don't work, which is a bemusing irony. Computers are not always the best way to solve e…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=ontime&amp;rev=1272715075&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-01T13:57:55+02:00</dc:date>
+        <title>ontime</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=ontime&amp;rev=1272715075&amp;do=diff</link>
+        <description>*  We use Axosoft's Ontime 2009 to manage tasks in our design and rapid turn-around teams, and manage our backlog in there too. From that point on it's all physical - multiple jumbo whiteboards and lots of cards stuck on with tack. We're lucky to have the whole team colocated, and we like the social stuff that happens when you have a real board to gather around and physical story cards to move across it. And the perform the 'information radiator' function very well, in my opinion, better than an…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=open_project_manager&amp;rev=1273674433&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-12T16:27:13+02:00</dc:date>
+        <title>open_project_manager</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=open_project_manager&amp;rev=1273674433&amp;do=diff</link>
+        <description>Website : &lt;http://sourceforge.net/projects/tracka/&gt;
+
+Project Manager and Bug Tracker for Agile Software Development. Flexible Task Workflows and Views. Supports Velocity and Iterations planning. Web-based, Easy to install and user friendly. Supports unicode. Free unlimited online hosting on Amazon cloud.</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=pivotal_tracker&amp;rev=1274253268&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T09:14:28+02:00</dc:date>
+        <title>pivotal_tracker</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=pivotal_tracker&amp;rev=1274253268&amp;do=diff</link>
+        <description>*  I also use a physical Scrum board with post-its as the main day-by-day working tool. As Mikael Brodd said, simplicity and visibility, are some of the benefits, but it also works as the team daily scrum meeting point, it helps the team focus on the current sprint, see “how we are doing”,... it works as a “team-building” helping tool. But as a project manager, I also use &lt;https://www.pivotaltracker.com/&gt; , an on-line, free scrum-oriented tool, for planning and tracking tasks: extremly simple, i…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=planigle&amp;rev=1272718750&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-01T14:59:10+02:00</dc:date>
+        <title>planigle</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=planigle&amp;rev=1272718750&amp;do=diff</link>
+        <description>*  Planigle (  &lt;http://www.planigle.org&gt;  ) is another option. The community edition is open source. (LinkedIn2)</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=planning_poker&amp;rev=1273666780&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-12T14:19:40+02:00</dc:date>
+        <title>planning_poker</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=planning_poker&amp;rev=1273666780&amp;do=diff</link>
+        <description>*  Redmine (plugin: TaskBoard, BurnUp/BurnDown Chart). Planningpoker.com. Mamble or Skype. Enterprise Architect. Teamviewer.com. 
+	*  Count me as another planning poker fan. (LinkedIn3)
+	*  We also use the poker planning. It works! I have heard of others using poker chips representing the available time of the sprint but I have never used them myself... (LinkedIn3)
+	*  quickly...here's a short list... Rally. planning poker. MS excel. Google docs (LinkedIn3)
+	*  Planning Poker is a must. (LinkedI…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=projectcards&amp;rev=1274252078&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T08:54:38+02:00</dc:date>
+        <title>projectcards</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=projectcards&amp;rev=1274252078&amp;do=diff</link>
+        <description>*  AgileBuddy, ProjectCards and Agilo probably make up the next grouping and all focus on the backlog management areas of the process. They don't provide much, if anything, in the way of story and task boards or burndown charts.  (see the detailed review here)
+	*  We use ProjectCards for ours. I had evaluated VersionOne (the full version, not their new light one), Mingle, Rally, ScrumWorks and a plugin for Serena TeamTrack (which we already use). ProjectCards was great that it was a simple tool …</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=rally_dev&amp;rev=1274255577&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T09:52:57+02:00</dc:date>
+        <title>rally_dev</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=rally_dev&amp;rev=1274255577&amp;do=diff</link>
+        <description>*  Physical boards have advantages, but they don't work well with distributed teams. I prefer to use Agile PM apps, like Rally, for this kind of  situation. (LinkedIn3)
+	*  quickly...here's a short list... Rally, planning poker, MS excel, Google docs (LinkedIn3)
+	*  We use Rally. From what I have seen it provides the most comprehensive way for team members to track tasks, against the backlog - which they all do really - as well as collect statistics around things like project velocity and iterat…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=rational_team_concert_rtc&amp;rev=1272716401&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-01T14:20:01+02:00</dc:date>
+        <title>rational_team_concert_rtc</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=rational_team_concert_rtc&amp;rev=1272716401&amp;do=diff</link>
+        <description>*  Here's what I used and why. MS Project : I was young and foolish. MS Excel : It's like duct-tape for corporate life...light-weight, strong, and flexible. VersionOne : It was a nice Agile tool and the company I worked at (Intel) had licenses for it. RTC [Rational Team Concert] : Someone at my corporation had recently purchased licenses for it... (LinkedIn3)
+	*  We use Rational Team Concert (RTC) that is an integrated tool with templates, collaborative features reports, dashboards and a lot of …</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=redmine&amp;rev=1273666360&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-12T14:12:40+02:00</dc:date>
+        <title>redmine</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=redmine&amp;rev=1273666360&amp;do=diff</link>
+        <description>*  Redmine (plugin: TaskBoard, BurnUp/BurnDown Chart). Planningpoker.com. Mamble or Skype. Enterprise Architect. Teamviewer.com. (LinkedIn3)
+	*   Redmine has LDAP and it's free. I like'd Rally, but it is expansive and there is no LDAP. (LinkedIn3)
+	*  We are using the Redmine system, trunk version with the Scrum dashboard and subtasks plug-ins. Working nicely for sprint management and bug tracking. (LinkedIn2)
+	*   We are using Redmine with our customized plugins for Burndown's, Sprints and Budg…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=retrospectiva&amp;rev=1272721934&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-01T15:52:14+02:00</dc:date>
+        <title>retrospectiva</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=retrospectiva&amp;rev=1272721934&amp;do=diff</link>
+        <description>*   Another interesting tool  &lt;http://retrospectiva.org/&gt;   the GUI it's like Mantis Bugtracker, but has a SCRUM plugin  (LinkedIn2)</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=retrospectivegames&amp;rev=1309039002&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2011-06-25T23:56:42+02:00</dc:date>
+        <title>retrospectivegames</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=retrospectivegames&amp;rev=1309039002&amp;do=diff</link>
+        <description>Samolo : &lt;http://www.scrumology.net/2010/05/11/samolo-retrospectives/&gt;
+
+
+&lt;http://www.hanoulle.be/2010/05/retrospective/&gt;
+
+
+&lt;http://www.touilleur-express.fr/2009/12/04/merci-a-lequipe-primeweb/&gt;
+Pour la rétrospective, j’ai un peu galéré au départ. Je ne savais pas comment faire parler les gars. Grand silence poli… certains mêmes bidouillaient leur iPhone pendant que je tentais d’animer la rétrospective… C’était gonflant. Finalement j’ai essayé quelques techniques. L’une des techniques qui a bien …</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=scjp6_questionspieges&amp;rev=1280438790&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-07-29T23:26:30+02:00</dc:date>
+        <title>scjp6_questionspieges</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=scjp6_questionspieges&amp;rev=1280438790&amp;do=diff</link>
+        <description>What are some potential trips/traps in the SCJP exam?  
+
+
+	*  Two top-level public classes cannot be in the same source file.
+		*  main() cannot call an instance (non-static) method.
+		*  Methods can have the same name as the constructor(s).
+		*  Watch for thread initiation with classes that don't have a run() method.
+		*  Local classes cannot access non-final variables.
+		*  Case statements must have values within permissible range.
+		*  Watch for Math class being an option for immutable classe…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=scjp_chapitre1_exercices&amp;rev=1280438007&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-07-29T23:13:27+02:00</dc:date>
+        <title>scjp_chapitre1_exercices</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=scjp_chapitre1_exercices&amp;rev=1280438007&amp;do=diff</link>
+        <description>Questions
+
+Question 1.1
+
+
+class Toto {
+  String variable;
+  private void display(){
+    String message;
+    System.out.println(message);
+    System.out.println(variable);    
+  }
+}
+
+
+Qu'affiche new Toto().display()? (Voir la réponse)
+
+Question 1.2
+
+
+Nous faisons en sorte que Toto compile :</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=scrum_desk&amp;rev=1274252720&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T09:05:20+02:00</dc:date>
+        <title>scrum_desk</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=scrum_desk&amp;rev=1274252720&amp;do=diff</link>
+        <description>*  ScrumDesk and a big whiteboard  (userstories.com)
+	*  Awsome! (userstories.com)
+	*  We've been trying and using several scrum products, but this one satisfies our needs perfectly. I do not think you will need to search another once you install ScrumDesk. (userstories.com)
+	*  I found this product by accident when looking for something to better manage our product backlog which I'd previously been doing using Excel. The transformation was near-instant. Even though we were mid-sprint at the tim…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=scrum_for_team_system&amp;rev=1274253397&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T09:16:37+02:00</dc:date>
+        <title>scrum_for_team_system</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=scrum_for_team_system&amp;rev=1274253397&amp;do=diff</link>
+        <description>*  We use Microsoft Visual Studio Team System. You manage work items (PBI, SBI, Tasks, ...) that can be managed with an Excel sheet from which you can publish your changes to the Team server. There is Scrum template that's very useful and comes with lots of reports out-of-the box. We still use a physical board in our war room. But you can see the same stuff electronically on the Team System.  Another very nice part about it is that developers use the same work items and when they check in their …</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=scrumdog&amp;rev=1274272870&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T14:41:10+02:00</dc:date>
+        <title>scrumdog</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=scrumdog&amp;rev=1274272870&amp;do=diff</link>
+        <description>*  Hi, I use ScrumDog is very good and free (LinkedIn3)
+	*  Pierre, thanks for your post. I've been looking for a free Scrum tool. I've just downloaded, and started using ScrumDog. It seems to be more intuitive than many PAY for tools, and it's easy to use.... thanks again.. (LinkedIn3)
+	*  (message from the editor)  Check out ScrumDog.com (  &lt;http://www.scrumdog.com&gt;  ). It's free and the simple interface makes it faster and easier to use than most other options, leaving more time to actually w…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=scrumedge&amp;rev=1274252508&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T09:01:48+02:00</dc:date>
+        <title>scrumedge</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=scrumedge&amp;rev=1274252508&amp;do=diff</link>
+        <description>*  We tried RallyDev, VersionOne and Scrumworks. All of them are comprehensive tools but they they all took too long to set up and there were a lot of features we did not need. I went back to using Excel sheets as I was looking for something simple, till I came across ScrumEdge. ScrumEdge is really easy to set up and has its own built in scrum community where users can discuss their scrum related problems. All those who use excel sheets i would definitely recommend that you check out ScrumEdge. …</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=scrumninja&amp;rev=1273676433&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-12T17:00:33+02:00</dc:date>
+        <title>scrumninja</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=scrumninja&amp;rev=1273676433&amp;do=diff</link>
+        <description>*  Simply the best project management tool I've used. (userstories.com)
+	*  SilverCatalyst and Scrumninja are similar concepts and, that they scored so similarly is not surprising. They don't do anywhere near as much as the upper tier tools in terms of allowing multiple levels of project, releases, iterations, epics, stories, tasks, tests etc. but they are no where near as complicated either. They do the core items very effectively and intuitively with a high focus on a familiar card based story…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=scrumpad&amp;rev=1274253663&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T09:21:03+02:00</dc:date>
+        <title>scrumpad</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=scrumpad&amp;rev=1274253663&amp;do=diff</link>
+        <description>*  An excellent scrum project management and collaboration tool. We can create product backlog, plan for sprints, track time of individual and see the burndown chart, report bugs, post message , chat online, print task card and many things with the same tool! It's really awesome. would strongly suggest to use this tool. (userstories.com)
+	*  ScrumPad is a simple yet complete in functionality. It uses convention over configuration. So, it is easy to get up to speed. Also it does not forces you to…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=scrumworks&amp;rev=1274297928&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T21:38:48+02:00</dc:date>
+        <title>scrumworks</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=scrumworks&amp;rev=1274297928&amp;do=diff</link>
+        <description>*  We use ScrumWorks for product, planning sprints... It's Simple and intuitive. You can export the product into an Excel document which contains all data about the Product. (LinkedIn3)
+	*  I agree with Juncal, Scrumworks is very effective scrum tool. The web based part of the tool makes it attractive. Recently I managed a sprint with virtual team members, and thanks to Scrumworks, without which I couldn't have imagined. (LinkedIn3)
+	*  I used Scrumworks mostly which is good to allow distributed…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=scrumy&amp;rev=1274261432&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T11:30:32+02:00</dc:date>
+        <title>scrumy</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=scrumy&amp;rev=1274261432&amp;do=diff</link>
+        <description>*  Scrumy. As Ben said at the top Note Cards, Whiteboards, Big Visible Charts, and Excel if needed for tracking is where to start. That is exactly what Scrumy is. It is basic and intuitive and gives you just that. Both free and a low priced version. (mobi)</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=silver_catalyst&amp;rev=1273676812&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-12T17:06:52+02:00</dc:date>
+        <title>silver_catalyst</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=silver_catalyst&amp;rev=1273676812&amp;do=diff</link>
+        <description>*  SilverCatalyst and Scrumninja are similar concepts and, that they scored so similarly is not surprising. They don't do anywhere near as much as the upper tier tools in terms of allowing multiple levels of project, releases, iterations, epics, stories, tasks, tests etc. but they are no where near as complicated either. They do the core items very effectively and intuitively with a high focus on a familiar card based story/task board view of the project. (...) So to our choice and the one we de…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=skinny_board&amp;rev=1272720003&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-01T15:20:03+02:00</dc:date>
+        <title>skinny_board</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=skinny_board&amp;rev=1272720003&amp;do=diff</link>
+        <description>*   SkinnyBoard  [&lt;http://www.skinnyboard.com/&gt;  ] has just been Open Sourced  [&lt;http://github.com/fmiopensource/skinny_board&gt;  ]. Ruby project under the MIT Licence.  (LinkedIn2)</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=start&amp;rev=1350154933&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2012-10-13T21:02:13+02:00</dc:date>
+        <title>start</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=start&amp;rev=1350154933&amp;do=diff</link>
+        <description>Bookmarks
+
+	*  Tutos : &lt;http://betterexplained.com/&gt;
+
+Apprentissage
+
+
+GIT
+
+	*  pratique interactive : &lt;http://try.github.com/&gt;
+	*  the simple guide. Slides très clairs et bon récap, notamment couleur auto : &lt;http://rogerdudler.github.com/git-guide/index.fr.html&gt;
+	*  ebook ProGit : &lt;http://git-scm.com/book/fr&gt;</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=targetprocess&amp;rev=1274251576&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T08:46:16+02:00</dc:date>
+        <title>targetprocess</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=targetprocess&amp;rev=1274251576&amp;do=diff</link>
+        <description>*  I have several years experience with targetprocess send me your questions, I find it to be the best. (LinkedIn3)
+	*  I've found TargetProcess to be a great balance of functionality without overhead. Even with a co-located team I still like to use a physical board as an information radiator. I'm always amazed out how much information and context can be projected from simple cards. Everyone from developers to senior execs can glance at the board/wall and get an instant feel for the project. (Li…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=tomos_software&amp;rev=1272715532&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-01T14:05:32+02:00</dc:date>
+        <title>tomos_software</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=tomos_software&amp;rev=1272715532&amp;do=diff</link>
+        <description>*  We built and use TOMOS Software (www.tomos360.com). We struggled with other tools and built an easy-to-use and lean web-based software. In the past we used open source stuff, Excel (I like the analogy to corporate duct tape), IBM tools, you name it - we used it.</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=version_one&amp;rev=1274252541&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T09:02:21+02:00</dc:date>
+        <title>version_one</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=version_one&amp;rev=1274252541&amp;do=diff</link>
+        <description>*  Here's what I used and why. MS Project : I was young and foolish. MS Excel : It's like duct-tape for corporate life...light-weight, strong, and flexible. VersionOne : It was a nice Agile tool and the company I worked at (Intel) had licenses for it. RTC [Rational Team Concert] : Someone at my corporation had recently purchased licenses for it... 
+	*  We use Version 1 for several scrum teams in Seattle, San Francisco, San Jose and Phoenix. Version 1 is the best tool I have used for all aspects …</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=winds_of_scrum&amp;rev=1273675593&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-12T16:46:33+02:00</dc:date>
+        <title>winds_of_scrum</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=winds_of_scrum&amp;rev=1273675593&amp;do=diff</link>
+        <description>Website : &lt;http://sourceforge.net/projects/windsofscrum/&gt;
+
+Web-based Scrum project management tool. It is based on Henrik Kniberg's book “Scrum and XP from the Trenches” available at InfoQ. It allows drag'n'drop sprint backlog assignation. It is under constant development but already usable.</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=xplanner&amp;rev=1274253631&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-19T09:20:31+02:00</dc:date>
+        <title>xplanner</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=xplanner&amp;rev=1274253631&amp;do=diff</link>
+        <description>*  I like xplanner. It's opensource and you can extend it to meet your needs.  Update: Xplanner is being replaced by Xplanner +. You can review this tool in the sourceforge portal of the project: &lt;http://xplanner-plus.sourceforge.net/index.html&gt; (LinkedIn2)
+	*  XPlanner is one of the first web based agile project management tools and it has more features than other products. XPlanner is solid and used by many companies. Pros : Most feature-complete tool among other free open source products, Int…</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=xplive&amp;rev=1273676600&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-12T17:03:20+02:00</dc:date>
+        <title>xplive</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=xplive&amp;rev=1273676600&amp;do=diff</link>
+        <description>*  Almost making it into this upper tier is XPLive which is also very full featured. It drops points mainly in the project view stakes. It doesn't have a fully interactive story or task board and the burndown charts were not the best. It is considerably cheaper than the other two in this tier though and handles story, task and testing management well.  (see the detailed review here)</description>
+    </item>
+    <item rdf:about="http://devsnotebook.free.fr/wiki/doku.php?id=yoxel&amp;rev=1272714481&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-05-01T13:48:01+02:00</dc:date>
+        <title>yoxel</title>
+        <link>http://devsnotebook.free.fr/wiki/doku.php?id=yoxel&amp;rev=1272714481&amp;do=diff</link>
+        <description>*   Developed and using Yoxel (  &lt;http://yoxel.com&gt;  ). Mostly because the model is designed to work with a request tracker (internal or external, i.e. Trac, Bugzilla, Mantis, ...) Plus Yoxel is a customer portal so your customer can participate in the whole product management process.</description>
+    </item>
+</rdf:RDF>

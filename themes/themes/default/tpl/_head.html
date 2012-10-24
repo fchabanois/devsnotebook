@@ -1,0 +1,25 @@
+<style type="text/css" media="screen">
+@import url({{tpl:BlogThemeURL}}/style.php);
+</style>
+<style type="text/css" media="print">
+@import url({{tpl:BlogThemeURL}}/../default/print.php);
+</style>
+
+<!--
+<script type="text/javascript" src="{{tpl:BlogThemeURL}}/../default/js/jquery.php"></script>
+<script type="text/javascript" src="{{tpl:BlogThemeURL}}/../default/js/jquery.cookie.php"></script>
+-->
+<script type="text/javascript" src="{{tpl:BlogThemeURL}}/../default/js/jqueryAndcookieCombined.php"></script>
+<!-- ALBATOR Google Analitycs-->
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+  try {
+  var pageTracker = _gat._getTracker("UA-15255307-1");
+  pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+{{tpl:include src="user_head.html"}}
+{{tpl:SysBehavior behavior="publicHeadContent"}}

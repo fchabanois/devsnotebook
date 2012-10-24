@@ -1,0 +1,53 @@
+====== Exercices du chapitre 1 ======
+
+===== Questions =====
+
+==== Question 1.1 ====
+
+<code java>
+class Toto {
+  String variable;
+  private void display(){
+    String message;
+    System.out.println(message);
+    System.out.println(variable);    
+  }
+}
+</code>
+
+Qu'affiche ''new Toto().display()?'' ([[scjp_chapitre1_exercices#reponses_1|Voir la réponse]])
+
+==== Question 1.2 ====
+
+Nous faisons en sorte que ''Toto'' compile :
+
+<code java>
+class Toto {
+  String variable;
+  private void display(){
+    String message = "message";
+    System.out.println(message);
+    System.out.println(variable);    
+  }
+}
+</code>
+
+Et ajoutons une sous classe Tata 
+
+<code java>
+class Tata extends Toto {
+  private void display(){
+    System.out.println("tata");
+  }
+}
+</code>
+
+Qu'affiche ''new Tata().display()?'' ([[scjp_chapitre1_exercices#reponses_1|Voir la réponse]])
+
+===== Réponses =====
+
+==== Réponses 1.* ====
+
+1.1. Erreur de compilation : la variable locale "message" doit être initialisée.
+
+2.2. Le message "tata" s'affiche. La méthode privée de Toto n'existe pas aux yeux de Tata donc rien n'empeche Tata d'avoir une méthode du même nom.

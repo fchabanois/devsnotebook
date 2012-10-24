@@ -1,0 +1,2 @@
+====== XPLive ======
+  - Almost making it into this upper tier is XPLive which is also very full featured. It drops points mainly in the project view stakes. It doesn't have a fully interactive story or task board and the burndown charts were not the best. It is considerably cheaper than the other two in this tier though and handles story, task and testing management well.  //([[http://consultingblogs.emc.com/gavyndowst/archive/2009/08/06/reviewing-agile-process-management-tools-part-2.aspx|see the detailed review here]])//

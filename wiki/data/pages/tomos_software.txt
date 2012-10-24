@@ -1,0 +1,2 @@
+====== Tomos software ======
+  - We built and use TOMOS Software (www.tomos360.com). We struggled with other tools and built an **easy-to-use** and **lean** web-based software. In the past we used open source stuff, Excel (I like the analogy to corporate duct tape), IBM tools, you name it - we used it. 

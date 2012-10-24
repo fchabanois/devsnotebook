@@ -1,0 +1,8 @@
+====== ScrumDog ======
+
+  - Hi, I use ScrumDog is very good and **free** (LinkedIn3)
+  - Pierre, thanks for your post. I've been looking for a free Scrum tool. I've just downloaded, and started using ScrumDog. It seems to be more **intuitive** than many PAY for tools, and it's easy to use.... thanks again.. (LinkedIn3)
+  - (message from the editor)  Check out ScrumDog.com (  http://www.scrumdog.com  ). It's free and the simple interface makes it faster and easier to use than most other options, leaving more time to actually work on your project. The "Daily Questions" feature helps you organize your daily scrum meetings as well.  (LinkedIn2)
+
+===== Against =====
+  - There is **no support LDAP** In ScrumDog and it is like **beta** version. Redmine has LDAP and it's free. I like'd Rally, but it is expansive and there is no LDAP. 

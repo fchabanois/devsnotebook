@@ -1,0 +1,6 @@
+====== Agile Express ======
+
+  -  Express is completely open source and completely free. Project home page is:  http://agileexpress.sourceforge.net  . It has a very **clean** and **easy to use** web based UI written in Flex. It provides **backlog** management, **iteration** management, has a **virtual wall**, **burndown charts** and velocity comparison charts.  (LinkedIn3)
+  - Try Agile Express http://sourceforge.net/projects/agileexpress. We've been using this for a while. (LinkedIn2)
+  -  Have a look at Express Jan,  http://agilexpress.sourceforge.net  It allows you to configure a project so that it's stories measure effort in points, days, or hours. It supports multiple tasks per story that for which effort is measured in hours. It has a virtual wall in the scrum style with stories stationary on the left and tasks which move through swim-lanes. Of course it is open source and completely free. If you do try it out I would really appreciate some feedback on the project forums, the feedback I am getting is really helping to build and prioritise the product backlog. (LinkedIn2)
+  - As good as ScrumWorks but without the overheads of the fat java client !  //(sourceforge.net)//

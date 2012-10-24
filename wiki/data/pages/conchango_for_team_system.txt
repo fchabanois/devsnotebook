@@ -1,0 +1,6 @@
+====== Conchango For TFS ======
+
+  - I liked the Conchango plugin for TFS. Very customizable and flexible.  //([[http://en.how-to.mobi/index.php?sd=fr&id=35760|mobi]])//
+
+===== Former users =====
+  - Around here we've also been using Cochango plugin for TFS, but whatever the chosen tool may be the important thing is **visibility**. Around here we started to print our Burndown chart and take it to each Daily Scrum so that everybody sees it, because when you have an “electronic only” chart people tend to miss it for days. //([[http://en.how-to.mobi/index.php?sd=fr&id=35760|mobi]])//

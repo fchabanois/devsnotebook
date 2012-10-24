@@ -1,0 +1,2 @@
+====== Retrospectiva ======
+  -  Another interesting tool  http://retrospectiva.org/   the GUI it's like Mantis Bugtracker, but has a SCRUM plugin  (LinkedIn2)

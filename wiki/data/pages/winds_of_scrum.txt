@@ -1,0 +1,10 @@
+====== Winds of Scrum ======
+
+Website : http://sourceforge.net/projects/windsofscrum/
+
+Web-based Scrum project management tool. It is based on Henrik Kniberg's book "Scrum and XP from the Trenches" available at InfoQ. It allows drag'n'drop sprint backlog assignation. It is under constant development but already usable.
+
+  - Simple and easy to use. Perfect for diminishing management effort. Story assignation should be improved. 
+  - Very efficient tool for managing projects, especially the section on graphics; lets you visually find the right pace to complete scheduled tasks. I was very easy as managing any project!
+
+

@@ -1,0 +1,21 @@
+====== Retrospective games ======
+
+Samolo : http://www.scrumology.net/2010/05/11/samolo-retrospectives/
+
+
+http://www.hanoulle.be/2010/05/retrospective/
+
+
+http://www.touilleur-express.fr/2009/12/04/merci-a-lequipe-primeweb/
+Pour la rétrospective, j’ai un peu galéré au départ. Je ne savais pas comment faire parler les gars. Grand silence poli… certains mêmes bidouillaient leur iPhone pendant que je tentais d’animer la rétrospective… C’était gonflant. Finalement j’ai essayé quelques techniques. L’une des techniques qui a bien marché était la suivante. J’ai demandé aux développeurs de prendre les post-its des tâches livrées pendant le Sprint, et de les classer sur une ligne de temps sur un tableau. A gauche, l’élément qui a demandé le moins de temps. A droite, celui qui a demandé le plus de temps. Les développeurs ont donc dû discuter entre eux pour s’expliquer ce qu’ils avaient fait, afin de placer les post-its correctement. Pendant ce temps là je buvais un café tranquillement avec Karim, le Product Owner, qui du coup avait une rétrospective clé en main. Cela prend 5 minutes, et ça marche.
+Nous sommes ensuite venu voir les écarts entre les estimations/cotations données par l’équipe 2 semaines avant, et la ligne de temps. Marrant de voir un JIRA côté à 3 points complètement à droite d’un JIRA côté à 5. En fait, celui à 5 n’était pas si compliqué et long à faire. 
+
+  * jeu des chapeaux  : http://blog.mageekbox.net/?post/2011/04/06/Les-6-chapeaux
+
+  * jeu de la constellation
+  * jeu de la lune (agile france)
+  * Divers exercices en fonction du contexte : http://agileretrospectivewiki.org/index.php?title=Retrospective_Plans
+
+====== Retrospective articles  ======
+
+  * (TO READ) http://www.hanoulle.be/2010/05/agile-retrospectives-making-good-teams-great-presentation-at-google/

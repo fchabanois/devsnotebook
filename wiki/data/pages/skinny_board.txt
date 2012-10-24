@@ -1,0 +1,3 @@
+====== Skinny Board ======
+  -  SkinnyBoard  [http://www.skinnyboard.com/  ] has just been Open Sourced  [http://github.com/fmiopensource/skinny_board  ]. Ruby project under the MIT Licence.  (LinkedIn2)
+

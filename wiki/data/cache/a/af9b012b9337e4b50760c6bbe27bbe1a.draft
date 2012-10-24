@@ -1,0 +1,133 @@
+a:6:{s:2:"id";s:9:"agiletool";s:6:"prefix";s:0:"";s:4:"text";s:4521:"====== Tools for agile projects ======
+===== About the survey =====
+
+The votes (without comments) have been collected during [[http://devsnotebook.free.fr/index.php?post/2010/03/31/Tool-for-agile-projects|Devsnotebook'survey]].
+
+The comments have been collected :
+
+  * On Forums
+    * [[http://www.linkedin.com/groupAnswers?viewQuestionAndAnswers=&discussionID=10970189&gid=37631&trk=EML_anet_qa_ttle-dDhOon0JumNFomgJt7dBpSBA|Any recommended tools for Agile and Scrum based software development?]]
+    * [[http://www.linkedin.com/groupAnswers?viewQuestionAndAnswers=&gid=52030&discussionID=11612241&sik=&trk=mywl_artile&goback=.mwg_*2_1|Open source scrum project management tool?]] (LinkedIn2)
+    * [[http://www.linkedin.com/groupAnswers?trk=view_disc&gid=52030&commentID=15445879&viewQuestionAndAnswers=&discussionID=14433361|What scrum tools are you currently using? Why?]] (LinkedIn3)
+    * [[http://en.how-to.mobi/index.php?sd=fr&id=35760[How-to Mobi]]
+
+  * On referentials
+    * http://www.userstories.com/products  
+    * http://www.agile-tools.net
+    * [[http://sourceforge.net/search/?words=agile&type_of_search=soft&sort=rating&sortdir=desc&limit=25|Search "agile" on sourceforge]]
+    * [[http://sourceforge.net/search/?words=scrum&type_of_search=soft&sort=rating&sortdir=desc&limit=25|Search "scrum" on sourceforge]]
+    * [[http://sourceforge.net/search/?words=lean&type_of_search=soft&sort=rating&sortdir=desc&limit=25|Search "lean" on sourceforge]]
+
+  * On blogs
+    * http://olex.openlogic.com/wazi/2009/comparing-open-source-agile-project-management-tools
+    * http://consultingblogs.emc.com/gavyndowst/archive/2009/08/06/reviewing-agile-process-management-tools-part-2.aspx
+    * http://setandbma.wordpress.com/2010/02/17/agile-tool-expert-recommendation/
+    * http://focusintelligence.ca/2009/06/01/top-outils-de-gestion-scrum/
+    *  http://etreagile.thierrycros.net/home/index.php?post/2009/10/16/Outil-Excel-pour-Scrum-%3A-int%C3%A9r%C3%AAts-et-limites
+    *  http://edgehopper.com/grab-bag-of-scrum-tools/
+===== The tools' comments =====
+
+    * Agile Bench
+    * [[Agile Buddy]]
+    * [[Agile Express]]
+    * [[Agile On Demand]]
+    * Agile PM
+    * Agile Zen
+    * [[AgileFant]]
+    * [[Agilito]]
+    * [[Agilo]]
+    * Arpoh
+    * Assembla
+    * [[Banana Scrum]]
+    * [[Bright Green Projects]]
+    * [[Conchango for Team System]]
+    * [[Excel / OpenOffice]]
+    * [[ExplainPMT]]
+    * [[FireScrum]]
+    * [[Google Docs]]
+    * [[Google Spreadsheets]]
+    * Hansoft
+    * [[IceScrum / IceScrum²]]
+    * Jazz
+    * Jira with GrassHopper
+    * [[Jira with GreenHopper]]
+    * [[LeanPM]]
+    * [[Mingle]]
+    * [[MS Project]]
+    * [[OnTime]]
+    * [[Open Project Manager]]
+    * [[Pivotal Tracker]]
+    * [[Planigle]]
+    * [[Planning Poker]]
+    * [[ProjectCards]]
+    * [[Rally Dev]]
+    * [[Rational Team Concert (RTC)]]
+    * [[Redmine]]
+    * [[Retrospectiva]]
+    * Scrum'd
+    * [[Scrum Desk]]
+    * [[ScrumDog]]
+    * [[ScrumEdge]]
+    * [[Scrum For Team System]]
+    * [[ScrumNinja]]
+    * [[ScrumPad]]
+    * [[ScrumWorks]]
+    * [[Scrumy]]
+    * [[Silver catalyst]]
+    * [[Skinny Board]]
+    * [[TargetProcess]]
+    * Tiny PM
+    * [[Tomos Software]]
+    * Urban Turtle
+    * [[Version One]]
+    * [[Winds of Scrum]]
+    * WoodRanch Agile Project
+    * [[XPlanner]]
+    * [[XPLive]]
+    * [[Yoxel]]
+    * [[None]]
+    * Other
+===== The results =====
+
+They are the leaders with the primary data:
+
+  - IceScrum / IceScrum²	63
+  - Scrum Desk	46
+  - Jira with GreenHopper	41
+  - Urban Turtle	34
+  - Rally	32
+  - Excel / OpenOffice	29
+  - Agilo	26
+  - Version One	24
+  - ScrumWorks	23
+  - Pivotal Tracker	20
+
+
+The result after grouping the tools (ie : JIRA with Greenhopper and JIRA with Grasshopper are merged)
+
+  - IceScrum / IceScrum²	63
+  - Scrum Desk	46
+  - Team System and plugins (Scrum for team system, Urban Turtle, Conchango)	46
+  - Jira and plugins (GreenHopper, GrassHopper)	42
+  - Rally	32
+  - Excel / OpenOffice	29
+  - Agilo	26
+  - Version One	24
+  - ScrumWorks	23
+  - Pivotal Tracker	20
+
+The results when we consider that a vote with comments is 1,5 heavier than an emty one on devsnotebook 's survey :
+
+  - IceScrum / IceScrum²	66
+  - Jira with plugins (Grasshopper, GreenHopper)	59
+  - Team System and plugins (Scrum for team system, Urban Turtle, Conchango)	52
+  - Scrum Desk	51,5
+  - Rally	45,5
+  - Excel / OpenOffice	42
+  - Agilo	38,5
+  - Version One	35
+  - ScrumWorks	32,5
+  - Pivotal Tracker	28
+
+
+**See the complete results** : {{:tools_for_agile_projects.xls|}} ";s:6:"suffix";s:0:"";s:4:"date";s:10:"1274344334";s:6:"client";s:6:"flocha";}

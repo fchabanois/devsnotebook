@@ -1,0 +1,815 @@
+/* Feuille de style vierge comportant les principales balises d'un 
+blog realise avec dotclear - Etablie par Kozlika pour la dcTeam
+le 7 janvier 2007. 
+
+Licence : domaine public 
+
+*/
+
+/* Modifie par Franck Paul pour adapter le theme WordPress FallSeason */
+
+
+/* -----------------------------------------------------------------
+	1. STRUCTURE
+	a inscrire ici ou en important une css de structure placee dans
+	le meme repertoire et appelee grace a l'instruction ci-dessous
+------------------------------------------------------------------ */
+@import url(layout.css);
+
+
+/* ------------------------------------------------------------
+	2. BALISES HTML PAR DEFAUT
+------------------------------------------------------------- */
+
+body { 
+	background: #141 url(images/bg.gif) repeat fixed;
+	font-size: small;
+	font-family:Verdana, Tahoma, Arial, Serif;
+	color: #333333;
+	font-size:0.8em;
+}
+ 
+h1,h2,h3,h4,h5,h6 
+{
+	font-family:Georgia, Verdana, Arial, Serif;
+}
+h2,h3
+{
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+h1 { }
+h2 {
+	font-size: 1.4em;
+	padding-left: 18px;
+	background-image: url(images/db2.gif);
+}
+h2.intro {
+	font-size: 1.7em;
+	padding-left: 24px;
+	background-image: url(images/db1.gif);
+}
+h2.intro span
+{
+	font-weight: normal;
+	font-size:60%;
+	color:#999;
+}
+h3 {
+/*	font-weight:normal; */
+	font-family:Verdana, Arial, Serif;
+	font-size:1.2em;
+}
+h4 {
+	font-weight:normal;
+	font-family:Verdana, Arial, Serif;
+	font-size:1.1em;
+}
+h5 {
+	font-weight:normal;
+	font-family:Verdana, Arial, Serif;
+	font-size:1em;
+}
+h6 {
+	font-weight:normal;
+	font-family:Verdana, Arial, Serif;
+	font-size:0.9em;
+}
+
+p {
+	line-height: 1.6em;
+	margin: 0 0 0.5em;
+}
+img { 
+	border: solid 1px #dcdcdc;
+	padding:3px;
+}
+img.left {
+	position: relative;
+	float: left;
+	margin: 0em 1.8em 1.4em 0em;
+}
+img.right {
+	position: relative;
+	float: right;
+	margin: 0em 0em 1.8em 1.8em;
+}
+img.profile {
+	position: relative;
+	float: left;
+	margin: 0.5em;
+	padding:3px;
+}
+sup { }
+abbr, acronym { }
+
+blockquote, q { }
+blockquote { 
+    margin:1em;
+    padding:0 0 0 40px;  
+    color:#666;
+    background:url(images/blockquote.gif) no-repeat left top;
+}
+cite { }
+
+ul { 
+	margin:1em;
+	padding:0;
+}
+ol { 
+	margin:1em;
+	padding:0;
+}
+li {
+	line-height: 1.5em;
+	margin:0 1em;
+	padding:0.15em;
+}
+dl {
+	margin:1em 0;
+}
+dt {
+	font-weight:bold;
+}
+dd {
+	line-height:1.5em;
+	margin:0.5em 1em;
+	padding:0;
+}
+
+form { }
+fieldset 
+{
+	border:none;
+}
+input { }
+label { }
+
+a {
+	color: #B96D00;
+	text-decoration: none;
+	border-bottom:#B96D00 1px dashed;
+}
+a:link { }
+a:visited { }
+a:hover {
+	text-decoration: none;
+	border-bottom:#B96D00 1px solid;
+}
+a:focus { }
+
+a[hreflang]:after {
+	content: "\0000a0[" attr(hreflang) "]"; 
+}
+a[hreflang|="fr"]:after {
+	content: "";
+}
+a[hreflang] {
+	content: normal !important;
+}
+
+a img { 
+}
+ 
+code, pre { 
+	font: 1em "liberation mono", "Andale Mono", "DejaVu Sans Mono", "Courier New", Courier, monospace;
+}
+
+pre { 
+	overflow: scroll;
+	width: 100%;
+	display: block;
+	border: solid 1px #dcdcdc;
+	padding: 10px 20px 10px 30px;
+	margin: 1em 0 1em 0;
+	text-align: left;
+	line-height: 125%;
+}
+ 
+html>body pre {
+	overflow: auto;
+	width: auto;
+}
+
+hr {
+	background-color:#BBC4A3;
+	border:0pt none;
+	color:#BBC4A3;
+	height:1px;
+	margin:2em 10em;
+}
+ 
+/* ------------------------------------------------------------
+	3. PAGE
+------------------------------------------------------------- */
+ 
+#page { 
+	border: solid 7px #fff;
+	background-color: #fff;
+}
+
+ 
+/* ------------------------------------------------------------
+	4. HAUT DE PAGE
+------------------------------------------------------------- */
+
+#top {
+	background: #2b2b2b url(images/topbg.gif) repeat-x;
+}
+
+#top h1 { }
+#top h1 a { }
+
+#topcontent h1
+{
+	font-weight: normal;
+	font-size: 2.5em;
+}
+#topcontent h1 a:link, #topcontent h1 a:visited
+{
+	color: #9F9030;
+	text-decoration: none;
+	border: none;
+}
+#topcontent h1 a:hover, #topcontent h1 a:active
+{
+	color: #fff;
+	text-decoration: none;
+	border: none;
+}
+#topcontent h2
+{
+	font-size: 1.0em;
+	font-weight: normal;
+	color: #aaa;
+	padding-left: 0;
+	background-image: none;
+}
+
+#prelude {
+	text-align: center;
+}
+#prelude a {
+	color: #2B2B2B;
+	text-decoration: none;
+	border: none;
+}
+
+#topsearch
+{
+	color:#aaa;
+}
+
+#topsearch input.text
+{
+	margin-right: 0.5em;
+	vertical-align: middle;
+	border: solid 1px #f0f0f0;
+	padding: 0.1em;
+	width: 10.0em;
+	background:#fff url(images/button_bg.gif) repeat-x top;
+}
+
+#topsearch input.submit
+{
+	background: #8f4008;
+	border: solid 1px #9F9030;
+	font-weight: bold;
+	padding: 0.25em;
+	font-size: 0.8em;
+	color: #F2F3DE;
+	vertical-align: middle;
+}
+
+#headerpic
+{
+	position: relative;
+	height: 149px;
+	background: #fff url(images/fall_leaves.jpg) repeat-x bottom left;
+	margin-bottom: 2px;
+}
+
+#menu {
+	position: relative;
+	background: #7F8400 url(images/menubg.gif) repeat-x top left;
+	height: 3.5em;
+	padding: 0 1.0em;
+	margin: 0 0 2px;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+#menu ul {
+	padding:1em 0 0 0;
+	margin:0;
+}
+
+#menu ul li {
+	position: relative;
+	display: inline;
+	padding:0;
+	margin:0;
+}
+
+#menu ul li a:link, #menu ul li a:visited {
+	color: #fff;
+	padding: 0.5em 1.0em 0.9em 1.0em;
+	text-decoration: none;	
+	border:none;
+}
+
+#menu ul li a:hover, #menu ul li a:active, #menu ul li.current_page_item a {
+	background: #7F8400 url(images/menuactive.gif) repeat-x top left;	
+	border:none;
+}
+
+#menubottom {
+	background: #fff url(images/border1.gif) repeat-x;
+	height: 14px;
+	margin-bottom: 1.5em;
+}
+
+.divider1 {
+	position: relative;
+	background: #fff url(images/border2.gif) repeat-x;
+	height: 14px;
+	margin: 2.0em 0em 1.5em 0em;
+	clear: both;
+}
+
+
+/* ------------------------------------------------------------
+	5. WRAPPER MAIN CONTENT
+------------------------------------------------------------- */
+
+#wrapper {
+    overflow: hidden;
+}
+
+#main { }
+#content { 
+}
+
+#content-info { }
+#content-info h2 { }
+#content-info p { }
+
+.content-inner { }
+
+.pagination { }
+#navlinks { }
+
+
+/* ------------------------------------------------------------
+	6. BILLETS
+------------------------------------------------------------- */
+
+.post { 
+	border-bottom: solid 1px #eaeaea;
+	margin: 2em 0;	
+}
+.post.first { }
+.post.odd { }
+
+.day-date {
+	display: none;
+}
+
+.post-title, .post-title a {
+	text-decoration: none;
+	color: #141;	
+	border: none;
+}
+
+.post-info {
+	font-size: 0.86em;
+	color: #787878;
+	margin: 0;
+	padding: 0;
+}
+
+.post-info .user 
+{
+	background:url(images/user.png) no-repeat left center;
+	padding-left:15px;
+}
+
+.post-info .date 
+{
+	background:url(images/date.gif) no-repeat left center;
+	padding-left:15px;
+	margin:0 0 0 1em;
+}
+
+.post-info .category
+{
+	background:url(images/category.png) no-repeat left center;
+	padding-left:15px;
+	margin:0 0 0 1em;
+}
+
+.post-info .tag
+{
+	background:url(images/tag.png) no-repeat left center;
+	padding-left:15px;
+	margin:0 0 0 1em;
+}
+
+.post-tags {
+	font-size: 0.86em;
+	color: #787878;
+	margin: 0;
+	padding: 0;
+}
+
+.post-tags ul {
+}
+
+.post-tags li {
+	display: inline;
+	background:url(images/tag.png) no-repeat left center;
+	padding: 0 15px;
+	margin: 0;
+	line-height: 1em;
+}
+
+.post-excerpt { }
+
+.post-content {
+	padding-top: 1.3em;
+}
+
+.post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+	color: #B96D00;
+	margin: 1.2em 0 1em 0;
+}
+
+.post-content ul li {
+	list-style-image: url(images/db3.gif);
+}
+
+.read-it { }
+
+.footnotes {
+	margin-top: 2em;
+	font-size: 0.86em;
+}
+
+.footnotes h4 {
+	margin-bottom: 1em;
+	color: #787878;
+}
+
+.footnotes p {
+}
+
+.post-info-co {
+	clear: both;
+	margin: 0;
+	padding: 1em 0;
+	background: #fcfcfc;
+	color: #787878;
+	font-size: 0.86em;
+}
+
+.comment_count {
+	background: url(images/icon-comments.gif) no-repeat left center;
+	padding-left: 18px;
+}
+
+.ping_count {
+	background: url(images/icon-trackbacks.gif) no-repeat left center;
+	padding-left: 18px;
+	margin-left: 1em;
+}
+
+.attach_count {
+	background: url(images/attach.png) no-repeat left center;
+	padding-left: 18px;
+	margin-left: 1em;
+}
+
+#attachments { 
+	margin-top: 2em;
+	font-size: 0.86em;
+}
+
+#attachments h3 { 
+	margin-bottom: 1em;
+	color: #787878;
+}
+
+#attachments ul { }
+
+#attachments ul li {
+	list-style-image:url(images/db3.gif);
+}
+
+#attachments li.audio { }
+
+#attachments li.package { }
+
+#attachments li.text { }
+
+
+
+/* ------------------------------------------------------------
+	7. COMMENTAIRES, PINGS
+------------------------------------------------------------- */
+
+#comments { }
+#pings { }
+#pr { }
+
+#comment-form { }
+
+#comments h3, #pings h3, #pr h3, #comment-form h3 {
+	border:medium none;
+	color:#114411;
+	text-decoration:none;
+	margin:2em 0pt 0pt 5px;
+	background-image:url(images/db2.gif);
+	font-family:Georgia, Verdana, Arial, Serif;
+	font-size:1.4em;
+	font-weight: bold;
+	padding-left:18px;
+}
+
+#comments h3 {
+}
+
+#pings h3 {
+}
+
+#pr h3 { }
+
+#comment-form h3 { }
+
+#comments dl { }
+
+#comments dt { 
+	background:#FCFCFC url(images/border2.gif) repeat-x scroll center top;
+	margin: 2em 0 10px 0;
+	padding: 0.5em;
+	color:#999999;
+	font-style:normal;
+	font-family:Trebuchet MS,Verdana,Tahoma,Serif;
+	font-size:0.9em;
+}
+
+#comments dd { 
+	border-bottom:1px dashed #DDDDDD;
+	margin: 0 0 2em 0;
+	padding: 0.5em;
+}
+
+#comments .first { }
+#comments .odd { }
+#comments .me { }
+
+#pings dl { }
+
+#pings dt {
+	background:#FCFCFC url(images/border2.gif) repeat-x scroll center top;
+	margin: 2em 0 10px 0;
+	padding: 0.5em;
+	color:#999999;
+	font-style:normal;
+	font-family:Trebuchet MS,Verdana,Tahoma,Serif;
+	font-size:0.9em;
+}
+
+#pings dd { 
+	border-bottom:1px dashed #DDDDDD;
+	margin: 0 0 2em 0;
+	padding: 0.5em;
+}
+
+#pings .first { }
+#pings .odd { }
+#pings .me { }
+
+#pr dl { }
+#pr dd { }
+
+#comment-form fieldset { 
+	margin:10px;
+	padding:10px;
+}
+
+.field { }
+
+.field label { }
+
+.field input { 
+	padding:2px;
+	border:#ccc 1px solid;
+	background:#f9f9f9 url(images/button_bg.gif) repeat-x top;
+	font:1em Verdana, Arial, Serif;
+}
+
+.field textarea { 
+	width: 90%;
+	padding:5px;
+	height: 20em;
+	border: 1px solid #ccc;	
+	background:#f9f9f9 url(images/button_bg.gif) repeat-x top;
+	font:1em Verdana, Arial, Serif;
+}
+
+#comment-form input[type=submit] { }
+#comment-form input[type=reset] { }
+
+.form-help { }
+
+#ping-url { }
+#comments-feed { }
+
+
+/* ------------------------------------------------------------
+	8. SIDEBAR
+------------------------------------------------------------- */
+
+#sidebar { }
+#blognav { }
+#blogextra { }
+
+#blognav div, #blogextra div {
+	background: #FDFCF6 url(images/boxbg.gif) repeat-x;
+	padding: 1.5em;
+	border-top: solid 1px #E1D2BD;
+	border-bottom: solid 1px #E1D2BD;
+	margin-bottom: 1.0em;
+	text-align:left;
+}
+
+#sidebar h2 { }
+
+#sidebar h3 {
+	margin: 0.5em 0;
+	font-family:Georgia, Verdana, Arial, Serif;
+}
+
+#sidebar ul {
+	list-style: none;
+	margin: 0.5em 0 0;	
+}
+
+#sidebar li {
+	margin: 0;
+	background: none;
+	line-height: 2.0em;
+}
+
+#sidebar li li {
+	margin: 0;
+	padding: 0.5em 0 0 1em;
+}
+
+/* boites du menu des widgets livres avec Dotclear */
+#search { }
+#search form { }
+#search input[type=text] { } /* ou #search #q */
+#search input[type=submit] { } /* ou #search .submit */
+
+#topnav { }
+.topnav-arch { }
+.topnav-home { }
+
+.selected { }
+.lang { }
+.categories { }
+.syndicate { }
+.lastposts { }
+.lastcomments { }
+.text { }
+.links { }
+
+.tags { }
+.tags ul { }
+.tags li { }
+/* a completer separement ou globalement pour le sidebar et la page 
+spécifique des tags avec les differentes class des tags en fonction 
+de leur frequence - voir 10/ classes communes */
+
+
+/* ------------------------------------------------------------
+	9. FOOTER
+------------------------------------------------------------- */
+
+#footer {
+	background: #fff url(images/border2.gif) repeat-x 0 2.5em;
+	font-size: 0.86em;
+}
+
+#footer p { }
+
+
+/* ------------------------------------------------------------
+	10. CLASSES COMMUNES
+------------------------------------------------------------- */
+
+/* class sur les liens rss (on peut y placer l'icone
+feed.png a piocher dans le theme par defaut par ex.) */
+
+.feed { }
+
+#sidebar div.syndicate ul li, 
+#introcontent div p span.feed,
+#content p span.feed
+{
+	padding-left:16px;
+	background : transparent url(images/feed.png) no-repeat left center;
+}
+
+/* tags dans le sidebar et dans la page les regroupant
+(exemple ici pour un nuage) */
+.dc-tags #content ul li, .dc-tags #content ul li a, 
+.tags ul li, .tags ul li a {
+	display : inline;
+	width : auto;
+	padding-left : 0;
+	padding-right : 4px;
+	background : transparent;
+	line-height : 1.5em;
+}
+.tags ul li a:hover {
+	background-image :none;
+}
+.dc-tags .tag0, .tags .tag0 { font-size: 85%; }
+.dc-tags .tag10, .tags .tag10 { font-size: 90%; }
+.dc-tags .tag20, .tags .tag20 { font-size: 95%; }
+.dc-tags .tag30, .tags .tag30 { font-size: 100%; }
+.dc-tags .tag40, .tags .tag40 { font-size: 105%; }
+.dc-tags .tag50, .tags .tag50 { font-size: 110%; }
+.dc-tags .tag60, .tags .tag60 { font-size: 115%; }
+.dc-tags .tag70, .tags .tag70 { font-size: 120%; }
+.dc-tags .tag80, .tags .tag80 { font-size: 125%; }
+.dc-tags .tag90, .tags .tag90 { font-size: 130%; }
+.dc-tags .tag100, .tags .tag100 { font-size: 135%; }
+
+/* messages d'erreur */
+.error {
+	border : 1px solid #c44;
+	background : #df0;
+	padding : 0.5em;
+	}
+.error ul {
+	padding-left : 20px;
+	}
+.error li {
+	list-style : square;
+	}
+	
+/* exemples de ceux que j'ajoute souvent */
+.left { float: left; margin-right : 1em; }
+.right { float: right; margin-left : 1em; }
+.center { margin-left : auto; margin-right : auto; }
+.left-text { text-align : left; }
+.right-text { text-align : right; }
+.center-text { text-align : center; }
+.little-text { font-size : .8em;}
+.little-upper-text { font-size : .8em; text-transform : uppercase; }
+
+.box {
+	background: #FDFCF6 url(images/boxbg.gif) repeat-x;
+	padding: 1.5em;
+	border-top: solid 1px #E1D2BD;
+	border-bottom: solid 1px #E1D2BD;
+	margin-bottom: 1.0em;
+	text-align:left;
+}
+
+
+/* ------------------------------------------------------------
+	11. PAGES SPECIFIQUES
+	j'indique le marqueur du body, a completer pour cibler 
+	plus precisement (cf l'exemple ci-dessus pour les tags)
+------------------------------------------------------------- */
+
+.dc-home { }
+.dc-post { }
+.dc-category { }
+.dc-archive { }
+.dc-archive-month { }
+.dc-tags { }
+.dc-tag { }
+.dc-404 { }
+.dc-search { }
+
+
+/* ---------------------------------------------------
+  12. ET POUR FINIR NE PAS OUBLIER LES CLEARERS
+	ici ceux le plus souvent necessaires
+--------------------------------------------------- */
+.post, .post-content, .footnotes, .attachments, 
+.post-info-co, #comments, #footer {
+    clear:both;
+}
+
+/* --------------------------------------------------------
+  13. STYLES PARTICULIERS
+  comme ceux des plugins, etc.
+-------------------------------------------------------- */
+

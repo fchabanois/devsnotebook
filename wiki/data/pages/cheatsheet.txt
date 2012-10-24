@@ -1,0 +1,49 @@
+====== Cheatsheet ======
+
+===== H2 =====
+
+==== H3 ====
+
+=== H4 ===
+
+== H5 ==
+
+**du gras**
+
+//de l'italique//
+
+__du souligné__
+
+''des TT???''
+
+<del>du rayé</del>
+
+[[start|un lien interne]]
+
+[[wiki:syntax|un autre lien interne]]
+
+[[un lien externe]]
+
+  - des puces ordonnées
+  - des puces ordonnées
+
+  * des puces simples
+  * des puces simples
+
+une ligne horizontale, c'est 4 tirets :
+
+----
+
+des images ou des fichiers
+
+des emoticons
+
+8-)
+:-o
+FIXME
+LOL
+:-D
+
+ --- //[[flocha2000-agile@yahoo.fr|Florence]] 2010/04/30 17:46//
+
+

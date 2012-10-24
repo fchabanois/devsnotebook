@@ -1,0 +1,4 @@
+====== Rational Team Concert ======
+
+  - Here's what I used and why. **MS Project** : I was young and foolish. **MS Excel** : It's like duct-tape for corporate life...light-weight, strong, and flexible. **VersionOne** : It was a nice Agile tool and the company I worked at (Intel) had licenses for it. **RTC [Rational Team Concert]** : Someone at my corporation had recently purchased licenses for it... (LinkedIn3)
+  - We use Rational Team Concert (RTC) that is an **integrated** tool with **templates**, **collaborative** features reports, **dashboards** and a lot of others stuffs. 

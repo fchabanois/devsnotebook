@@ -1,0 +1,4 @@
+====== Google Docs ======
+
+  - We use Google Docs for planning sessions,Sprint user stories, hours, burn down charts, Retrospective Notes, etc.. We had distributed teams and Google docs worked great for the planning session and Sprint burndown hour updates bc multiple people can edit it at once with no problem. We ran into issue with Excel. (LinkedIn3)
+  - quickly...here's a short list... Rally, planning poker, MS excel, Google docs (LinkedIn3)

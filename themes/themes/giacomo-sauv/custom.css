@@ -1,0 +1,43 @@
+/* ajoutez dans ce fichier vos personnalisations */
+
+
+/* Calendrier
+-------------------------------------------------------- */
+#calendar {
+}
+
+#calendar h2 {
+}
+
+#calendar table {
+	border-collapse : collapse;
+	font-size : .9em;
+	text-align:center;
+	margin : 0;
+	padding:0;
+}
+
+#calendar caption {
+	margin : 0 auto;
+	padding : 0 0 0.3em 0;
+	font-size : 1.2em;
+}
+
+#calendar abbr {
+	border : none;
+}
+
+#calendar th, .cal td {
+	border : none;
+	padding : 1px;
+}
+#calendar td {
+	text-align : center;
+}
+#calendar td a {
+	text-decoration : underline;
+	}
+#calendar td.active a {
+	font-weight : bold;
+	color : #933522;
+}

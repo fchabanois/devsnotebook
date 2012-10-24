@@ -1,0 +1,149 @@
+/* ***** BEGIN LICENSE BLOCK *****
+ * This file is part of DotClear.
+ * Copyright (c) 2004 Olivier Meunier and contributors. All rights
+ * reserved.
+ *
+ * DotClear is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ * 
+ * DotClear is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with DotClear; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ *
+ * ***** END LICENSE BLOCK *****
+ /* Author : Kozlika - http://www.kozlika.org
+ 
+ 
+ STRUCTURE POUR DEUX COLONNES, SIDEBAR A DROITE, LARGEUR FLUIDE
+ 
+ Adaptation pour le theme WordPress FallSeason
+ 
+ --------------------------------------------------------------
+	AVANT TOUTE CHOSE
+	remise à zéro de toutes les marges des grands blocs pour que 
+	tous les navigateurs calculent depuis le même point de départ 
+--------------------------------------------------------------- */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body, 
+#page, #top, #prelude, #wrapper, #footer,
+#main, #content, 
+#sidebar, #blognav, #blogextra {
+	margin : 0;
+	padding : 0;
+	}
+
+/* --------------------------------------------------------------
+	CENTRAGE DE LA PAGE DANS LA FENETRE DU NAVIGATEUR.
+	(supprimer ces lignes si on ne veut pas centrer)
+	Note : on peut remplacer la valeur (ici 0) des marges au-dessus 
+	et en dessous de la page par la valeur de son choix (px ou em).
+--------------------------------------------------------------- */
+body
+{
+	padding: 35px 0px 35px 0px;
+}
+
+#page {
+	z-index: 2;
+	position: relative;
+	margin: 0 auto;
+	}
+	
+
+/* -------------------------------------------------------------
+	STRUCTURE FLUIDE - 2 COLONNES - SIDEBAR A DROITE
+--------------------------------------------------------------- */
+#page {
+	/*
+		The width value below controls the overall width of the design. By default it's set to 82%
+		(so it'll take up 82% of the browser window's width). You can set it to a different percentage
+		value (70%, 90%, etc.) or even a pixel value (760px, 800px, etc.) to enforce a fixed width.
+	*/
+	width: 90%;
+	min-width: 760px;
+    }
+
+#top {
+	position: relative;
+	width: 100%;
+	height: 9em;
+	margin-bottom: 2px;
+	}
+#topcontent
+{
+	position: absolute;
+	bottom: 0em;
+	padding: 0em 2.0em 1.3em 2.0em;
+}
+#prelude {
+	position: absolute;
+	top: 1em;
+	right: 2.0em;
+	padding-right: 0;
+	}
+
+#topsearch
+{
+	position: absolute;
+	top: 5.5em;
+	right: 2.0em;
+	padding-right: 0.0em;
+}
+
+#wrapper {
+	padding: 0 2em;
+	}
+
+#main {
+	float: left;
+	margin-right: -18.0em;
+	width: 100%;
+	}
+
+#content {
+	margin: 0 22em 0 0;
+	}
+
+#sidebar {
+	margin: 0;
+	float: right;
+	width: 18.0em;
+	}
+
+#blognav, #blogextra {
+	margin : 0 6px;
+	}
+
+#footer
+{
+	position: relative;
+	height: 2.0em;
+	clear: both;
+	padding-top: 5.0em;
+}
+
+#footer .left
+{
+	position: absolute;
+	left: 2em;
+	bottom: 1.2em;
+}
+
+#footer .right
+{
+	position: absolute;
+	right: 2.0em;
+	bottom: 1.2em;
+}

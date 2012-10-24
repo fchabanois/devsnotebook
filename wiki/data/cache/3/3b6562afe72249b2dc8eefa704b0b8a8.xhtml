@@ -1,0 +1,94 @@
+
+
+
+<h1><a name="scjp_questions_pieges" id="scjp_questions_pieges">SCJP : Questions pièges</a></h1>
+<div class="level1">
+
+<p>
+What are some potential trips/traps in the SCJP exam?  
+
+</p>
+<ul>
+<li class="level1"><div class="li"> Two top-level public classes cannot be in the same source file.</div>
+</li>
+<li class="level2"><div class="li"> main() cannot call an instance (non-static) method.</div>
+</li>
+<li class="level2"><div class="li"> Methods can have the same name as the constructor(s).</div>
+</li>
+<li class="level2"><div class="li"> Watch for thread initiation with classes that don&#039;t have a run() method.</div>
+</li>
+<li class="level2"><div class="li"> Local classes cannot access non-final variables.</div>
+</li>
+<li class="level2"><div class="li"> Case statements must have values within permissible range.</div>
+</li>
+<li class="level2"><div class="li"> Watch for Math class being an option for immutable classes.</div>
+</li>
+<li class="level2"><div class="li"> instanceOf is not the same as instanceof.</div>
+</li>
+<li class="level2"><div class="li"> Constructors can be private.</div>
+</li>
+<li class="level2"><div class="li"> Assignment statements can be mistaken for a comparison; e.g., if(a=true)…</div>
+</li>
+<li class="level2"><div class="li"> Watch for System.exit() in try-catch-finally blocks.</div>
+</li>
+<li class="level2"><div class="li"> Watch for uninitialized variable references with no path of proper initialization.</div>
+</li>
+<li class="level2"><div class="li"> Order of try-catch-finally blocks matters.</div>
+</li>
+<li class="level2"><div class="li"> main() can be declared final.</div>
+</li>
+<li class="level2"><div class="li"> -0.0 == 0.0 is true.</div>
+</li>
+<li class="level2"><div class="li"> A class without abstract methods can still be declared abstract.</div>
+</li>
+<li class="level2"><div class="li"> Map does not implement Collection.</div>
+</li>
+<li class="level2"><div class="li"> Dictionary is a class, not an interface.</div>
+</li>
+<li class="level2"><div class="li"> Collection (singular) is an Interface, but Collections (plural) is a helper class.</div>
+</li>
+<li class="level2"><div class="li"> Class declarations can come in any order (e.g., derived first, base next, etc.).</div>
+</li>
+<li class="level2"><div class="li"> Forward references to variables gives a compiler error.</div>
+</li>
+<li class="level2"><div class="li"> Multi-dimensional arrays can be “sparse” – i.e., if you imagine the array as a matrix, every row need not have the same number of columns.</div>
+</li>
+<li class="level2"><div class="li"> Arrays, whether local or class-level, are always initialized</div>
+</li>
+<li class="level2"><div class="li"> Strings are initialized to null, not empty string.</div>
+</li>
+<li class="level2"><div class="li"> An empty string is not the same as a null reference.</div>
+</li>
+<li class="level2"><div class="li"> A declaration cannot be labelled.</div>
+</li>
+<li class="level2"><div class="li"> continue must be in a loop (e.g., for, do, while). It cannot appear in case constructs.</div>
+</li>
+<li class="level2"><div class="li"> Primitive array types can never be assigned to each other, even though the primitives themselves can be assigned. For example, ArrayofLongPrimitives = ArrayofIntegerPrimitives gives compiler error even though longvar = intvar is perfectly valid.</div>
+</li>
+<li class="level2"><div class="li"> A constructor can throw any exception.</div>
+</li>
+<li class="level2"><div class="li"> Initializer blocks are executed in the order of declaration.</div>
+</li>
+<li class="level2"><div class="li"> Instance initializers are executed only if an object is constructed.</div>
+</li>
+<li class="level2"><div class="li"> All comparisons involving NaN and a non-NaN always result in false.</div>
+</li>
+<li class="level2"><div class="li"> Default type of a numeric literal with a decimal point is double.</div>
+</li>
+<li class="level2"><div class="li"> int and long operations / and % can throw an ArithmeticException, while float and double / and % never will (even in case of division by zero).</div>
+</li>
+<li class="level2"><div class="li"> == gives compiler error if the operands are cast-incompatible.</div>
+</li>
+<li class="level2"><div class="li"> You can never cast objects of sibling classes (sharing the same parent).</div>
+</li>
+<li class="level2"><div class="li"> equals() returns false if the object types are different. It does not raise a compiler error.</div>
+</li>
+<li class="level2"><div class="li"> No inner class (non-static inner class) can have a static member.</div>
+</li>
+<li class="level2"><div class="li"> File class has no methods to deal with the contents of the file.</div>
+</li>
+<li class="level2"><div class="li"> InputStream and OutputStream are abstract classes</div>
+</li>
+</ul>
+
+</div>

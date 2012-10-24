@@ -1,0 +1,10 @@
+====== Open Project Manager ======
+
+Website : http://sourceforge.net/projects/tracka/
+
+Project Manager and Bug Tracker for Agile Software Development. Flexible Task Workflows and Views. Supports Velocity and Iterations planning. Web-based, Easy to install and user friendly. Supports unicode. Free unlimited online hosting on Amazon cloud.
+
+
+  - Really simple and helpfull app!!  //(sourceforge.net)//
+  - This is asome  //(sourceforge.net)//
+  - Very good !!! And I use iReport and JFreeChart to create others charts. Good job.  //(sourceforge.net)//

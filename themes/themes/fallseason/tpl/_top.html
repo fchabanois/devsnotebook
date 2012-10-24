@@ -1,0 +1,51 @@
+<div id="top">
+<div id="topcontent">
+  <h1><a href="{{tpl:BlogURL}}">{{tpl:BlogName encode_html="1"}}</a></h1>
+  <h2>{{tpl:BlogDescription}}</h2>
+</div>
+
+<!-- # --BEHAVIOR-- publicTopAfterContent -->
+{{tpl:SysBehavior behavior="publicTopAfterContent"}}
+</div>
+
+<p id="prelude"><a href="#main">{{tpl:lang To content}}</a> |
+<a href="#blognav">{{tpl:lang To menu}}</a> |
+<a href="#topsearch">{{tpl:lang To search}}</a></p>
+
+<div id="topsearch">
+<form action="{{tpl:BlogURL}}" method="get">
+<fieldset>
+<label for="q">Recherche</label><br />
+<input class="text" type="text" size="15" maxlength="255" id="q" name="q" value="" />
+<input class="submit" type="submit" value="ok" />
+</fieldset>
+</form>
+</div>
+
+<div id="headerpic"></div>
+
+<div id="menu">
+<tpl:isMenuFreshyEnabled true="0">
+<!-- menu normal a adapter -->
+	<ul>
+		<li class="first {{tpl:isCurrentPageItem menu="default"}}">
+			<a title="Accueil" href="{{tpl:BlogURL}}">Accueil</a>
+		</li>
+		<li class="page_item {{tpl:isCurrentPageItem menu="archive"}}">
+			<a title="Archives" href="{{tpl:BlogURL}}archive">Archives</a>
+		</li>
+		<li class="page_item {{tpl:isCurrentPageItem menu="user-defined" item="pages/Mentions-legales"}}">
+			<a title="Aide" href="{{tpl:BlogURL}}pages/Mentions-legales">Mentions légales</a>
+		</li>
+		<li class="page_item {{tpl:isCurrentPageItem menu="contactme"}}">
+			<a title="Contact" href="{{tpl:BlogURL}}contact">Contact</a>
+		</li>
+	</ul>
+<!-- fin menu normal a adapter -->
+</tpl:isMenuFreshyEnabled>
+<tpl:isMenuFreshyEnabled true="1">
+	{{tpl:MenuFreshy}}
+</tpl:isMenuFreshyEnabled>
+</div>
+
+<div id="menubottom"></div>

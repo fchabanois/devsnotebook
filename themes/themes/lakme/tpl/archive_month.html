@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{tpl:BlogLanguage}}" lang="{{tpl:BlogLanguage}}">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="MSSmartTagsPreventParsing" content="TRUE" />
+  <meta name="ROBOTS" content="{{tpl:BlogMetaRobots robots="NOINDEX"}}" />
+  
+  <title>{{tpl:lang Archives}} - {{tpl:ArchiveDate}} - {{tpl:BlogName encode_html="1"}}</title>
+  <meta name="copyright" content="{{tpl:BlogCopyrightNotice encode_html="1"}}" />
+  <meta name="author" content="{{tpl:BlogEditor encode_html="1"}}" />
+  <meta name="date" scheme="ISO8601" content="{{tpl:BlogUpdateDate iso8601="1"}}" />
+  
+  <link rel="schema.dc" href="http://purl.org/dc/elements/1.1/" />
+  <meta name="dc.title" lang="{{tpl:BlogLanguage}}" content="{{tpl:lang Archives}} - {{tpl:ArchiveDate}} - {{tpl:BlogName encode_html="1"}}" />
+  <meta name="dc.language" content="{{tpl:BlogLanguage}}" />
+  <meta name="dc.publisher" content="{{tpl:BlogEditor encode_html="1"}}" />
+  <meta name="dc.rights" content="{{tpl:BlogCopyrightNotice encode_html="1"}}" />
+  <meta name="dc.date" scheme="ISO8601" content="{{tpl:BlogUpdateDate iso8601="1"}}" />
+  <meta name="dc.type" content="text" />
+  <meta name="dc.format" content="text/html" />
+  
+  <link rel="top" href="{{tpl:BlogURL}}" title="{{tpl:lang Home}}" />
+  <link rel="up" href="{{tpl:BlogArchiveURL}}" title="{{tpl:lang Archives}}" />
+  <link rel="contents" href="{{tpl:BlogArchiveURL}}" title="{{tpl:lang Archives}}" />
+  
+  
+  <tpl:ArchiveNext><link rel="next" href="{{tpl:ArchiveURL}}"
+  title="{{tpl:ArchiveDate encode_html="1"}}" /></tpl:ArchiveNext>
+  <tpl:ArchivePrevious><link rel="previous" href="{{tpl:ArchiveURL}}"
+  title="{{tpl:ArchiveDate encode_html="1"}}" /></tpl:ArchivePrevious>
+  
+  <tpl:Entries no_content="1">
+  <link rel="chapter" href="{{tpl:EntryURL}}" title="{{tpl:EntryTitle encode_html="1"}}" />
+  </tpl:Entries>
+  
+  {{tpl:include src="_head.html"}}
+</head>
+
+<body class="dc-archive-month">
+<div id="page">
+{{tpl:include src="_top.html"}}
+
+<div id="wrapper">
+
+<div id="main">
+  <div id="content">
+  
+   <div id="content-info">
+    <p id="navlinks">
+    <tpl:ArchivePrevious><a href="{{tpl:ArchiveURL}}" class="prev">&#171; {{tpl:ArchiveDate encode_html="1"}}</a>
+    - </tpl:ArchivePrevious>
+    <a href="{{tpl:BlogArchiveURL}}">{{tpl:lang Archives}}</a>
+    <tpl:ArchiveNext> - <a href="{{tpl:ArchiveURL}}" class="next">{{tpl:ArchiveDate encode_html="1"}} &#187;</a></tpl:ArchiveNext>
+    </p>
+  
+    <h2>{{tpl:ArchiveDate}}</h2>
+  </div>
+  
+  <tpl:Entries no_content="1">
+    <ul  id="p{{tpl:EntryID}}" class="arch-post" lang="{{tpl:EntryLang}}" xml:lang="{{tpl:EntryLang}}">
+      <li class="arch-title"><span class="date-number">{{tpl:EntryDate format="%d"}}: </span><a href="{{tpl:EntryURL}}" title="{{tpl:lang Continue reading}} {{tpl:EntryTitle encode_html="1"}}">{{tpl:EntryTitle encode_html="1"}}</a></li>
+      <li class="arch-info">{{tpl:lang By}} {{tpl:EntryAuthorLink}}<tpl:EntryIf has_category="1">, in {{tpl:EntryCategory encode_html="1"}}.</tpl:EntryIf>
+      <tpl:EntryMetaData><tpl:MetaDataHeader></tpl:MetaDataHeader><span class="arch-tag">{{tpl:MetaID}}</span><tpl:MetaDataFooter></tpl:MetaDataFooter></tpl:EntryMetaData></li>
+      <li class="arch-info-co"><tpl:EntryIf show_comments="1">{{tpl:EntryCommentCount}}</tpl:EntryIf><tpl:EntryIf show_pings="1"> - {{tpl:EntryPingCount}}</tpl:EntryIf></li>
+    </ul>
+  </tpl:Entries>
+
+</div>
+</div> <!-- End #main -->
+
+<div id="sidebar">
+  <div id="blognav">
+    {{tpl:Widgets type="nav"}}
+  </div> <!-- End #blognav -->
+  
+  <div id="blogextra">
+    {{tpl:Widgets type="extra"}}
+  </div> <!-- End #blogextra -->
+</div>
+
+</div> <!-- End #wrapper -->
+
+{{tpl:include src="_footer.html"}}
+</div> <!-- End #page -->
+</body>
+</html>

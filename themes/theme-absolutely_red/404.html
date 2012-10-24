@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{tpl:BlogLanguage}}">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="MSSmartTagsPreventParsing" content="TRUE" />
+  <title>{{tpl:lang Document not found}} - {{tpl:BlogName encode_html="1"}} - theme dotclear 2</title>
+  <meta name="DC.title" content="Page not found - {{tpl:BlogName encode_html="1"}}" />
+  
+  <link rel="top" href="{{tpl:BlogURL}}" title="{{tpl:lang Home}}" />
+  <link rel="contents" title="{{tpl:lang Archives}}" href="{{tpl:BlogArchiveURL}}" />
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{tpl:BlogFeedURL type="rss2"}}" />
+  <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="{{tpl:BlogFeedURL type="atom"}}" />
+  
+  {{tpl:include src="_head.html"}}
+</head>
+
+<body class="dc-404">
+<div id="page">
+{{tpl:include src="_top.html"}}
+
+<div id="wrapper">
+
+<div id="main">
+  <div id="content">
+  
+  <div id="content-info">
+    <h2>{{tpl:lang Document not found}}</h2>
+  </div>
+  
+  <div class="content-inner">
+    <p>{{tpl:lang The document you are looking for does not exists.}}</p>
+  </div>
+  
+  </div>
+</div>
+
+<div id="sidebar">
+  <div id="blognav">
+    {{tpl:Widgets type="nav"}}
+  </div> <!-- End #blognav -->
+  
+  <div id="blogextra">
+    {{tpl:Widgets type="extra"}}
+    <div class="links2"><ul><li><a href="http://www.7themes.com" title="theme dotclear" class="links">Theme dotclear</a></li></ul></div>
+  </div> <!-- End #blogextra -->
+</div>
+
+</div> <!-- End #wrapper -->
+
+{{tpl:include src="_footer.html"}}
+</div>
+<div id="footer-copyright"><strong><a href="http://www.7themes.com/" title="theme blog">theme du blog </a></strong> version <strong><a href="http://www.7themes.com/" title="theme dotclear 2">dotclear 2</a></strong> </div><!-- End #page -->
+</body>
+</html>

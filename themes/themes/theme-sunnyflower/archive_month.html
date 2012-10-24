@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{tpl:BlogLanguage}}">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="MSSmartTagsPreventParsing" content="TRUE" />
+  <title>{{tpl:lang Archives}} -
+  {{tpl:ArchiveDate}} - {{tpl:BlogName encode_html="1"}} - sur un theme dotclear 2</title>
+  
+  <link rel="top" href="{{tpl:BlogURL}}" title="{{tpl:lang Home}}" />
+  <link rel="up" href="{{tpl:BlogArchiveURL}}" title="{{tpl:lang Archives}}" />
+  <link rel="contents" href="{{tpl:BlogArchiveURL}}" title="{{tpl:lang Archives}}" />
+  
+  
+  <tpl:ArchiveNext><link rel="next" href="{{tpl:ArchiveURL}}"
+  title="{{tpl:ArchiveDate encode_html="1"}}" /></tpl:ArchiveNext>
+  <tpl:ArchivePrevious><link rel="previous" href="{{tpl:ArchiveURL}}"
+  title="{{tpl:ArchiveDate encode_html="1"}}" /></tpl:ArchivePrevious>
+  
+  <tpl:Entries no_content="1">
+  <link rel="chapter" href="{{tpl:EntryURL}}" title="{{tpl:EntryTitle encode_html="1"}}" />
+  </tpl:Entries>
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{tpl:BlogFeedURL type="rss2"}}" />
+  <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="{{tpl:BlogFeedURL type="atom"}}" />
+  
+  {{tpl:include src="_head.html"}}
+</head>
+
+<body class="dc-archive-month">
+<div id="page">
+{{tpl:include src="_top.html"}}
+
+<div id="wrapper">
+
+<div id="main">
+  <div id="content">
+  
+  <p id="navlinks">
+  <tpl:ArchivePrevious><a href="{{tpl:ArchiveURL}}" class="prev">&#171; {{tpl:ArchiveDate encode_html="1"}}</a>
+  - </tpl:ArchivePrevious>
+  <a href="{{tpl:BlogArchiveURL}}">{{tpl:lang Archives}}</a>
+  <tpl:ArchiveNext> - <a href="{{tpl:ArchiveURL}}" class="next">{{tpl:ArchiveDate encode_html="1"}} &#187;</a></tpl:ArchiveNext>
+  </p>
+  
+  <div id="content-info">
+    <h2>{{tpl:ArchiveDate}}</h2>
+  </div>
+  
+  <div class="content-inner">
+  <tpl:Entries no_content="1">
+    <!-- # New day date -->
+    <tpl:DateHeader><p class="day-date">{{tpl:EntryDate}}</p></tpl:DateHeader>
+    
+    <h2 id="p{{tpl:EntryID}}" class="post-title"><a
+    href="{{tpl:EntryURL}}" title="{{tpl:lang Read}} {{tpl:EntryTitle encode_html="1"}}">{{tpl:EntryTitle encode_html="1"}}</a></h2>
+    
+    <p class="post-info">{{tpl:lang By}} {{tpl:EntryAuthorLink}}
+    <tpl:EntryIf show_comments="1">
+    - <a href="{{tpl:EntryURL}}#comments">{{tpl:EntryCommentCount}}</a>
+    </tpl:EntryIf>
+    <tpl:EntryIf show_pings="1">
+    - <a href="{{tpl:EntryURL}}#pings">{{tpl:EntryTrackbackCount}}</a></tpl:EntryIf>
+    <tpl:EntryIf has_attachment="1">
+    - <a href="{{tpl:EntryURL}}#attachments">{{tpl:EntryAttachmentCount}}</a></tpl:EntryIf>
+    </p>
+  </tpl:Entries>
+  </div>
+  </div>
+</div> <!-- End #main -->
+
+<div id="sidebar">
+  <div id="blognav">
+    {{tpl:Widgets type="nav"}}
+  </div> <!-- End #blognav -->
+  
+  <div id="blogextra">
+    {{tpl:Widgets type="extra"}}
+    <div class="links2"><ul><li><a href="http://www.7themes.com" class="links">Themes dotclear</a></li></ul></div>
+  </div> <!-- End #blogextra -->
+</div>
+
+</div> <!-- End #wrapper -->
+
+{{tpl:include src="_footer.html"}}
+</div><div id="footer-copyright"><a href="http://www.7themes.com/">theme dotclear 2</a> propos&eacute; par <a href="http://www.7themes.com/">7themes.com</a></div><!-- End #page -->
+</body>
+</html>

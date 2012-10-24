@@ -1,0 +1,2 @@
+====== MS Project ======
+  - MS Project. Makes it very easy to make the sprint backlog during the first (3) day team meeting and make it easy for team leads to breakdown large code works backlogs by title/ level within many titles and levels to smaller teams. (LinkedIn3)

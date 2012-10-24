@@ -1,0 +1,8 @@
+====== Redmine ======
+
+  - Redmine (plugin: TaskBoard, BurnUp/BurnDown Chart). Planningpoker.com. Mamble or Skype. Enterprise Architect. Teamviewer.com. (LinkedIn3)
+  -  Redmine has **LDAP** and it's **free**. I like'd Rally, but it is expansive and there is no LDAP. (LinkedIn3)
+  - We are using the Redmine system, trunk version with the **Scrum dashboard** and subtasks plug-ins. Working nicely for **sprint management** and **bug tracking**. (LinkedIn2)
+  -  We are using Redmine with our customized plugins for Burndown's, Sprints and Budget tracing. Works very nicely. We have also improved team planing/resource planing by developing our own Schedules plugin. There are also nice plugins for code reviewing. All open source based on RoR. I mostly appreciate it by customizing our own workflow which allowed us to move big part of our communication to one place. Check out the  http://redmine.org    http://www.redmine.org/users/6835    http://blog.goyello.com/2009/09/08/how-to-improve-client-communication-by-reducing-amount-of-emails-in-95/  (LinkedIn2)
+  - go redmine. it has a real good plugins for scrum and agile. (LinkedIn2)
+  - redmine with extensions, google docs has been doing the trick for us for now. (LinkedIn3)

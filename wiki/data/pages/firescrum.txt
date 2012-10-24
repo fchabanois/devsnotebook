@@ -1,0 +1,16 @@
+====== FireScrum ======
+
+Website : http://sourceforge.net/projects/firescrum/
+
+FireScrum is an intuitive and easy-to-use SCRUM projects management environment focused on Rich Internet Application(RIA) technology.
+
+  - I really like to use my post-its to keep the things as simples as possible.However, now we are trying to follow FireScrum tool (www.firescrum.com), an open-source tool, to support our development. There are interesting features like **task board** (post-it like), online colaborative **planning poker**, **burning charts**, **backlog** control, **test suites** and **bug tracking**. It's very **simple** to use, although kind **boring to install**. (LinkedIn3)
+  - Firescrum is a very nice tool, it has a great future.  //(sourceforge.net)//
+  - A great start to a Scrum management tool.  //(sourceforge.net)//
+  - good  //(sourceforge.net)//
+  - We are infact about to release this tool for our internal production usage. This tool is promising and so easy and intuitive for end users.  //(sourceforge.net)//
+  - Is beatutifull and very good, i like for girls on projects free.  //(sourceforge.net)//
+  - Very clean and nice interface. Easy to use. Still needs some work to make it more usable but definitively has a great start  //(sourceforge.net)//
+  - Very nice tool, straight forward. We are enjoying using it. Hast definitely some edges to round up, but in the end very recommendable. //(sourceforge.net)//
+  - Firescrum is a easy to use, light-weighted but powerful tools especially for SCRUM. Look forward to the next release!!!  //(sourceforge.net)//
+  - Firescrum is a really nice and simple tool to control development projects. I'm using the tool to control up to 5 projects in parallel with a developer team of 15-20 members and it is being super productive. Lack of documentation is a problem (specially in the installation) but the simple layout is intuitive. //(sourceforge.net)//
