@@ -13,7 +13,7 @@
 # Version: 1.2
 # Author: Kozlika - http://www.kozlika.org/
 #
-# -- END LICENSE BLOCK ------------------------------------ 
+# -- END LICENSE BLOCK ------------------------------------
 */
 
 /*
@@ -26,7 +26,7 @@ body {
 	font-family: "Lucida grande",Verdana,Lucida,Helvetica,sans-serif;
 	font-size: 84%;
 	color: #111;
-	background: #fff url(images/notebook2.jpg) no-repeat;
+	background: #fff url(images/notebook2.jpg) no-repeat;    
 }
 
 p {
@@ -279,7 +279,6 @@ que le prelude soit visible */
 #blognav {
 	margin-top: 2em;
 }
-
 #blogextra {
 	width: 15em;
 	position: absolute;
@@ -321,10 +320,19 @@ que le prelude soit visible */
 .post-title {
 	font-weight: normal;
 	font-size: 1.4em;
-	background: transparent url(images/ico_entry.png) no-repeat 0 40%;
 	padding-left: 12px;
 	margin: 0;
 	color: #933522;
+
+        /* ALBATOR
+        ancienne version :
+                background: transparent url(images/ico_entry.png) no-repeat 0 40%; */
+        background-color: transparent;
+        background-image: url("images/sprite.png");
+        background-repeat: no-repeat;
+        background-attachment: 0;
+        background-position: -112px -41px;
+/*        background-size: 8px 11px; ça tombe en marche car c'est la derniere image... Mais avec, c'est tout cassé... */
 }
 
 .post-excerpt {
@@ -348,16 +356,38 @@ que le prelude soit visible */
 }
 
 .comment_count, .ping_count {
+        /*              ALBATOR
 	background: transparent url(images/ico_comments.png) no-repeat 0 40%;
+	margin-top: 0;
+	padding: 0 13px;
+	*/
+	background-color: transparent;
+	background-image: url(images/sprite.png);
+	background-repeat: no-repeat;
+	background-attachment: 0;
+/*	background-position: 40%;
+	background-size: 10px 10px;                 */
+        background-position: -112px -0px;
+
 	margin-top: 0;
 	padding: 0 13px;
 }
 
 .post blockquote {
 	font-family: Tahoma, "Lucida Grande", "Trebuchet MS", sans-serif;
-	background: #f5f5f5 url(images/quote.gif) no-repeat 4px 4px;
 	margin: 2em;
 	padding: 3px 2em;
+
+	/* ALBATOR ancienne version sans sprite */
+	background: #f5f5f5 url(images/quote.gif) no-repeat 4px 4px; 
+/*
+	background-color: #f5f5f5;
+	background-image: url(images/sprite.png);
+	background-repeat: no-repeat;
+	background-attachment: 4px;
+	background-position: -0px -0px;
+	background-width:0px;
+*/
 }
 
 .post blockquote p {
@@ -383,9 +413,19 @@ que le prelude soit visible */
 
 .post ul ul li {
 	display: block;
-	background: transparent url(images/ulul.png) no-repeat 0 4px;
 	padding-left: 9px;
+	background: transparent url(images/ulul.png) no-repeat 0 4px;
+
+	/* ALBATOR */
+        /* ancienne version 	background: transparent url(images/ulul.png) no-repeat 0 4px; */
+        background-color: transparent;
+        background-image: url("images/sprite.png");
+        background-repeat: no-repeat;
+        background-attachment: 0;
+        background-position: -112px -63px;
+        
 }
+
 
 ul.post-tags {
 	padding-left: 0;
@@ -393,9 +433,16 @@ ul.post-tags {
 
 ul.post-tags li {
 	display: inline;
-	background: transparent url(images/ulul.png) no-repeat 0 4px;
 	padding-left: 9px;
 	padding-right: 14px;
+
+	/* ALBATOR */
+        /* ancienne version 	background: transparent url(images/ulul.png) no-repeat 0 4px; */
+        background-color: transparent;
+        background-image: url("images/sprite.png");
+        background-repeat: no-repeat;
+        background-attachment: 0;
+        background-position: -112px -63px;
 }
 
 /* --------------------------------------------------------------------
@@ -442,9 +489,16 @@ ul.post-tags li {
 }
 
 #comments dt {
+        /* ALBATOR */
+        background-position: -112px -0px;
+        background-image: url(images/sprite.png);
+        background-repeat: no-repeat;
+
+        /* version originale
 	background-image: url(images/ico_comments.png);
 	background-position: 4px 60%;
 	background-repeat: no-repeat;
+        */
 }
 
 .comment-number {
@@ -525,9 +579,23 @@ ul.post-tags li {
 	display: block;
 	margin-top: 0.15em;
 	padding-right: 15px;
-/*	color: #e2d6ad;  albator*/
+/*	color: #e2d6ad;  plouf*/
         color: maroon;
-	background: transparent url(images/fleche.png) no-repeat right 0.25em;
+        /* ALBATOR ancienne version : -- SOUCI car retour à la ligne du texte affiche l'image du dessous */
+	background: transparent url(images/fleche.png) no-repeat right 0.25em; 
+
+/*
+        background-color: transparent;
+        background-image:url(images/sprite.png);
+        background-attachment: right;
+        background-repeat: no-repeat;
+        background-position: -112px -21px;
+*/
+/*
+        width: 10px;
+        height: 9px;
+
+ */
 }
 
 /* Menu droit
@@ -794,7 +862,7 @@ ul.tags .tag100 {
 
 /* 
 * NUAGE DE TAGS 
-*      VU SUR http://tips.dotaddict.org/fiche/Creer-un-nuage-de-tags 
+*      VU SUR http://tips.dotaddict.org/fiche/Creer-un-nuage-de-tags
 */
 
 
@@ -842,6 +910,113 @@ ul.tags .tag100 {
 
 .tags ul .tag100 {
 	font-size: 170%;
+}
+/*
+* date sous forme calendrier, 
+        forme prise ici : http://open-time.net/post/2005/10/23/316-date-des-billets-facon-ical
+        adaptation dc2 : http://open-time.net/post/2006/09/18/668-date-des-billets-facon-freshy
+*/
+
+.date { /* date */
+        font-family: "Century Gothic", Verdana, Arial, Helvetica, sans-serif;
+	border: 1px solid #A6A6A6;
+	text-align: center;
+	width: 70px;
+	float: right;
+	margin: 0 10px 5px 0;
+        -moz-box-shadow: 5px 5px 5px #888;
+        -webkit-box-shadow: 5px 5px 5px #888;
+        box-shadow: 5px 5px 5px #888;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+
+}
+
+.date .date_day_name { /* jour */
+	background-color: #AA3511;
+	border-bottom: 1px solid #A6A6A6;
+	color: #FFFFFF;
+	font-size: smaller;
+	font-weight: bolder;
+	width: 100%;
+
+}
+.date .date_day_num { /* jour */
+/*	border-bottom: 1px solid #A6A6A6; */
+	font-size: xx-large;
+	font-weight: bold;
+	width: 100%;
+        padding-top:3px;
+
+
+}
+
+.date .date_month { /* mois */
+font-size: small       ;
+	width: 100%;
+	padding-top:3px;
+	padding-bottom:2px;
+
+}
+
+/* ALBATOR news.google.fr pour twitter */
+.icon-fc {
+    background-image: url("http://www.gstatic.com/news/img/3845041549-news-icons-fc.png");
+}
+.share-icon-twitter {
+    background-position: -16px -1px;
+    height: 14px;
+    width: 21px;
+}
+.nsg .nsg-share-bar-table .share-button {
+    opacity: 0.4;
+}
+.nsg .nsg-share-bar-table .hover .share-button {
+    opacity: 0.9999;
+}
+
+/* Pour les tablettes, on masque les menus */
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  #blogextra {
+    display:none;
+  }
+  #sidebar {
+    display:none;
+  }
+  #content {
+    margin: 0;
+  }
+}
+/* Pour les mobiles, on masque les menus */
+@media screen and (min-width: 100px) and (max-width: 500px)  {
+  #blogextra {
+    display:none;
+  }
+  #sidebar {
+    display:none;
+  }
+  #content {
+    margin: 0 1em;
+  }
+}
+
+/* Sprites ALBATOR */
+.sprite {
+    background: url(images/sprite.png) no-repeat;
+}
+.sprite-rss-png{
+    background: url(images/sprite.png) no-repeat;
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: -71px -41px;
+}
+.sprite-rss_comment-png {
+    background: url(images/sprite.png) no-repeat;
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: -71px -0px;
 }
 /*
 

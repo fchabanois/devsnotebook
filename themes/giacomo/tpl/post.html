@@ -22,6 +22,9 @@
   <meta name="dc.date" scheme="W3CDTF" content="{{tpl:EntryDate iso8601="1"}}" />
   <meta name="dc.type" content="text" />
   <meta name="dc.format" content="text/html" />
+
+  <!-- ajout ALBATOR mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   <link rel="top" href="{{tpl:BlogURL}}" title="{{tpl:lang Home}}" />
   <link rel="contents" href="{{tpl:BlogArchiveURL}}" title="{{tpl:lang Archives}}" />
@@ -66,7 +69,7 @@
   
   <div id="p{{tpl:EntryID}}" class="post">
     <h2 class="post-title">{{tpl:EntryTitle encode_html="1"}}</h2>
-    
+
     <p class="post-info">{{tpl:lang By}} {{tpl:EntryAuthorLink}}
     {{tpl:lang on}} {{tpl:EntryDate}} {{tpl:EntryTime}}
     <tpl:EntryIf has_category="1">
@@ -74,7 +77,7 @@
     </tpl:EntryIf>
     - <a href="{{tpl:EntryURL}}">{{tpl:lang Permalink}}</a>
     </p>
-    
+   
     <tpl:EntryTags>
     <tpl:TagsHeader><ul class="post-tags"></tpl:TagsHeader>
     <li><a href="{{tpl:TagURL}}">{{tpl:TagID}}</a></li>
@@ -120,6 +123,27 @@
     </tpl:AttachmentsFooter>
   </tpl:Attachments>
  
+<? // ALBATOR 
+//<div class="icon-fc share-icon-twitter share-button" onclick="window.open('https://twitter.com/share?url={{tpl:EntryURL}};text=Devsnotebook -' , 'twit', 'toolbar=0,status=0,height=436,width=646,scrollbars=yes,resizable=yes');return false;">
+//t
+//</div>
+?>
+    <center>
+<!-- Google +1 -->
+<div class="g-plusone" data-annotation="inline" data-width="120"></div>
+<script type="text/javascript">
+  window.___gcfg = {lang: 'fr'};
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<!-- twitter -->
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{tpl:EntryURL}}" data-text="Devsnotebook - {{tpl:EntryTitle encode_html="1"}} : ">tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>    
+    </center> 
+
   <!-- # Comments -->
   <tpl:EntryIf show_comments="1">
     <tpl:Comments>
@@ -273,5 +297,29 @@
 
 {{tpl:include src="_footer.html"}}
 </div> <!-- End #page -->
+
+
+<!-- XITI --><? // ALBATOR 
+?>
+<a href="http://www.xiti.com/xiti.asp?s=510336" title="WebAnalytics" target="_top">
+<script type="text/javascript">
+<!--
+Xt_param = 's=510336&p=billet';
+try {Xt_r = top.document.referrer;}
+catch(e) {Xt_r = document.referrer; }
+Xt_h = new Date();
+Xt_i = '<img width="80" height="15" border="0" alt="" ';
+Xt_i += 'src="http://logv17.xiti.com/g.xiti?'+Xt_param;
+Xt_i += '&hl='+Xt_h.getHours()+'x'+Xt_h.getMinutes()+'x'+Xt_h.getSeconds();
+if(parseFloat(navigator.appVersion)>=4)
+{Xt_s=screen;Xt_i+='&r='+Xt_s.width+'x'+Xt_s.height+'x'+Xt_s.pixelDepth+'x'+Xt_s.colorDepth;}
+document.write(Xt_i+'&ref='+Xt_r.replace(/[<>"]/g, '').replace(/&/g, '$')+'" title="Internet Audience">');
+//-->
+</script>
+<noscript>
+Mesure d'audience ROI statistique webanalytics par <img width="80" height="15" src="http://logv17.xiti.com/g.xiti?s=510336&p=billet" alt="WebAnalytics" />
+</noscript></a>
+
+
 </body>
 </html>

@@ -21,7 +21,10 @@
   <meta name="dc.date" scheme="W3CDTF" content="{{tpl:BlogUpdateDate iso8601="1"}}" />
   <meta name="dc.type" content="text" />
   <meta name="dc.format" content="text/html" />
-  
+
+  <!-- ajout ALBATOR mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <link rel="contents" title="{{tpl:lang Archives}}" href="{{tpl:BlogArchiveURL}}" />
   <tpl:Categories>
   <link rel="section" href="{{tpl:CategoryURL}}" title="{{tpl:CategoryTitle encode_html="1"}}" />
@@ -61,11 +64,26 @@
   <tpl:Entries>
     <div id="p{{tpl:EntryID}}" class="post {{tpl:EntryIfOdd}} {{tpl:EntryIfFirst}}" lang="{{tpl:EntryLang}}" xml:lang="{{tpl:EntryLang}}">
     <!-- # New day date -->
-    <tpl:DateHeader><p class="day-date">{{tpl:EntryDate}}</p></tpl:DateHeader>
-    
+<? //albator 
+//    <tpl:DateHeader>
+//<p class="day-date">{{tpl:EntryDate}}</p>
+//<DIV class="date">
+//<div class="date_day_name">{{tpl:EntryDate format="%a"}}</div>
+//<div class="date_day_num">{{tpl:EntryDate format="%d"}}</div>
+//<div class="date_month">{{tpl:EntryDate format="%B"}}</div>
+//<!--{{tpl:EntryDate format="%y"}}-->
+</DIV>
+</tpl:DateHeader>
+?>
     <h2 class="post-title"><a
     href="{{tpl:EntryURL}}">{{tpl:EntryTitle encode_html="1"}}</a></h2>
     
+<? // ALBATOR ?>
+    <div style="float:right">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{tpl:EntryURL}}" data-text="Devsnotebook - {{tpl:EntryTitle encode_html="1"}} : " data-lang="en">Tweet</a>
+ 
+    </div> 
+
     <p class="post-info">{{tpl:lang By}} {{tpl:EntryAuthorLink}}
     {{tpl:lang on}} {{tpl:EntryDate}} {{tpl:EntryTime}}
     <tpl:EntryIf has_category="1">
@@ -75,7 +93,7 @@
 
     <tpl:EntryTags>
     <tpl:TagsHeader><ul class="post-tags"></tpl:TagsHeader>
-    <li><a href="{{tpl:TagURL}}">{{tpl:TagID}}</a></li>
+    <li><a class="custom-tag" href="{{tpl:TagURL}}">{{tpl:TagID}}</a></li>
     <tpl:TagsFooter></ul></tpl:TagsFooter>
     </tpl:EntryTags>
     
@@ -140,6 +158,31 @@
 </div> <!-- End #wrapper -->
 
 {{tpl:include src="_footer.html"}}
-</div> <!-- End #page -->
+</div> 
+<!-- End #page -->
+
+
+
+<!-- XITI --><? // ALBATOR 
+?>
+<a href="http://www.xiti.com/xiti.asp?s=510336" title="WebAnalytics" target="_top">
+<script type="text/javascript">
+<!--
+Xt_param = 's=510336&p=accueil';
+try {Xt_r = top.document.referrer;}
+catch(e) {Xt_r = document.referrer; }
+Xt_h = new Date();
+Xt_i = '<img width="80" height="15" border="0" alt="" ';
+Xt_i += 'src="http://logv17.xiti.com/g.xiti?'+Xt_param;
+Xt_i += '&hl='+Xt_h.getHours()+'x'+Xt_h.getMinutes()+'x'+Xt_h.getSeconds();
+if(parseFloat(navigator.appVersion)>=4)
+{Xt_s=screen;Xt_i+='&r='+Xt_s.width+'x'+Xt_s.height+'x'+Xt_s.pixelDepth+'x'+Xt_s.colorDepth;}
+document.write(Xt_i+'&ref='+Xt_r.replace(/[<>"]/g, '').replace(/&/g, '$')+'" title="Internet Audience">');
+//-->
+</script>
+<noscript>
+Mesure d'audience ROI statistique webanalytics par <img width="80" height="15" src="http://logv17.xiti.com/g.xiti?s=510336&p=accueil" alt="WebAnalytics" />
+</noscript></a>
+
 </body>
 </html>
