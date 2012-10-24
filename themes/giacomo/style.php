@@ -375,12 +375,12 @@ que le prelude soit visible */
 
 .post blockquote {
 	font-family: Tahoma, "Lucida Grande", "Trebuchet MS", sans-serif;
+	font-style:italic;
 	margin: 2em;
 	padding: 3px 2em;
 
-	/* ALBATOR ancienne version sans sprite */
+	/* ALBATOR ancienne version sans sprite 
 	background: #f5f5f5 url(images/quote.gif) no-repeat 4px 4px; 
-/*
 	background-color: #f5f5f5;
 	background-image: url(images/sprite.png);
 	background-repeat: no-repeat;
@@ -393,6 +393,14 @@ que le prelude soit visible */
 .post blockquote p {
 	margin-top: 1em;
 }
+
+/* ALBATOR pour ne plus faire appel à quote.gif 
+	http://css-tricks.com/snippets/html/glyphs/
+*/
+blockquote > p::before {
+	content: "\201C"; 
+	font-size: 3em; 
+	color:#C0C0C0;  } 
 
 .post-info-co span {
 	background: transparent url(images/ico_tb.png) no-repeat 100% 40%;
