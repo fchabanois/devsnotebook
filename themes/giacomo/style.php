@@ -378,16 +378,6 @@ que le prelude soit visible */
 	font-style:italic;
 	margin: 2em;
 	padding: 3px 2em;
-
-	/* ALBATOR ancienne version sans sprite 
-	background: #f5f5f5 url(images/quote.gif) no-repeat 4px 4px; 
-	background-color: #f5f5f5;
-	background-image: url(images/sprite.png);
-	background-repeat: no-repeat;
-	background-attachment: 4px;
-	background-position: -0px -0px;
-	background-width:0px;
-*/
 }
 
 .post blockquote p {
