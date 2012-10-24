@@ -1,0 +1,22 @@
+<div id="footer">
+  <p>{{tpl:SysPoweredBy}}</p>
+</div>
+
+<!-- ALBATOR : scripts JS déplacés dans footer pour perf  octobre 2012 -->
+<!--
+<script type="text/javascript" src="{{tpl:BlogThemeURL}}/../default/js/jquery.php"></script>
+<script type="text/javascript" src="{{tpl:BlogThemeURL}}/../default/js/jquery.cookie.php"></script>
+-->
+<script type="text/javascript" src="{{tpl:BlogThemeURL}}/../default/js/jqueryAndcookieCombined.php"></script>
+<!-- ALBATOR souligneur de l'institut agile 
+<script type="text/javascript" src="http://referentiel.institut-agile.fr/souligneur.js"></script>
+supprimé le 6 octobre 2012 car trop d'appels externes pour ce que ça apporte :
+j'avais une 404 sur /assets/headerphoto.jpg depuis http://referentiel.institut-agile.fr/json.phtml?id=pairing&from=http%3A//devsnotebook.free.fr/&jsonp=jsonp1349533545103&_=1349533546715
+-->
+<!-- ALBATOR twitter -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>  
+
+
+<? //aout 2012 je mets un commentaire car autrement, le </html> n'apparait pas ???
+//{{tpl:SysBehavior behavior="publicFooterContent"}}
+?>
