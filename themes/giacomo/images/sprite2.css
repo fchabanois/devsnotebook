@@ -1,0 +1,40 @@
+.sprite {
+    background: url(download.png) no-repeat;
+}
+
+.sprite-sprite-fleche-png {
+    width: 10px;
+    height: 9px;
+    background-position: -82px -21px;
+}
+/* done */
+.sprite-sprite-ico_comments-png {
+    width: 10px;
+    height: 10px;
+    background-position: -82px -0px;
+}
+/* done */
+.sprite-sprite-ico_entry-png {
+    width: 8px;
+    height: 11px;
+    background-position: -0px -41px;
+}
+
+.sprite-sprite-rss-png {
+    width: 30px;
+    height: 30px;
+    background-position: -41px -0px;
+}
+
+.sprite-sprite-rss_comment-png {
+    width: 30px;
+    height: 30px;
+    background-position: -0px -0px;
+}
+
+.sprite-sprite-ulul-png {
+    width: 6px;
+    height: 6px;
+    background-position: -19px -41px;
+}
+ 
