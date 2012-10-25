@@ -320,21 +320,23 @@ que le prelude soit visible */
 .post-title {
 	font-weight: normal;
 	font-size: 1.4em;
-	padding-left: 12px;
+/*	padding-left: 12px; */
 	margin: 0;
 	color: #933522;
 
-        /* ALBATOR
-        ancienne version :
-                background: transparent url(images/ico_entry.png) no-repeat 0 40%; */
-        background-color: transparent;
-        background-image: url("images/sprite.png");
-        background-repeat: no-repeat;
-        background-attachment: 0;
-        background-position: -112px -41px;
-/*        background-size: 8px 11px; ça tombe en marche car c'est la derniere image... Mais avec, c'est tout cassé... */
+	/* ALBATOR
+	ancienne version : background: transparent url(images/ico_entry.png) no-repeat 0 40%; */	
 }
-
+/* usage de sprite au lieu de 'background: transparent url(images/ico_entry.png) no-repeat 0 40%;' */
+.post-title:before {
+	background-color: transparent;
+	content: "";	
+	background: transparent url('images/sprite2.png') no-repeat -0px -41px;
+	width: 8px;
+    height: 11px;
+	display: inline-block;
+	padding-right: 10px; 
+}
 .post-excerpt {
 	margin-top: 1.33em;
 }
@@ -360,17 +362,22 @@ que le prelude soit visible */
 	background: transparent url(images/ico_comments.png) no-repeat 0 40%;
 	margin-top: 0;
 	padding: 0 13px;
-	*/
-	background-color: transparent;
-	background-image: url(images/sprite.png);
-	background-repeat: no-repeat;
-	background-attachment: 0;
-/*	background-position: 40%;
-	background-size: 10px 10px;                 */
-        background-position: -112px -0px;
-
+	*/	
+/*	background-position: 40%;*/
+	padding: 0 4px;
 	margin-top: 0;
-	padding: 0 13px;
+	
+}
+/* Sprite à la place de 'background: transparent url(images/ico_comments.png) no-repeat 0 40%' */
+.comment_count:before, .ping_count:before {
+	content:"";
+	background: transparent url(images/sprite2.png) no-repeat -82px -0px;
+    width: 10px;
+    height: 10px;
+    background-position: -82px -0px;
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
 }
 
 .post blockquote {
