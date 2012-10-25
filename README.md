@@ -25,3 +25,4 @@ Avertissement
 - l'usage de ce projet nécessite un minimum de notions web et dotclear afin de savoir quels fichiers reprendre.
 - ce projet contient des spécificités comme google analitics et xiti, à retirer
 - le style style.css exposé dans l'interface de dotclear n'est plus pris en compte. Il est remplacé par style.php.
+- le site en question est hebergé chez FREE, ce qui explique le bridage du .htacess, ainsi que la valeur obscure "php 1". Cette derniere permet d'activer PHP 5.
