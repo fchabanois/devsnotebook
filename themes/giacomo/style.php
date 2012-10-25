@@ -578,22 +578,19 @@ ul.post-tags li {
 	margin-top: 0.15em;
 	padding-right: 15px;
 /*	color: #e2d6ad;  plouf*/
-        color: maroon;
-        /* ALBATOR ancienne version : -- SOUCI car retour à la ligne du texte affiche l'image du dessous */
-	background: transparent url(images/fleche.png) no-repeat right 0.25em; 
+	color: maroon;
+    /* ALBATOR ancienne version : -- SOUCI car retour à la ligne du texte affiche l'image du dessous 
+	background: transparent url(images/fleche.png) no-repeat right 0.25em; */
+}
 
-/*
-        background-color: transparent;
-        background-image:url(images/sprite.png);
-        background-attachment: right;
-        background-repeat: no-repeat;
-        background-position: -112px -21px;
-*/
-/*
-        width: 10px;
-        height: 9px;
-
- */
+/*ALBATOR style pour le sprite à la place de background: transparent url(images/fleche.png) no-repeat right 0.25em; */
+#blogextra li:before {    
+	display: inline-block;
+    content: "";
+    width: 10px;
+    height: 9px;
+    background: transparent url('images/sprite.png') no-repeat -112px -21px;
+	padding-right:3px;
 }
 
 /* Menu droit
@@ -610,7 +607,18 @@ ul.post-tags li {
 	margin-top: 0.15em;
 	padding-left: 15px;
 	color: #e2d6ad;
-	background: transparent url(images/fleche.png) no-repeat 0 0.25em;
+	/* ALBATOR -> usage de sprite 
+	background: transparent url(images/fleche.png) no-repeat 0 0.25em; */
+	
+}
+/*ALBATOR style pour le sprite à la place de "background: transparent url(images/fleche.png) no-repeat 0 0.25em" */
+#blognav li:before {    
+	display: inline-block;
+    content: "";
+    width: 10px;
+    height: 9px;
+    background: transparent url('images/sprite.png') no-repeat -112px -21px;
+	padding-right:3px;
 }
 
 #topnav {
