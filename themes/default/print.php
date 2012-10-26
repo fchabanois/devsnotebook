@@ -1,4 +1,8 @@
 <? include('../giacomo/gzip-css.php'); ?>
+/* ALBATOR : 
+	n'est plus utilisé depuis 26 octobre 2012 car le chargement de ce petit fichier print.php 
+	prenait autnt de temps que style.css, pourtant 10x plus gros
+*/
 /*
 # -- BEGIN LICENSE BLOCK ----------------------------------
 #
