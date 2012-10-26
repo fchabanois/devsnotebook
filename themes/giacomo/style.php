@@ -210,7 +210,7 @@ ul {
 	font-size: 0.85em;
 }
 
-/* Les trois lignes suivantes Ã  supprimer si vous souhaitez 
+/* Les trois lignes suivantes à supprimer si vous souhaitez 
 que le prelude soit visible */
 #prelude, #prelude a {
 	color: #fff;
@@ -324,8 +324,7 @@ que le prelude soit visible */
 	margin: 0;
 	color: #933522;
 
-	/* ALBATOR
-	ancienne version : background: transparent url(images/ico_entry.png) no-repeat 0 40%; */	
+	/* ALBATOR ancienne version : background: transparent url(images/ico_entry.png) no-repeat 0 40%; */	
 }
 /* usage de sprite au lieu de 'background: transparent url(images/ico_entry.png) no-repeat 0 40%;' */
 .post-title:before {
@@ -384,9 +383,7 @@ que le prelude soit visible */
 	margin-top: 1em;
 }
 
-/* ALBATOR pour ne plus faire appel à quote.gif 
-	http://css-tricks.com/snippets/html/glyphs/
-*/
+/* ALBATOR pour ne plus faire appel à quote.gif  > http://css-tricks.com/snippets/html/glyphs/ */
 blockquote > p::before {
 	content: "\201C"; 
 	font-size: 3em; 
@@ -599,10 +596,9 @@ ul.post-tags li:before {
 	display: block;
 	margin-top: 0.15em;
 	padding-right: 15px;
-/*	color: #e2d6ad;  plouf*/
+/*	color: #e2d6ad;  */
 	color: maroon;
-    /* ALBATOR ancienne version : -- SOUCI car retour à la ligne du texte affiche l'image du dessous 
-	background: transparent url(images/fleche.png) no-repeat right 0.25em; */
+    /* ALBATOR ancienne version : background: transparent url(images/fleche.png) no-repeat right 0.25em; */
 }
 
 /*ALBATOR style pour le sprite à la place de background: transparent url(images/fleche.png) no-repeat right 0.25em; */
