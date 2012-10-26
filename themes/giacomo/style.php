@@ -503,16 +503,22 @@ ul.post-tags li:before {
 }
 
 #comments dt {
-        /* ALBATOR */
-        background-position: -112px -0px;
-        background-image: url(images/sprite.png);
-        background-repeat: no-repeat;
-
-        /* version originale
+        /* ALBATOR remplace 
 	background-image: url(images/ico_comments.png);
 	background-position: 4px 60%;
 	background-repeat: no-repeat;
         */
+}
+/* ALBATOR remplace background-image: url(images/ico_comments.png);	background-position: 4px 60%;	background-repeat: no-repeat;        
+	affichage non testé */
+#comments dt:before {
+	content:"";
+	background: transparent url(images/sprite3.png) no-repeat -82px -0px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
 }
 
 .comment-number {
@@ -605,7 +611,7 @@ ul.post-tags li:before {
     content: "";
     width: 10px;
     height: 9px;
-    background: transparent url('images/sprite.png') no-repeat -112px -21px;
+    background: transparent url('images/sprite3.png') no-repeat -82px -21px;
 	padding-right:3px;
 }
 
@@ -627,13 +633,13 @@ ul.post-tags li:before {
 	background: transparent url(images/fleche.png) no-repeat 0 0.25em; */
 	
 }
-/*ALBATOR style pour le sprite à la place de "background: transparent url(images/fleche.png) no-repeat 0 0.25em" */
+/*ALBATOR style pour le sprite à la place de "background: transparent url(images/fleche.png) no-repeat 0 0.25em" 	affichage non testé*/
 #blognav li:before {    
 	display: inline-block;
     content: "";
     width: 10px;
     height: 9px;
-    background: transparent url('images/sprite.png') no-repeat -112px -21px;
+    background: transparent url('images/sprite3.png') no-repeat -82px -21px;
 	padding-right:3px;
 }
 
@@ -1022,23 +1028,19 @@ font-size: small       ;
   }
 }
 
-/* Sprites ALBATOR */
-.sprite {
-    background: url(images/sprite.png) no-repeat;
-}
 .sprite-rss-png{
-    background: url(images/sprite.png) no-repeat;
+    background: url(images/sprite3.png) no-repeat;
     display:inline-block;
     width: 30px;
     height: 30px;
-    background-position: -71px -41px;
+    background-position: -41px -0px;
 }
 .sprite-rss_comment-png {
-    background: url(images/sprite.png) no-repeat;
+    background: url(images/sprite3.png) no-repeat;
     display:inline-block;
     width: 30px;
     height: 30px;
-    background-position: -71px -0px;
+    background-position: -0px -0px;
 }
 /*
 
