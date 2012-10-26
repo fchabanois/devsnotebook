@@ -1,4 +1,4 @@
-<? include('gzip-css.php'); ?>
+<? include('../giacomo/gzip-css.php'); ?>
 /*
 # -- BEGIN LICENSE BLOCK ----------------------------------
 #
