@@ -935,69 +935,6 @@ ul.tags .tag100 {
 .tags ul .tag100 {
 	font-size: 170%;
 }
-/*
-* date sous forme calendrier, 
-        forme prise ici : http://open-time.net/post/2005/10/23/316-date-des-billets-facon-ical
-        adaptation dc2 : http://open-time.net/post/2006/09/18/668-date-des-billets-facon-freshy
-*/
-
-.date { /* date */
-        font-family: "Century Gothic", Verdana, Arial, Helvetica, sans-serif;
-	border: 1px solid #A6A6A6;
-	text-align: center;
-	width: 70px;
-	float: right;
-	margin: 0 10px 5px 0;
-        -moz-box-shadow: 5px 5px 5px #888;
-        -webkit-box-shadow: 5px 5px 5px #888;
-        box-shadow: 5px 5px 5px #888;
-        border-radius: 5px;
-        -moz-border-radius: 5px;
-
-}
-
-.date .date_day_name { /* jour */
-	background-color: #AA3511;
-	border-bottom: 1px solid #A6A6A6;
-	color: #FFFFFF;
-	font-size: smaller;
-	font-weight: bolder;
-	width: 100%;
-
-}
-.date .date_day_num { /* jour */
-/*	border-bottom: 1px solid #A6A6A6; */
-	font-size: xx-large;
-	font-weight: bold;
-	width: 100%;
-        padding-top:3px;
-
-
-}
-
-.date .date_month { /* mois */
-font-size: small       ;
-	width: 100%;
-	padding-top:3px;
-	padding-bottom:2px;
-
-}
-
-/* ALBATOR news.google.fr pour twitter */
-.icon-fc {
-    background-image: url("http://www.gstatic.com/news/img/3845041549-news-icons-fc.png");
-}
-.share-icon-twitter {
-    background-position: -16px -1px;
-    height: 14px;
-    width: 21px;
-}
-.nsg .nsg-share-bar-table .share-button {
-    opacity: 0.4;
-}
-.nsg .nsg-share-bar-table .hover .share-button {
-    opacity: 0.9999;
-}
 
 /* Pour les tablettes, on masque les menus */
 @media screen and (min-width: 501px) and (max-width: 800px) {
