@@ -31,10 +31,15 @@
     height: 30px;
     background-position: -0px -0px;
 }
-/* */
-.sprite-sprite-ulul-png {
-    width: 6px;
+/* done */
+.sprite-sprite-ul-gif {
+    width: 11px;
     height: 6px;
     background-position: -19px -41px;
 }
- 
+/* finalement supprimé sur un des styles. Modifié sur l'autre mais non testé */
+.sprite-sprite-ulul-png {
+    width: 6px;
+    height: 6px;
+    background-position: -41px -41px;
+}

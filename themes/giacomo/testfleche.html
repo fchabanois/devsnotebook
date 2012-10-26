@@ -1,0 +1,62 @@
+<html>
+<head>
+<meta charset="utf-8">
+<style type="text/css">
+/* Menu gauche
+----------------------------------------------------------------- */
+
+#blogextra ul {
+	padding-left: 0;
+	margin: 0 0 0 0;
+	list-style: none;
+	width:200px;
+	background-color:red;
+}
+
+#blogextra li {
+	display: block;
+	margin-top: 0.15em;
+	padding-right: 15px;
+/*	color: #e2d6ad;  plouf*/
+        color: maroon;
+	
+        /* ALBATOR ancienne version : -- SOUCI car retour à la ligne du texte affiche l'image du dessous 
+	background: transparent url(images/fleche.png) no-repeat right 0.25em;  */
+
+/*
+        background-color: transparent;
+        background-image:url(images/sprite.png);
+        background-attachment: right;
+        background-repeat: no-repeat;
+        background-position: -112px -21px;
+*/
+/*
+        width: 10px;
+        height: 9px;
+
+ */
+}
+#blogextra li:before {    
+	display: inline-block;
+    content: "";
+    width: 10px;
+    height: 9px;
+    background: transparent url('images/sprite3.png') no-repeat -112px -21px;
+	padding-right:3px;
+}
+</style>
+</head>
+<body>
+
+<div id="blogextra">
+<div class="selected">
+<h2>A la une</h2>
+<ul> 
+	<li><a href="http://devsnotebook.free.fr/index.php?post/R%C3%A9trospectives-manqu%C3%A9es">Rétrospectives manquées</a></li>  
+	<li><a href="http://devsnotebook.free.fr/index.php?post/Une-bouffee-d-air-avec-la-r%C3%A9trospective">Une bouffee d'air avec la rétrospective</a></li>  <li><a href="http://devsnotebook.free.fr/index.php?post/Tools-used-for-agile-projects-%3A-the-survey-results-%21">Tools used for agile projects : the survey's results !</a></li> 
+</ul>
+</div>  </div>
+
+
+</body>
+</html> 

@@ -331,7 +331,7 @@ que le prelude soit visible */
 .post-title:before {
 	background-color: transparent;
 	content: "";	
-	background: transparent url('images/sprite2.png') no-repeat -0px -41px;
+	background: transparent url('images/sprite3.png') no-repeat -0px -41px;
 	width: 8px;
     height: 11px;
 	display: inline-block;
@@ -358,24 +358,17 @@ que le prelude soit visible */
 }
 
 .comment_count, .ping_count {
-        /*              ALBATOR
-	background: transparent url(images/ico_comments.png) no-repeat 0 40%;
+    padding: 0 4px;
 	margin-top: 0;
-	padding: 0 13px;
-	*/	
-/*	background-position: 40%;*/
-	padding: 0 4px;
-	margin-top: 0;
-	
+	/*  ALBATOR version sans sprite:	background: transparent url(images/ico_comments.png) no-repeat 0 40%;	margin-top: 0;	padding: 0 13px; background-position: 40%;*/
 }
 /* Sprite à la place de 'background: transparent url(images/ico_comments.png) no-repeat 0 40%' */
 .comment_count:before, .ping_count:before {
 	content:"";
-	background: transparent url(images/sprite2.png) no-repeat -82px -0px;
+	background: transparent url(images/sprite3.png) no-repeat -82px -0px;
     width: 10px;
     height: 10px;
-    background-position: -82px -0px;
-	display: inline-block;
+    display: inline-block;
 	padding-right: 5px;
 	padding-left: 5px;
 }
@@ -412,25 +405,36 @@ blockquote > p::before {
 
 .post ul li {
 	display: block;
-	background: transparent url(images/ul.gif) no-repeat 0 4px;
+/* ALBATOR : remplacé par un sprite ci-dessous 
 	padding-left: 14px;
+	background: transparent url(images/ul.gif) no-repeat 0 4px; */
+}
+
+/* ALBATOR : sprite au lieu de "background: transparent url(images/ul.gif) no-repeat 0 4px;" */
+.post ul li:before {
+	content:"";
+	display: inline-block;
+	background: transparent url("images/sprite3.png") no-repeat -19px -41px;
+	padding-right: 2px;
+	width: 11px;
+    height: 6px;
 }
 
 .post ul ul li {
 	display: block;
 	padding-left: 9px;
-	background: transparent url(images/ulul.png) no-repeat 0 4px;
-
-	/* ALBATOR */
-        /* ancienne version 	background: transparent url(images/ulul.png) no-repeat 0 4px; */
-        background-color: transparent;
-        background-image: url("images/sprite.png");
-        background-repeat: no-repeat;
-        background-attachment: 0;
-        background-position: -112px -63px;
-        
+	/* ALBATOR ancienne version 	background: transparent url(images/ulul.png) no-repeat 0 4px; */    
 }
 
+/* ALBATOR ancienne version remplacé par sprite:	"background: transparent url(images/ulul.png) no-repeat 0 4px;" 
+	NOTE affichage jamais testé je ne sais pas ou c'est utilisé */    
+.post ul ul li:before {
+    width: 6px;
+    height: 6px;
+    content:"";
+	background: transparent url("images/sprite3.png") no-repeat -41px -41px;
+	padding-right:2px;
+}
 
 ul.post-tags {
 	padding-left: 0;
@@ -441,13 +445,18 @@ ul.post-tags li {
 	padding-left: 9px;
 	padding-right: 14px;
 
-	/* ALBATOR */
-        /* ancienne version 	background: transparent url(images/ulul.png) no-repeat 0 4px; */
-        background-color: transparent;
-        background-image: url("images/sprite.png");
-        background-repeat: no-repeat;
-        background-attachment: 0;
-        background-position: -112px -63px;
+	/* ALBATOR ancienne version 	background: transparent url(images/ulul.png) no-repeat 0 4px; */        
+}
+
+/* ALBATOR  ancienne version 	background: transparent url(images/ulul.png) no-repeat 0 4px; */
+ul.post-tags li:before {
+/* ALBATOR : probleme de superposage avec le style .post ul li:before -> commenté car avoir une image encore différente n'apporte pas tant de chose (ul.png / ulul.png)
+	display: inline;
+	content:"";
+	background: transparent url(images/sprite3.png) no-repeat -41px -41px;
+    width: 6px;
+    height: 6px;    
+*/
 }
 
 /* --------------------------------------------------------------------
