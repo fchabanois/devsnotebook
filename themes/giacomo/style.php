@@ -984,6 +984,13 @@ ul.tags .tag100 {
     background-image: url('images/twitter_bird_light.jpg') ;
 }
 
+#custom-tweet-button-big a {
+    float:center;
+    display:inline-block;
+    width:40px;
+    height:36px;
+    background-image: url('images/twitter_bird_big.png') ;
+}
 /*
 
 FIN CUSTOM.CSS
