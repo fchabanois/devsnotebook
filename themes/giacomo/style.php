@@ -975,6 +975,14 @@ ul.tags .tag100 {
     height: 30px;
     background-position: -0px -0px;
 }
+
+#custom-tweet-button a {
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background-image: url('images/twitter_bird_light.jpg') ;
+}
+
 /*
 
 FIN CUSTOM.CSS
