@@ -977,6 +977,7 @@ ul.tags .tag100 {
 }
 
 #custom-tweet-button a {
+    float:right;
     display:inline-block;
     width:20px;
     height:20px;
