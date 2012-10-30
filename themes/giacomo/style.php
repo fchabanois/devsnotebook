@@ -26,7 +26,7 @@ body {
 	font-family: "Lucida grande",Verdana,Lucida,Helvetica,sans-serif;
 	font-size: 84%;
 	color: #111;
-	background: #fff url(images/cacheImage.php) no-repeat;    
+	background: #fff url(cacheImage.php?imageName=images/notebook2.jpg) no-repeat;
 }
 
 p {
@@ -324,7 +324,7 @@ que le prelude soit visible */
 	margin: 0;
 	color: #933522;
 
-	/* ALBATOR ancienne version : background: transparent url(images/ico_entry.png) no-repeat 0 40%; */	
+	/* ALBATOR ancienne version : background: transparent url(images/ico_entry.png) no-repeat 0 40%; */
 }
 /* usage de sprite au lieu de 'background: transparent url(images/ico_entry.png) no-repeat 0 40%;' */
 .post-title:before {
