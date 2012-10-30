@@ -26,7 +26,7 @@ body {
 	font-family: "Lucida grande",Verdana,Lucida,Helvetica,sans-serif;
 	font-size: 84%;
 	color: #111;
-	background: #fff url(images/notebook2.jpg) no-repeat;    
+	background: #fff url(images/cacheImage.php) no-repeat;    
 }
 
 p {
