@@ -52,7 +52,10 @@
   
   {{tpl:include src="_head.html"}}
 </head>
-
+<?php 
+/* ALBATOR opti octobre 2012 http://developer.yahoo.com/performance/rules.html#flush */
+flush(); 
+?>
 <body class="dc-home">
 <div id="page">
 {{tpl:include src="_top.html"}}
@@ -79,11 +82,6 @@
     href="{{tpl:EntryURL}}">{{tpl:EntryTitle encode_html="1"}}</a></h2>
     
 <? // ALBATOR ?>
-<!--
-    <div style="float:right">
-    <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{tpl:EntryURL}}" data-text="Devsnotebook - {{tpl:EntryTitle encode_html="1"}} : " data-lang="en">Tweet</a>
-    </div> 
--->
 <div id="custom-tweet-button">
     <a onclick="window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Partager sur Twitter" href="https://twitter.com/share?text=Devsnotebook : {{tpl:EntryTitle}}&url={{tpl:EntryURL}}"></a>
 </div>
