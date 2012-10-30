@@ -329,8 +329,8 @@ que le prelude soit visible */
 /* usage de sprite au lieu de 'background: transparent url(images/ico_entry.png) no-repeat 0 40%;' */
 .post-title:before {
 	background-color: transparent;
-	content: "";	
-	background: transparent url('images/sprite3.png') no-repeat -0px -41px;
+	content: "";
+	background: transparent url('cacheImage.php?imageName=images/sprite3.png') no-repeat -0px -41px;
 	width: 8px;
     height: 11px;
 	display: inline-block;
@@ -364,7 +364,7 @@ que le prelude soit visible */
 /* Sprite à la place de 'background: transparent url(images/ico_comments.png) no-repeat 0 40%' */
 .comment_count:before, .ping_count:before {
 	content:"";
-	background: transparent url(images/sprite3.png) no-repeat -82px -0px;
+	background: transparent url('cacheImage.php?imageName=images/sprite3.png') no-repeat -82px -0px;
     width: 10px;
     height: 10px;
     display: inline-block;
@@ -411,7 +411,7 @@ blockquote > p::before {
 .post ul li:before {
 	content:"";
 	display: inline-block;
-	background: transparent url("images/sprite3.png") no-repeat -19px -41px;
+	background: transparent url('cacheImage.php?imageName=images/sprite3.png') no-repeat -19px -41px;
 	padding-right: 2px;
 	width: 11px;
     height: 6px;
@@ -429,7 +429,7 @@ blockquote > p::before {
     width: 6px;
     height: 6px;
     content:"";
-	background: transparent url("images/sprite3.png") no-repeat -41px -41px;
+	background: transparent url('cacheImage.php?imageName=images/sprite3.png') no-repeat -41px -41px;
 	padding-right:2px;
 }
 
@@ -450,7 +450,7 @@ ul.post-tags li:before {
 /* ALBATOR : probleme de superposage avec le style .post ul li:before -> commenté car avoir une image encore différente n'apporte pas tant de chose (ul.png / ulul.png)
 	display: inline;
 	content:"";
-	background: transparent url(images/sprite3.png) no-repeat -41px -41px;
+	background: transparent url('cacheImage.php?imageName=images/sprite3.png') no-repeat -41px -41px;
     width: 6px;
     height: 6px;    
 */
@@ -510,7 +510,7 @@ ul.post-tags li:before {
 	affichage non testé */
 #comments dt:before {
 	content:"";
-	background: transparent url(images/sprite3.png) no-repeat -82px -0px;
+	background: transparent url('cacheImage.php?imageName=images/sprite3.png') no-repeat -82px -0px;
     width: 10px;
     height: 10px;
     display: inline-block;
@@ -607,7 +607,7 @@ ul.post-tags li:before {
     content: "";
     width: 10px;
     height: 9px;
-    background: transparent url('images/sprite3.png') no-repeat -82px -21px;
+    background: transparent url('cacheImage.php?imageName=images/sprite3.png') no-repeat -82px -21px;
 	padding-right:3px;
 }
 
@@ -635,7 +635,7 @@ ul.post-tags li:before {
     content: "";
     width: 10px;
     height: 9px;
-    background: transparent url('images/sprite3.png') no-repeat -82px -21px;
+    background: transparent url('cacheImage.php?imageName=images/sprite3.png') no-repeat -82px -21px;
 	padding-right:3px;
 }
 
@@ -962,14 +962,14 @@ ul.tags .tag100 {
 }
 
 .sprite-rss-png{
-    background: url(images/sprite3.png) no-repeat;
+    background: url('cacheImage.php?imageName=images/sprite3.png') no-repeat;
     display:inline-block;
     width: 30px;
     height: 30px;
     background-position: -41px -0px;
 }
 .sprite-rss_comment-png {
-    background: url(images/sprite3.png) no-repeat;
+    background: url('cacheImage.php?imageName=images/sprite3.png') no-repeat;
     display:inline-block;
     width: 30px;
     height: 30px;
@@ -982,7 +982,7 @@ ul.tags .tag100 {
     width:20px;
     height:20px;
 /*    background-image: url('images/twitter_bird_small_light.png') ;*/
-    background-image: url('images/sprite3.png') ;
+    background-image: url('cacheImage.php?imageName=images/sprite3.png') ;
     background-position: -0px -66px;
 }
 #custom-tweet-button a:hover {
@@ -996,7 +996,7 @@ ul.tags .tag100 {
     width:20px;
     height:20px;
 /*    background-image: url('images/twitter_bird_small_light.png') ;*/
-    background-image: url('images/sprite3.png') ;
+    background-image: url('cacheImage.php?imageName=images/sprite3.png') ;
     background-position: -0px -66px;
 }
 #custom-tweet-button-big a:hover {
