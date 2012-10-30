@@ -981,16 +981,29 @@ ul.tags .tag100 {
     display:inline-block;
     width:20px;
     height:20px;
-    background-image: url('images/twitter_bird_light.jpg') ;
+/*    background-image: url('images/twitter_bird_small_light.png') ;*/
+    background-image: url('images/sprite_twitter.png') ;
+    background-position: -0px -0px;
+}
+#custom-tweet-button a:hover {
+    float:right;
+    display:inline-block;
+    width:20px;
+    height:20px;
+/*    background-image: url('images/twitter_bird_small_dark.png') ; */
+    background-image: url('images/sprite_twitter.png') ;
+    background-position: -24px -0px;
 }
 
 #custom-tweet-button-big a {
     float:center;
     display:inline-block;
     width:40px;
-    height:36px;
+    height:40px;
     background-image: url('images/twitter_bird_big.png') ;
 }
+
+
 /*
 
 FIN CUSTOM.CSS
