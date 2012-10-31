@@ -384,10 +384,11 @@ que le prelude soit visible */
 }
 
 /* ALBATOR pour ne plus faire appel à quote.gif  > http://css-tricks.com/snippets/html/glyphs/ */
-blockquote > p::before {
+blockquote > p:first-child:before {
 	content: "\201C"; 
-	font-size: 3em; 
-	color:#C0C0C0;  } 
+	font-size: 5em; 
+	color:#C0C0C0;  
+} 
 
 .post-info-co span {
 	background: transparent url(images/ico_tb.png) no-repeat 100% 40%;
