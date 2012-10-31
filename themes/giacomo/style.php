@@ -976,31 +976,21 @@ ul.tags .tag100 {
     background-position: -0px -0px;
 }
 
-#custom-tweet-button a {
+.custom-tweet-button {
     float:right;
     display:inline-block;
     width:20px;
     height:20px;
-/*    background-image: url('images/twitter_bird_small_light.png') ;*/
-    background-image: url('cacheImage.php?file=images/sprite3.png') ;
-    background-position: -0px -66px;
 }
-#custom-tweet-button a:hover {
-/*    background-image: url('images/twitter_bird_small_dark.png') ; */  
-    background-position: -24px -66px;
-}
-
-#custom-tweet-button-big a {
-    float:center;
+.custom-tweet-button a {						/*    background-image: url('images/twitter_bird_small_light.png') ;*/
     display:inline-block;
-    width:20px;
-    height:20px;
-/*    background-image: url('images/twitter_bird_small_light.png') ;*/
+    width:100%;
+    height:100%;
     background-image: url('cacheImage.php?file=images/sprite3.png') ;
     background-position: -0px -66px;
 }
-#custom-tweet-button-big a:hover {
-/*    background-image: url('images/twitter_bird_small_dark.png') ; */
+ 
+.custom-tweet-button a:hover { 					/*    background-image: url('images/twitter_bird_small_dark.png') ; */
     background-position: -24px -66px;
 }
 
