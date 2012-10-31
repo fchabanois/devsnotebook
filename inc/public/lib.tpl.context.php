@@ -321,7 +321,7 @@ class context
 			{
 				$r = '/(\A|[\s]+|>)('.preg_quote($matches[1],'/').')([\s]+|[<]|\Z)/ms';
 				$s = '$1<img src="'.$url.$matches[2].'" '.
-				'alt="$2" class="smiley" />$3';
+				'alt="$2" class="smiley" width="16" height="16" />$3';	//ALBATOR ajout 16x16 pour perf
 				$res[$r] = $s;
 			}
 		}
