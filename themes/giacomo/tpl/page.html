@@ -58,6 +58,12 @@ flush();
   <div id="content">
   
   <div id="p{{tpl:EntryID}}" class="post">
+
+<!-- ALBATOR -->
+<div class="custom-tweet-button">
+    <a onclick="window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Partager sur Twitter" href="https://twitter.com/share?text=Devsnotebook : {{tpl:EntryTitle}}&url={{tpl:EntryURL}}"></a>
+</div>
+
     <h2 class="post-title">{{tpl:EntryTitle encode_html="1"}}</h2>
     
     <!-- # --BEHAVIOR-- publicEntryBeforeContent -->

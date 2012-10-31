@@ -1,3 +1,6 @@
+<?php
+ob_start("ob_gzhandler");
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{tpl:BlogLanguage}}" lang="{{tpl:BlogLanguage}}">
@@ -82,8 +85,8 @@ flush();
     href="{{tpl:EntryURL}}">{{tpl:EntryTitle encode_html="1"}}</a></h2>
     
 <? // ALBATOR ?>
-<div id="custom-tweet-button">
-    <a onclick="window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Partager sur Twitter" href="https://twitter.com/share?text=Devsnotebook : {{tpl:EntryTitle}}&url={{tpl:EntryURL}}"></a>
+<div class="custom-tweet-button">
+    <a onclick="window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Partager sur Twitter" href="https://twitter.com/share?text=Devsnotebook : {{tpl:EntryTitle}}&amp;url={{tpl:EntryURL}}"></a>
 </div>
 
     <p class="post-info">{{tpl:lang By}} {{tpl:EntryAuthorLink}}
@@ -170,21 +173,22 @@ flush();
 <a href="http://www.xiti.com/xiti.asp?s=510336" title="WebAnalytics" target="_top">
 <script type="text/javascript">
 <!--
-Xt_param = 's=510336&p=accueil';
+Xt_param = 's=510336&amp;p=accueil';
 try {Xt_r = top.document.referrer;}
 catch(e) {Xt_r = document.referrer; }
 Xt_h = new Date();
 Xt_i = '<img width="80" height="15" border="0" alt="" ';
 Xt_i += 'src="http://logv17.xiti.com/g.xiti?'+Xt_param;
-Xt_i += '&hl='+Xt_h.getHours()+'x'+Xt_h.getMinutes()+'x'+Xt_h.getSeconds();
+Xt_i += '&amp;hl='+Xt_h.getHours()+'x'+Xt_h.getMinutes()+'x'+Xt_h.getSeconds();
 if(parseFloat(navigator.appVersion)>=4)
-{Xt_s=screen;Xt_i+='&r='+Xt_s.width+'x'+Xt_s.height+'x'+Xt_s.pixelDepth+'x'+Xt_s.colorDepth;}
-document.write(Xt_i+'&ref='+Xt_r.replace(/[<>"]/g, '').replace(/&/g, '$')+'" title="Internet Audience">');
+{Xt_s=screen;Xt_i+='&amp;r='+Xt_s.width+'x'+Xt_s.height+'x'+Xt_s.pixelDepth+'x'+Xt_s.colorDepth;}
+document.write(Xt_i+'&amp;ref='+Xt_r.replace(/[<>"]/g, '').replace(/&/g, '$')+'" title="Internet Audience">');
 //-->
 </script>
 <noscript>
-Mesure d'audience ROI statistique webanalytics par <img width="80" height="15" src="http://logv17.xiti.com/g.xiti?s=510336&p=accueil" alt="WebAnalytics" />
-</noscript></a>
+Mesure d'audience ROI statistique webanalytics par <img width="80" height="15" src="http://logv17.xiti.com/g.xiti?s=510336&amp;p=accueil" alt="WebAnalytics" />
+</noscript>
+</a>
 
 </body>
 </html>
