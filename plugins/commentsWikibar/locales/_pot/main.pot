@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-28 16:47+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: _admin.php:23 index.php:74 index.php:78
+msgid "Comments Wikibar"
+msgstr ""
+
+#: _public.php:97
+msgid "You can use the following shortcuts to format your text."
+msgstr ""
+
+#: _public.php:98
+msgid "Strong emphasis"
+msgstr ""
+
+#: _public.php:99
+msgid "Emphasis"
+msgstr ""
+
+#: _public.php:100
+msgid "Inserted"
+msgstr ""
+
+#: _public.php:101
+msgid "Deleted"
+msgstr ""
+
+#: _public.php:102
+msgid "Inline quote"
+msgstr ""
+
+#: _public.php:103
+msgid "Code"
+msgstr ""
+
+#: _public.php:104
+msgid "Line break"
+msgstr ""
+
+#: _public.php:105
+msgid "Unordered list"
+msgstr ""
+
+#: _public.php:106
+msgid "Ordered list"
+msgstr ""
+
+#: _public.php:107
+msgid "Link"
+msgstr ""
+
+#: _public.php:108
+msgid "URL?"
+msgstr ""
+
+#: _public.php:109
+msgid "Language?"
+msgstr ""
+
+#: index.php:64
+msgid "Configuration successfully updated."
+msgstr ""
+
+#: index.php:85
+msgid "Plugin activation"
+msgstr ""
+
+#: index.php:88
+msgid "Enable Comments Wikibar"
+msgstr ""
+
+#: index.php:90
+msgid "Activating this plugin also enforces wiki syntax in blog comments"
+msgstr ""
+
+#: index.php:94
+msgid "Options"
+msgstr ""
+
+#: index.php:96
+msgid "Use custom CSS"
+msgstr ""
+
+#: index.php:99
+msgid "You can use a custom CSS by providing its location."
+msgstr ""
+
+#: index.php:100
+msgid ""
+"A location beginning with a / is treated as absolute, else it is treated as "
+"relative to the blog's current theme URL"
+msgstr ""
+
+#: index.php:106
+msgid "Save configuration"
+msgstr ""

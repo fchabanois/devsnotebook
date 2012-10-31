@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-28 16:47+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Pep <pep@dotclear.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+#: _admin.php:23
+#: index.php:74
+#: index.php:78
+msgid "Comments Wikibar"
+msgstr "Wikibarre"
+
+#: _public.php:97
+msgid "You can use the following shortcuts to format your text."
+msgstr "Vous pouvez utiliser les raccourcis suivant pour mettre en forme votre texte."
+
+#: _public.php:98
+msgid "Strong emphasis"
+msgstr "Emphase forte"
+
+#: _public.php:99
+msgid "Emphasis"
+msgstr "Emphase"
+
+#: _public.php:100
+msgid "Inserted"
+msgstr "Insertion"
+
+#: _public.php:101
+msgid "Deleted"
+msgstr "Suppression"
+
+#: _public.php:102
+msgid "Inline quote"
+msgstr "Citation en ligne"
+
+#: _public.php:103
+msgid "Code"
+msgstr "Code"
+
+#: _public.php:104
+msgid "Line break"
+msgstr "Passage à la ligne"
+
+#: _public.php:105
+msgid "Unordered list"
+msgstr "Liste à puces"
+
+#: _public.php:106
+msgid "Ordered list"
+msgstr "Liste numérotée"
+
+#: _public.php:107
+msgid "Link"
+msgstr "Lien"
+
+#: _public.php:108
+msgid "URL?"
+msgstr "URL ?"
+
+#: _public.php:109
+msgid "Language?"
+msgstr "Langue ?"
+
+#: index.php:64
+msgid "Configuration successfully updated."
+msgstr "Configuration mise à jour avec succès."
+
+#: index.php:85
+msgid "Plugin activation"
+msgstr "Activation de l'extension"
+
+#: index.php:88
+msgid "Enable Comments Wikibar"
+msgstr "Activer la Wikibarre"
+
+#: index.php:90
+msgid "Activating this plugin also enforces wiki syntax in blog comments"
+msgstr "L'activation de cette extension force la syntaxe wiki dans les commentaires du blog"
+
+#: index.php:94
+msgid "Options"
+msgstr "Options"
+
+#: index.php:96
+msgid "Use custom CSS"
+msgstr "CSS personnalisée"
+
+#: index.php:99
+msgid "You can use a custom CSS by providing its location."
+msgstr "Vous pouvez utiliser une CSS personnalisée en fournissant son adresse."
+
+#: index.php:100
+msgid "A location beginning with a / is treated as absolute, else it is treated as relative to the blog's current theme URL"
+msgstr "Une adresse commençant par un / est considérée comme absolue, sinon elle est traitée comme relative à l'adresse du thème actuellement en usage sur le blog."
+
+#: index.php:106
+msgid "Save configuration"
+msgstr "Enregistrer la configuration"
+
