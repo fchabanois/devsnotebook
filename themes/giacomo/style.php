@@ -384,10 +384,11 @@ que le prelude soit visible */
 }
 
 /* ALBATOR pour ne plus faire appel à quote.gif  > http://css-tricks.com/snippets/html/glyphs/ */
-blockquote > p::before {
+blockquote > p:first-child:before {
 	content: "\201C"; 
-	font-size: 3em; 
-	color:#C0C0C0;  } 
+	font-size: 5em; 
+	color:#C0C0C0;  
+} 
 
 .post-info-co span {
 	background: transparent url(images/ico_tb.png) no-repeat 100% 40%;
@@ -976,34 +977,23 @@ ul.tags .tag100 {
     background-position: -0px -0px;
 }
 
-#custom-tweet-button a {
+.custom-tweet-button {
     float:right;
     display:inline-block;
     width:20px;
     height:20px;
-/*    background-image: url('images/twitter_bird_small_light.png') ;*/
-    background-image: url('cacheImage.php?file=images/sprite3.png') ;
-    background-position: -0px -66px;
 }
-#custom-tweet-button a:hover {
-/*    background-image: url('images/twitter_bird_small_dark.png') ; */  
-    background-position: -24px -66px;
-}
-
-#custom-tweet-button-big a {
-    float:center;
+.custom-tweet-button a {						/*    background-image: url('images/twitter_bird_small_light.png') ;*/
     display:inline-block;
-    width:20px;
-    height:20px;
-/*    background-image: url('images/twitter_bird_small_light.png') ;*/
+    width:100%;
+    height:100%;
     background-image: url('cacheImage.php?file=images/sprite3.png') ;
     background-position: -0px -66px;
 }
-#custom-tweet-button-big a:hover {
-/*    background-image: url('images/twitter_bird_small_dark.png') ; */
+ 
+.custom-tweet-button a:hover { 					/*    background-image: url('images/twitter_bird_small_dark.png') ; */
     background-position: -24px -66px;
 }
-
 
 /*
 

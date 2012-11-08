@@ -1,3 +1,6 @@
+<?php
+ob_start("ob_gzhandler");
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{tpl:EntryLang}}" lang="{{tpl:EntryLang}}">
@@ -71,8 +74,15 @@ flush();
   title="{{tpl:EntryTitle encode_html="1"}}" class="next">{{tpl:EntryTitle encode_html="1"
   cut_string="50"}} &#187;</a></tpl:EntryNext>
   </p>
-  
+
+ 
   <div id="p{{tpl:EntryID}}" class="post">
+
+<!-- ALBATOR -->
+<div class="custom-tweet-button">
+    <a onclick="window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Partager sur Twitter" href="https://twitter.com/share?text=Devsnotebook : {{tpl:EntryTitle}}&url={{tpl:EntryURL}}"></a>
+</div>
+
     <h2 class="post-title">{{tpl:EntryTitle encode_html="1"}}</h2>
 
     <p class="post-info">{{tpl:lang By}} {{tpl:EntryAuthorLink}}
@@ -135,7 +145,7 @@ flush();
 ?>
     <center>
 
-<div id="custom-tweet-button-big">
+<div class="custom-tweet-button">
     <a onclick="window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Partager sur Twitter" href="https://twitter.com/share?text=Devsnotebook : {{tpl:EntryTitle}}&url={{tpl:EntryURL}}"></a>
 </div>
 
