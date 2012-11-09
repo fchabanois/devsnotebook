@@ -329,7 +329,7 @@ que le prelude soit visible */
 	font-weight: normal;
 	font-size: 1.7em;
 /*	padding-left: 12px; */
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	color: #933522;
 
 	/* ALBATOR ancienne version : background: transparent url(images/ico_entry.png) no-repeat 0 40%; */
@@ -394,9 +394,10 @@ que le prelude soit visible */
 /* ALBATOR pour ne plus faire appel à quote.gif  > http://css-tricks.com/snippets/html/glyphs/ */
 blockquote > p:first-child:before {
 	content: "\201C"; 
-	font-size: 5em; 
+	font-size: 4em;
 	color:#C0C0C0;  
-} 
+	font-family: Georgia,"Times New Roman","New York",serif;
+}
 
 .post-info-co span {
 	background: transparent url(images/ico_tb.png) no-repeat 100% 40%;
@@ -411,7 +412,7 @@ blockquote > p:first-child:before {
 
 .post ul li {
 	display: block;
-	padding: 5px;
+	padding: 4px;
 /* ALBATOR : remplacé par un sprite ci-dessous 
 	padding-left: 14px;
 	background: transparent url(images/ul.gif) no-repeat 0 4px; */
