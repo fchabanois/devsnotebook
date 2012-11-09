@@ -1,0 +1,54 @@
+Table 20080622 - 2008-06-22
+===========================================================
+* fixed bug with parts : head was the only usable part
+
+Table 20080427 - 2008-04-27
+===========================================================
+* added files CHANGELOG, INSTALL, TODO and gpl-3.0.txt
+* moved text from class.table.php to corresponding files
+
+Table 20080405 - 2008-04-05
+===========================================================
+* headers() calls part('head')
+* cells() calls part('body')
+
+Table 20071122 - 2007-11-22
+===========================================================
+* added __toString() function : can return the table
+
+Table 20071114 - 2007-11-14
+===========================================================
+* added show() function
+* removed str2tr(), str2th() and str2td() functions, replaced by tag()
+* fixed bug : closePart() calls closeRow()
+
+Table 20071112 - 2007-11-12
+===========================================================
+* added headers() and cells() function
+
+Table 20071110 - 2007-11-10
+===========================================================
+* added arg() function
+
+Table 20071110 - 2007-11-10
+===========================================================
+* closePart don't delete anymore the content of the closed part : $this->{$this->part} .= implode('',$this->rows);
+* openPart calls closePart, openRow calls closeRow, this allow to use a shorter syntax with only open* functions
+* IE bug fixed with headers
+* changed open* functions to short syntax (openRow() is now row())
+
+Table 20071108 - 2007-11-08
+===========================================================
+* repeatHead added
+
+Table 20071025 - 2007-10-25
+===========================================================
+* removed $class which was duplicate with $extra_html
+
+Table 200710* - 2007-10-*
+===========================================================
+* many changes
+
+Table 200710?? - 2007-10-??
+===========================================================
+* first version

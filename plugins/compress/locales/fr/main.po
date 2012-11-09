@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Compress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-06-28 20:59+0100\n"
+"PO-Revision-Date: 2008-06-28 20:59+0100\n"
+"Last-Translator: Moe <poedit@gniark.net>\n"
+"Language-Team: Moe <poedit@gniark.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib.compress.php:47
+#: lib.compress.php:141
+#: lib.compress.php:162
+#: lib.compress.php:222
+#: lib.compress.php:228
+#, php-format
+msgid "%s is not writable"
+msgstr "%s n'est pas accessible en écriture"
+
+#: lib.compress.php:166
+#: lib.compress.php:218
+#, php-format
+msgid "%s is not readable"
+msgstr "%s n'est pas accessible en lecture"
+
+#: lib.compress.php:234
+#: lib.compress.php:243
+#, php-format
+msgid "%s is not deletable"
+msgstr "%s ne peut pas être supprimé"
+
+#: lib.compress.php:250
+#, php-format
+msgid "%s is not a backup file"
+msgstr "%s n'est pas un fichier de sauvegarde"
+
+#: lib.compress.php:330
+msgid "default theme"
+msgstr "thème par défaut"
+
+#: lib.compress.php:333
+msgid "blog theme"
+msgstr "thème du blog"
+
+#: lib.compress.php:335
+msgid "Theme&nbsp;:"
+msgstr "Thème&nbsp;:"
+
+#: lib.compress.php:337
+msgid "file"
+msgstr "fichier"
+
+#: lib.compress.php:337
+msgid "size"
+msgstr "taille"
+
+#: lib.compress.php:337
+msgid "actions"
+msgstr "actions"
+
+#: lib.compress.php:358
+#, php-format
+msgid "(%s%% of the original size)"
+msgstr "(%s%% de la taille originale)"
+
+#: lib.compress.php:366
+msgid "uncompressed file"
+msgstr "fichier non compressé"
+
+#: lib.compress.php:368
+msgid "compress"
+msgstr "compresser"
+
+#: lib.compress.php:374
+msgid "compressed file"
+msgstr "fichier compressé"
+
+#: lib.compress.php:381
+msgid "original file"
+msgstr "fichier original"
+
+#: lib.compress.php:383
+#: index.php:198
+msgid "compress to"
+msgstr "compresser vers"
+
+#: lib.compress.php:385
+#: lib.compress.php:393
+#: index.php:200
+msgid "delete"
+msgstr ""
+
+#: lib.compress.php:392
+msgid "backup file"
+msgstr "fichier de sauvegarde"
+
+#: _admin.php:24
+#: index.php:142
+#: index.php:148
+msgid "CompreSS"
+msgstr "CompreSS"
+
+#: index.php:87
+#, php-format
+msgid "%s is not executable"
+msgstr "%s n'est pas éxécutable"
+
+#: index.php:97
+#, php-format
+msgid "The file <code>%1$s</code> has been compressed to %2$s%% of the original file size"
+msgstr "Le fichier <code>%1$s</code> a été compressé à %2$s%% de la taille du fichier original"
+
+#: index.php:104
+#, php-format
+msgid "The backup file <code>%s</code> has been deleted"
+msgstr "Le fichier de sauvegarde <code>%s</code> a été supprimé"
+
+#: index.php:109
+msgid "All CSS files have been compressed"
+msgstr "Tous les fichiers CSS ont été compressés"
+
+#: index.php:115
+msgid "All CSS backup files have been deleted"
+msgstr "Tous les fichiers de sauvegarde CSS ont été supprimés"
+
+#: index.php:121
+msgid "All CSS compressed files have been replaced"
+msgstr "Tous les fichiers CSS compressés ont été remplacés"
+
+#: index.php:131
+msgid "Configuration successfully updated."
+msgstr "Configuration mise à jour avec succès."
+
+#: index.php:152
+msgid "compress CSSs"
+msgstr "compresser les CSSs"
+
+#: index.php:155
+msgid "All files"
+msgstr "Tous les fichiers"
+
+#: index.php:158
+msgid "Compress CSS files"
+msgstr "Compresser les fichiers CSS"
+
+#: index.php:160
+msgid "Delete backups files"
+msgstr "Supprimer les fichiers de sauvegarde"
+
+#: index.php:162
+msgid "Replace compressed files with original files"
+msgstr "Remplacer les fichiers compressés par les fichiers originaux"
+
+#: index.php:172
+#: index.php:175
+msgid "settings"
+msgstr "paramètres"
+
+#: index.php:177
+msgid "Keep comments when compressing"
+msgstr "Garder les commentaires lors de la compression"
+
+#: index.php:181
+msgid "Create an unique backup of CSS file every time a CSS backup file is compressed"
+msgstr "Créer une sauvegarde unique du fichier CSS à chaque fois qu'un fichier de sauvegarde CSS est compressé"
+
+#: index.php:184
+msgid "Text to include at the beginning of the compressed file:"
+msgstr "Texte à inclure au début du fichier compressé:"
+
+#: index.php:184
+msgid "optional"
+msgstr "facultatif"
+
+#: index.php:189
+msgid "Save configuration"
+msgstr "Enregistrer la configuration"
+
+#: index.php:194
+msgid "help"
+msgstr ""
+
+#: index.php:195
+msgid "A copy of the original file (.bak.css) is created when a CSS file is compressed for the first time."
+msgstr "Une copie du fichier original (.bak.css) est créée quand un fichier CSS est compressé pour la première fois."
+
+#: index.php:197
+msgid "To modify a CSS file, edit the original file (.bak.css), save it and then compress this file by clicking on"
+msgstr "Pour modifier un fichier CSS, éditez le fichier original (.bak.css), sauvez-le puis compressez-le en cliquant sur"
+
+#: index.php:201
+msgid "delete the file and replace the compressed file by the original file if the file is original."
+msgstr "supprime le fichier et remplace le fichier compressé par le fichier original si le fichier est original."
+
