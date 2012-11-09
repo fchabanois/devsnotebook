@@ -44,14 +44,23 @@ form {
 	padding: 0;
 }
 
+.blogtitle {
+    font-style: italic;
+    line-height: 2em;
+    font-family: Georgia,"Times New Roman","New York",serif;
+    font-size: 2.33em;
+    margin-top: 30px;
+    padding-left: 1em;
+}
+
 h1 {
 	font-size: 2.33em;
 	margin: 0.67em 0;
-	font-style: italic;
 }
 
 h2 {
-	font-size: 1.5em;
+	font-family: verdana;
+    font-size: 1.3em;
 	margin: 0.83em 0;
 }
 
@@ -224,7 +233,6 @@ que le prelude soit visible */
 	font-family: Georgia,"Times New Roman","New York",serif;
 	padding-left: 19em;
 	text-align: left;
-	height: 86px;
 }
 
 #top h1 {
@@ -319,9 +327,9 @@ que le prelude soit visible */
 
 .post-title {
 	font-weight: normal;
-	font-size: 1.4em;
+	font-size: 1.7em;
 /*	padding-left: 12px; */
-	margin: 0;
+	margin-bottom: 10px;
 	color: #933522;
 
 	/* ALBATOR ancienne version : background: transparent url(images/ico_entry.png) no-repeat 0 40%; */
@@ -403,6 +411,7 @@ blockquote > p:first-child:before {
 
 .post ul li {
 	display: block;
+	padding: 5px;
 /* ALBATOR : remplacé par un sprite ci-dessous 
 	padding-left: 14px;
 	background: transparent url(images/ul.gif) no-repeat 0 4px; */
