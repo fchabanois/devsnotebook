@@ -1,0 +1,22 @@
+install :
+
+unzip the archive and put the file on your server and then call it in your PHP files :
+
+require_once(dirname(__FILE__).'/php-xhtml-table/class.table.php');
+
+syntax :
+
+$table = new table('');
+$table->caption('');
+
+$table->part('head');
+$table->row('');
+$table->header('');
+$table->header('');
+
+$table->part('body');
+$table->row('');
+$table->cell('');
+$table->cell('');
+
+echo($table);
