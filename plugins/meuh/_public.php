@@ -28,6 +28,10 @@ class meuhPublicBehaviors
 			$rs = $core->blog->getPosts($params);
 			if ($rs->fetch()) {
 				$dcMeuh->updateAlias($type,$args);
+
+				// ALBATOR : modif pour avoir une redirection 301 au lieu de 302 : http://www.end-of-file.eu/post/dotclear-2-redirection-permanente-meuh
+				header("HTTP/1.1 301 Moved Permanently");
+
 				header('Location: '.$rs->getURL());
 				$core->callBehavior('publicAfterDocument',$core);
 				return true;
