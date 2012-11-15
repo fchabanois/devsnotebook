@@ -1,0 +1,11 @@
+msgid "URL History:"
+msgstr "Historique des URL :"
+
+msgid "Remove"
+msgstr "Supprimer"
+
+msgid "Alias URL is empty."
+msgstr "La source de l'alias est vide."
+
+msgid "Alias destination is empty."
+msgstr "La destination de l'alias est vide"

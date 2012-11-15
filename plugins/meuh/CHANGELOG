@@ -1,0 +1,8 @@
+meuh 0.2 - 2010-05-07
+===========================================================
+* Fixed behavior according to new dc r3044
+* Fixed stupid mistake in sql requests
+
+meuh 0.1 - 2009-11-06
+===========================================================
+* alpha release
