@@ -60,8 +60,12 @@ h1 {
 
 h2 {
 	font-family: verdana;
-    font-size: 1.3em;
+    font-size: 1.4em;
 	margin: 0.83em 0;
+	font-style: italic;
+	text-transform: uppercase;
+	padding-top: 10px;
+	color:  #516503;
 }
 
 h3 {
