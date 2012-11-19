@@ -83,7 +83,7 @@ flush();
     <a onclick="window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Partager sur Twitter" href="https://twitter.com/share?text=Devsnotebook : {{tpl:EntryTitle}}&url={{tpl:EntryURL}}"></a>
 </div>
 
-    <h2 class="post-title">{{tpl:EntryTitle encode_html="1"}}</h2>
+    <h1 class="post-title">{{tpl:EntryTitle encode_html="1"}}</h1>
 
     <p class="post-info">{{tpl:lang By}} {{tpl:EntryAuthorLink}}
     {{tpl:lang on}} {{tpl:EntryDate}} {{tpl:EntryTime}}
@@ -108,11 +108,11 @@ flush();
     </tpl:EntryIf>
     
     <div class="post-content">{{tpl:EntryContent}}</div>
-    
+
     <!-- # --BEHAVIOR-- publicEntryAfterContent -->
     {{tpl:SysBehavior behavior="publicEntryAfterContent"}}
-  </div>
-  
+  </div>    
+
   <!-- # Attachments -->
   <tpl:Attachments>
     <tpl:AttachmentsHeader>
@@ -144,13 +144,22 @@ flush();
 //</div>
 ?>
     <center>
-
 <div class="custom-tweet-button">
     <a onclick="window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Partager sur Twitter" href="https://twitter.com/share?text=Devsnotebook : {{tpl:EntryTitle}}&url={{tpl:EntryURL}}"></a>
 </div>
-
-
     </center> 
+
+<!-- ALBATOR billets connexes -->
+<tpl:RelatedLinksIf>
+  <div id="related-links">
+  <h3>{{tpl:lang Suggestions d'articles :}}</h3>
+  <ul class="posts">
+  	<tpl:RelatedLinks>
+  	   <li><a href="{{tpl:RelatedLinkURL}}#typeLien=connexe">{{tpl:RelatedLinkTitle}}</a></li>
+  	</tpl:RelatedLinks>
+  </ul>
+  </div>
+</tpl:RelatedLinksIf>
 
   <!-- # Comments -->
   <tpl:EntryIf show_comments="1">

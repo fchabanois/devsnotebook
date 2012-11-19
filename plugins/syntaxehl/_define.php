@@ -8,7 +8,7 @@ $this->registerModule(
         /* Name */              "SyntaxeHl",
         /* Description*/        "Coloration syntaxique",
         /* Author */            "Geindre Thierry",
-        /* Version */           '1.1.2',
+        /* Version */           '1.1.3.1',
         /* Permissions */       'usage,contentadmin'
 );
 ?>

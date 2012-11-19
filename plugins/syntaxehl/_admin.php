@@ -12,19 +12,19 @@ $core->addBehavior('adminBlogPreferencesForm',array('syntaxeHl','preferencesForm
 $core->addBehavior('adminBeforeBlogSettingsUpdate',array('syntaxeHl','updateSettings'));
 
 
-if (!$core->blog->settings->syntaxehl_overall_class)
+if (!$core->blog->settings->syntaxehl->syntaxehl_overall_class)
 {
       $settings =& $core->blog->settings;
-      $settings->setNamespace('syntaxehl');
-      $settings->put('syntaxehl_overall_class','','string','Overall CSS class',false,true);
-      $settings->put('syntaxehl_enable_klink',false,'boolean','Enable keyword link',false,true);
-      $settings->put('syntaxehl_enable_linenum',false,'boolean','Enable line numbers',false,true);
+      $settings->addNameSpace('syntaxehl');
+      $settings->syntaxehl->put('syntaxehl_overall_class','','string','Overall CSS class',false,true);
+      $settings->syntaxehl->put('syntaxehl_enable_klink',false,'boolean','Enable keyword link',false,true);
+      $settings->syntaxehl->put('syntaxehl_enable_linenum',false,'boolean','Enable line numbers',false,true);
 }
 
 class syntaxeHl
 {
 
-	public static function registerFunc(&$wiki2xhtml)
+	public static function registerFunc($wiki2xhtml)
 	{
 		$dir = dirname(__FILE__).'/geshi/geshi/';
 		$od = opendir($dir);
@@ -41,10 +41,8 @@ class syntaxeHl
 	public static function parse($text,$args)
 	{
 	    global $core;
-		$settings =& $core->blog->settings;
+		$settings = $core->blog->settings->syntaxehl;
        
-	    $settings->setNamespace('syntaxehl');
-	
 		$text = trim($text);
 		$args = preg_replace("/^(\[(.*)\]$)/","$2",$args);
 		$geshi = new GeSHi($text,$args);
@@ -62,10 +60,9 @@ class syntaxeHl
 		return $geshi->parse_code();
 	}
 	
-	public static function preferencesForm(&$core)
+	public static function preferencesForm($core)
 	{
-	      $settings =& $core->blog->settings;
-            $settings->setNamespace('syntaxehl');
+	      $settings = $core->blog->settings->syntaxehl;
             
 	      echo
 	      '<fieldset><legend>'.__('SyntaxeHl configuration').'</legend>'.
@@ -98,11 +95,9 @@ class syntaxeHl
 	
 	public static function updateSettings($settings)
     {
-            $settings->setNamespace('syntaxehl');
-            
-            $settings->put('syntaxehl_overall_class',$_POST['syntaxehl_overall_class']);
-            $settings->put('syntaxehl_enable_klink',!empty($_POST['syntaxehl_enable_klink']));
-            $settings->put('syntaxehl_enable_linenum',!empty($_POST['syntaxehl_enable_linenum']));
+            $settings->syntaxehl->put('syntaxehl_overall_class',$_POST['syntaxehl_overall_class']);
+            $settings->syntaxehl->put('syntaxehl_enable_klink',!empty($_POST['syntaxehl_enable_klink']));
+            $settings->syntaxehl->put('syntaxehl_enable_linenum',!empty($_POST['syntaxehl_enable_linenum']));
 	}
 }
 ?>
