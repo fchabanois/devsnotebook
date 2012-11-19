@@ -490,7 +490,7 @@ ul.post-tags li:before {
 	font-size: 1.1em;
 }
 
-#pings h3, #comments h3, #pr h3, #comment-form h3, #comments-feed {
+#pings h3, #comments h3, #pr h3, #comment-form h3, #comments-feed, #related-links h3{
 	border-top: 1px solid #933522;
 	font-size: 1em;
 	margin: 2em 0 1em 0;
