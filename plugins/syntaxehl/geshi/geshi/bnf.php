@@ -1,21 +1,27 @@
 <?php
 /*************************************************************************************
- * whitespace.php
- * ----------
- * Author: Benny Baumann (BenBE@geshi.org)
- * Copyright: (c) 2008 Benny Baumann (http://qbnz.com/highlighter/)
- * Release Version: 1.0.8.8
- * Date Started: 2009/10/31
+ * bnf.php
+ * --------
+ * Author: Rowan Rodrik van der Molen (rowan@bigsmoke.us)
+ * Copyright: (c) 2006 Rowan Rodrik van der Molen (http://www.bigsmoke.us/)
+ * Release Version: 1\.0\.8
+ * Date Started: 2006/09/28
  *
- * Whitespace language file for GeSHi.
+ * BNF (Backus-Naur form) language file for GeSHi.
+ *
+ * See http://en.wikipedia.org/wiki/Backus-Naur_form for more info on BNF.
  *
  * CHANGES
  * -------
- * 2008/10/31 (1.0.8.1)
- *   -  First Release
+ * 2008/05/23 (1.0.7.22)
+ *  -  Added description of extra language features (SF#1970248)
+ *  -  Removed superflicious regexps
+ * 2006/09/18 (1.0.0)
+ *  -  First Release
  *
- * TODO
- * ----
+ * TODO (updated 2006/09/18)
+ * -------------------------
+ * * Nothing I can think of
  *
  *************************************************************************************
  *
@@ -36,85 +42,68 @@
  *   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  *
  ************************************************************************************/
+
 $language_data = array (
-    'LANG_NAME' => 'Whitespace',
+    'LANG_NAME' => 'bnf',
     'COMMENT_SINGLE' => array(),
     'COMMENT_MULTI' => array(),
-    'COMMENT_REGEXP' => array(
-        3 => "/[^\n\x20\x09]+/s"
-        ),
-    'CASE_KEYWORDS' => GESHI_CAPS_UPPER,
-    'QUOTEMARKS' => array(),
+    'CASE_KEYWORDS' => GESHI_CAPS_NO_CHANGE,
+    'QUOTEMARKS' => array('"', "'"),
     'ESCAPE_CHAR' => '',
-    'KEYWORDS' => array(
-        ),
+    'KEYWORDS' => array(),
     'SYMBOLS' => array(
-        ),
+        '(', ')', '<', '>', '::=', '|'
+    ),
     'CASE_SENSITIVE' => array(
-        GESHI_COMMENTS => false,
-        ),
+        //GESHI_COMMENTS => false
+    ),
     'STYLES' => array(
-        'KEYWORDS' => array(
-            ),
+        'KEYWORDS' => array(),
         'COMMENTS' => array(
-            3 => 'color: #666666; font-style: italic;'
-            ),
-        'BRACKETS' => array(
-            0 => 'color: #66cc66;'
-            ),
-        'STRINGS' => array(
-            0 => 'color: #ff0000;'
-            ),
-        'NUMBERS' => array(
-            ),
-        'METHODS' => array(
-            ),
-        'SYMBOLS' => array(
             ),
         'ESCAPE_CHAR' => array(
+            0 => ''
             ),
-        'SCRIPT' => array(
+        'BRACKETS' => array(
+            0 => ''
+            ),
+        'STRINGS' => array(
+            0 => 'color: #a00;',
+            1 => 'color: #a00;'
+            ),
+        'NUMBERS' => array(
+            0 => ''
+            ),
+        'METHODS' => array(
+            0 => ''
+            ),
+        'SYMBOLS' => array(
+            0 => 'color: #000066; font-weight: bold;', // Unused
             ),
         'REGEXPS' => array(
-            2 => 'background-color: #FF9999;',
-            3 => 'background-color: #9999FF;'
+            0 => 'color: #007;',
+            ),
+        'SCRIPT' => array(
+            0 => ''
             )
         ),
-    'URLS' => array(
-        ),
+    'URLS' => array(),
     'OOLANG' => false,
-    'OBJECT_SPLITTERS' => array(
-        ),
+    'OBJECT_SPLITTERS' => array(),
     'REGEXPS' => array(
-        2 => array(
-            GESHI_SEARCH => "(?<!\\A)\x20",
-            GESHI_REPLACE => "&#32;",
-            GESHI_MODIFIERS => 's',
-            GESHI_BEFORE => "",
-            GESHI_AFTER => ""
-            ),
-        3 => array(
-            GESHI_SEARCH => "\x09",
-            GESHI_REPLACE => "&#9;",
-            GESHI_MODIFIERS => 's',
-            GESHI_BEFORE => "",
-            GESHI_AFTER => ""
+        //terminal symbols
+        0 => array(
+            GESHI_SEARCH => '(&lt;)([^&]+?)(&gt;)',
+            GESHI_REPLACE => '\\2',
+            GESHI_MODIFIERS => '',
+            GESHI_BEFORE => '\\1',
+            GESHI_AFTER => '\\3'
             ),
         ),
     'STRICT_MODE_APPLIES' => GESHI_NEVER,
     'SCRIPT_DELIMITERS' => array(
         ),
     'HIGHLIGHT_STRICT_BLOCK' => array(
-        ),
-    'TAB_WIDTH' => 4,
-    'PARSER_CONTROL' => array(
-        'ENABLE_FLAGS' => array(
-            'KEYWORDS' => GESHI_NEVER,
-            'SYMBOLS' => GESHI_NEVER,
-            'STRINGS' => GESHI_NEVER,
-//            'REGEXPS' => GESHI_NEVER,
-            'NUMBERS' => GESHI_NEVER
-            )
         )
 );
 
