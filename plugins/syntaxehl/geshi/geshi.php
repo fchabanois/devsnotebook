@@ -1380,7 +1380,7 @@ class GeSHi {
                 'gnuplot' => array('plt'),
                 'groovy' => array('groovy'),
                 'haskell' => array('hs'),
-                'html4strict' => array('html', 'htm'),
+                'html' => array('html', 'htm'),
                 'ini' => array('ini', 'desktop'),
                 'java' => array('java'),
                 'javascript' => array('js'),
