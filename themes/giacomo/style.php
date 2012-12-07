@@ -26,7 +26,8 @@ body {
 	font-family: "Lucida grande",Verdana,Lucida,Helvetica,sans-serif;
 	font-size: 84%;
 	color: #111;
-	background: #fff url(cacheImage.php?file=images/notebook2.jpg) no-repeat;
+/*	background: #fff url(cacheImage.php?file=images/notebook2.jpg) no-repeat; */
+	background: url("cacheImage.php?file=images/fond_gris.jpg") repeat scroll 0 0 #FFFFFF
 }
 
 p {
@@ -45,12 +46,17 @@ form {
 }
 
 .blogtitle {
-    font-style: italic;
-    line-height: 2em;
+    font-style: oblique;
+    line-height: 0;
     font-family: Georgia,"Times New Roman","New York",serif;
     font-size: 2.33em;
-    margin-top: 30px;
-    padding-left: 1em;
+    padding: 20px;
+
+	background-image:url("images/fond_gris_super_light.jpg");
+	letter-spacing:8px;
+	transform:rotate(-2deg);
+	border-radius: 20px 35px 20px 45px;
+	
 }
 
 h1 {
@@ -257,17 +263,17 @@ que le prelude soit visible */
 -------------------------------------------------------- */
 
 #main {
+	background-image: url("images/fond_gris_super_light.jpg");	
 	display: inline;
 	float: left;
 	width: 100%;
 	margin: 0;
-	padding: 0;
+	padding: 0;	
 }
 
 #content {
 	font-family: Georgia,"Times New Roman","New York",serif;
 	line-height: 140%;
-	border-left: 1px dashed #ada095;
 	margin: 0 16em;
 	padding: 0 2em;
 }
@@ -294,7 +300,7 @@ que le prelude soit visible */
 #blogextra {
 	width: 15em;
 	position: absolute;
-	top: 160px;
+	top: 110px;
 	left: 1em;
 	text-align: right
 }
