@@ -58,6 +58,7 @@ form {
 	border-radius: 20px 35px 20px 45px;
 	width:430px;
 	margin-top:30px;
+	
 }
 
 h1 {
@@ -176,10 +177,11 @@ a:hover {
 	background: transparent;
 	text-decoration: none;
 	font-weight: normal;
+	color:#2D1107;
 }
 
 #top a:hover, #main .post-title a:hover {
-	color: maroon;
+	color:#2D1107;
 }
 
 a[hreflang]:after {
