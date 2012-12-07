@@ -56,7 +56,8 @@ form {
 	letter-spacing:8px;
 	transform:rotate(-2deg);
 	border-radius: 20px 35px 20px 45px;
-	
+	width:430px;
+	margin-top:30px;
 }
 
 h1 {
@@ -276,6 +277,11 @@ que le prelude soit visible */
 	line-height: 140%;
 	margin: 0 16em;
 	padding: 0 2em;
+	background-color: #FFFFFF;
+	border-left: 1px dashed #C0C0C0;
+	border-right: 1px dashed #C0C0C0;
+	border-top: 1px dashed #C0C0C0;
+	border-bottom: 1px dashed #FFFFFF;
 }
 
 /* Calage des sidebar
@@ -300,7 +306,7 @@ que le prelude soit visible */
 #blogextra {
 	width: 15em;
 	position: absolute;
-	top: 110px;
+	top: 130px;
 	left: 1em;
 	text-align: right
 }
