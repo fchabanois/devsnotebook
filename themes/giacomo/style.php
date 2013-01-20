@@ -56,7 +56,7 @@ form {
 	letter-spacing:8px;
 	transform:rotate(-2deg);
 	border-radius: 20px 35px 20px 45px;
-	width:430px;
+	width:530px;
 	margin-top:30px;
 	
 }
