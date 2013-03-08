@@ -356,7 +356,7 @@ que le prelude soit visible */
 .post-title:before {
 	background-color: transparent;
 	content: "";
-	background: transparent url('cacheImage.php?file=images/sprite3.png') no-repeat -0px -41px;
+	background: transparent url('cacheImage.php?file=images/sprite4.png') no-repeat -0px -41px;
 	width: 8px;
     height: 11px;
 	display: inline-block;
@@ -390,7 +390,7 @@ que le prelude soit visible */
 /* Sprite à la place de 'background: transparent url(images/ico_comments.png) no-repeat 0 40%' */
 .comment_count:before, .ping_count:before {
 	content:"";
-	background: transparent url('cacheImage.php?file=images/sprite3.png') no-repeat -82px -0px;
+	background: transparent url('cacheImage.php?file=images/sprite4.png') no-repeat -82px -0px;
     width: 10px;
     height: 10px;
     display: inline-block;
@@ -440,7 +440,7 @@ blockquote > p:first-child:before {
 .post ul li:before {
 	content:"";
 	display: inline-block;
-	background: transparent url('cacheImage.php?file=images/sprite3.png') no-repeat -19px -41px;
+	background: transparent url('cacheImage.php?file=images/sprite4.png') no-repeat -19px -41px;
 	padding-right: 2px;
 	width: 11px;
     height: 6px;
@@ -458,7 +458,7 @@ blockquote > p:first-child:before {
     width: 6px;
     height: 6px;
     content:"";
-	background: transparent url('cacheImage.php?file=images/sprite3.png') no-repeat -41px -41px;
+	background: transparent url('cacheImage.php?file=images/sprite4.png') no-repeat -41px -41px;
 	padding-right:2px;
 }
 
@@ -479,7 +479,7 @@ ul.post-tags li:before {
 /* ALBATOR : probleme de superposage avec le style .post ul li:before -> commenté car avoir une image encore différente n'apporte pas tant de chose (ul.png / ulul.png)
 	display: inline;
 	content:"";
-	background: transparent url('cacheImage.php?file=images/sprite3.png') no-repeat -41px -41px;
+	background: transparent url('cacheImage.php?file=images/sprite4.png') no-repeat -41px -41px;
     width: 6px;
     height: 6px;    
 */
@@ -539,7 +539,7 @@ ul.post-tags li:before {
 	affichage non testé */
 #comments dt:before {
 	content:"";
-	background: transparent url('cacheImage.php?file=images/sprite3.png') no-repeat -82px -0px;
+	background: transparent url('cacheImage.php?file=images/sprite4.png') no-repeat -82px -0px;
     width: 10px;
     height: 10px;
     display: inline-block;
@@ -636,7 +636,7 @@ ul.post-tags li:before {
     content: "";
     width: 10px;
     height: 9px;
-    background: transparent url('cacheImage.php?file=images/sprite3.png') no-repeat -82px -21px;
+    background: transparent url('cacheImage.php?file=images/sprite4.png') no-repeat -82px -21px;
 	padding-right:3px;
 }
 
@@ -664,7 +664,7 @@ ul.post-tags li:before {
     content: "";
     width: 10px;
     height: 9px;
-    background: transparent url('cacheImage.php?file=images/sprite3.png') no-repeat -82px -21px;
+    background: transparent url('cacheImage.php?file=images/sprite4.png') no-repeat -82px -21px;
 	padding-right:3px;
 }
 
@@ -991,14 +991,14 @@ ul.tags .tag100 {
 }
 
 .sprite-rss-png{
-    background: url('cacheImage.php?file=images/sprite3.png') no-repeat;
+    background: url('cacheImage.php?file=images/sprite4.png') no-repeat;
     display:inline-block;
     width: 30px;
     height: 30px;
     background-position: -41px -0px;
 }
 .sprite-rss_comment-png {
-    background: url('cacheImage.php?file=images/sprite3.png') no-repeat;
+    background: url('cacheImage.php?file=images/sprite4.png') no-repeat;
     display:inline-block;
     width: 30px;
     height: 30px;
@@ -1015,7 +1015,7 @@ ul.tags .tag100 {
     display:inline-block;
     width:100%;
     height:100%;
-    background-image: url('cacheImage.php?file=images/sprite3.png') ;
+    background-image: url('cacheImage.php?file=images/sprite4.png') ;
     background-position: -0px -66px;
 }
  

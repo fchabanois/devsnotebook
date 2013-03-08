@@ -1,0 +1,19 @@
+/* je recupere le sprite le plus récent et concatène l'image sur http://draeton.github.com/stitches/*/
+/* parametres : vertical, 0px de padding */
+.sprite {
+    background: url(download.png) no-repeat;
+    display: block;
+}
+
+.sprite-sprite3 {
+    width: 105px;
+    height: 92px;
+    background-position: -5px -5px;
+}
+
+.sprite-twitter-billet {
+    width: 150px;
+    height: 54px;
+    background-position: -5px -107px;
+}
+ 
