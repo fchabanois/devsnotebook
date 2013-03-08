@@ -1018,9 +1018,29 @@ ul.tags .tag100 {
     background-image: url('cacheImage.php?file=images/sprite4.png') ;
     background-position: -0px -66px;
 }
- 
-.custom-tweet-button a:hover { 					/*    background-image: url('images/twitter_bird_small_dark.png') ; */
+ .custom-tweet-button a:hover { 					/*    background-image: url('images/twitter_bird_small_dark.png') ; */
     background-position: -24px -66px;
+}
+
+.big-tweet-button {
+    float:center;
+    display:inline-block;
+    width:150px;
+    height:54px;
+}
+.big-tweet-button a {						/*    background-image: url('images/twitter-billet.png') ;*/
+    display:inline-block;
+    width:100%;
+    height:100%;
+    background-image: url('cacheImage.php?file=images/sprite4.png') ;
+    background-position: -0px -92px;
+	border-radius: 10px;
+	border-style:outset;
+}
+.big-tweet-button a:hover { 					
+    background-position: -0px -92px;
+	border-radius: 10px;
+	border-style:inset;
 }
 
 /*
