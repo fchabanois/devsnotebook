@@ -3,7 +3,7 @@
 # Compression des images JPG et PNG d'un repertoire donné
 #	Prend en compte les fichiers cachés et les différences de casse dans l'extension (coucou.JPG ou coucou.jpg)
 
-IMAGES_DIR="../../themes/giacomo/images ../../public/Billets ../.."
+IMAGES_DIR="../../themes/giacomo/images ../../public/Billets ../../public/Logos ../.."
 
 for imgDir in $IMAGES_DIR
 do
