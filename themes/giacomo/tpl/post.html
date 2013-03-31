@@ -145,7 +145,7 @@ flush();
 ?>
     <center>
 <div class="big-tweet-button">
-    <a onclick="window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Partager sur Twitter" href="https://twitter.com/share?text={{tpl:EntryTitle}}+%23devsnotebook&url={{tpl:EntryURL}}"></a>
+    <a onclick="_gaq.push(['_trackEvent', 'Lien externe', 'Partage Twitter', 'Partagez'];window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Partager sur Twitter" href="https://twitter.com/share?text={{tpl:EntryTitle}} via @fchabanois&url={{tpl:EntryURL}}"></a>
 </div>
     </center> 
 
@@ -155,7 +155,7 @@ flush();
   <h3>{{tpl:lang Suggestions d'articles :}}</h3>
   <ul class="posts">
   	<tpl:RelatedLinks>
-  	   <li><a href="{{tpl:RelatedLinkURL}}#typeLien=connexe">{{tpl:RelatedLinkTitle}}</a></li>
+  	   <li><a href="{{tpl:RelatedLinkURL}}&utm_source=autreBillet&utm_medium=website&utm_campaign=billetConnexe">{{tpl:RelatedLinkTitle}}</a></li>
   	</tpl:RelatedLinks>
   </ul>
   </div>

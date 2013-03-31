@@ -989,20 +989,21 @@ ul.tags .tag100 {
     margin: 0 1em;
   }
 }
-
-.sprite-rss-png{
+.sprite-rss-png {
     background: url('cacheImage.php?file=images/sprite4.png') no-repeat;
+    background-position: -41px -0px;
     display:inline-block;
     width: 30px;
-    height: 30px;
-    background-position: -41px -0px;
+    height: 30px;    
 }
+
 .sprite-rss_comment-png {
     background: url('cacheImage.php?file=images/sprite4.png') no-repeat;
     display:inline-block;
-    width: 30px;
-    height: 30px;
     background-position: -0px -0px;
+    display:inline-block;
+    width: 30px;
+    height: 30px;  
 }
 
 .custom-tweet-button {
@@ -1041,6 +1042,31 @@ ul.tags .tag100 {
     background-position: -0px -92px;
 	border-radius: 10px;
 	border-style:inset;
+}
+.follow-tweet-button {
+    display:inline-block;
+    width:30px;
+    height:30px;
+	background-color:#b1ebff;
+	border-radius:5px;
+	text-align:center;
+  vertical-align:middle;
+}
+.follow-tweet-button a {						/*    background-image: url('images/twitter_bird_small_light.png') ;*/
+    display:inline-block;
+    width:100%;
+    height:100%;
+    background-image: url('cacheImage.php?file=images/sprite4.png') ;
+    background-position: -0px -66px;
+    width:20px;
+    height:20px;
+	margin-top:5px;
+}
+.follow-tweet-button a:hover { 					/*    background-image: url('images/twitter_bird_small_dark.png') ; */
+    background-position: -24px -66px;
+    width:20px;
+    height:20px;
+	margin-top:5px;
 }
 
 /*
