@@ -1005,7 +1005,7 @@ ul.tags .tag100 {
     width: 30px;
     height: 30px;  
 }
-
+/* a garder pour l'instant pour nouveau bouton de partage -- styles custom-tweet-button* pas utilisé pour l'instant*/
 .custom-tweet-button {
     float:right;
     display:inline-block;
