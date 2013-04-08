@@ -31,6 +31,8 @@ ob_start("ob_gzhandler");
   
   <link rel="top" href="{{tpl:BlogURL}}" title="{{tpl:lang Home}}" />
   <link rel="contents" href="{{tpl:BlogArchiveURL}}" title="{{tpl:lang Archives}}" />
+  <!-- ajout ALBATOR font twitter-->
+  <link href='http://fonts.googleapis.com/css?family=Risque' rel='stylesheet' type='text/css'>
   
   <tpl:EntryNext><link rel="next" href="{{tpl:EntryURL}}"
   title="{{tpl:EntryTitle encode_html="1"}}" /></tpl:EntryNext>
@@ -139,8 +141,8 @@ flush();
 //</div>
 ?>
     <center>
-<div class="big-tweet-button">
-    <a onclick="_gaq.push(['_trackEvent', 'Lien externe', 'Partage Twitter', 'Partagez'];window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Partager sur Twitter" href="https://twitter.com/share?text={{tpl:EntryTitle}} via @fchabanois&url={{tpl:EntryURL}}"></a>
+<div id="share-twitter">
+    <a onclick="_gaq.push(['_trackEvent', 'Reseau', 'Partage', 'Partage twitter']); window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Partager sur Twitter" href="https://twitter.com/share?text={{tpl:EntryTitle}} via @fchabanois&url={{tpl:EntryURL}}">Partager sur twitter</a>
 </div>
     </center> 
 
@@ -150,7 +152,7 @@ flush();
   <h3>{{tpl:lang Suggestions d'articles :}}</h3>
   <ul class="posts">
   	<tpl:RelatedLinks>
-  	   <li><a href="{{tpl:RelatedLinkURL}}&utm_source=autreBillet&utm_medium=website&utm_campaign=billetConnexe">{{tpl:RelatedLinkTitle}}</a></li>
+  	   <li><a href="{{tpl:RelatedLinkURL}}" onclick="_gaq.push(['_trackEvent', 'Tissage interne', 'Clic', 'Billet connexe']);">{{tpl:RelatedLinkTitle}}</a></li>
   	</tpl:RelatedLinks>
   </ul>
   </div>

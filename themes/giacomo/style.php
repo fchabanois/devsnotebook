@@ -996,7 +996,6 @@ ul.tags .tag100 {
     width: 30px;
     height: 30px;    
 }
-
 .sprite-rss_comment-png {
     background: url('cacheImage.php?file=images/sprite4.png') no-repeat;
     display:inline-block;
@@ -1068,7 +1067,32 @@ ul.tags .tag100 {
     height:20px;
 	margin-top:5px;
 }
+#share-twitter a:before {
+    background-image: url("images/sprite4.png"); 
+    content: " ";
+    float: left;
+    height: 20px;
+    width: 20px; 
+    margin: 0 10px;
+    background-position:-24px -66px;
+    border-radius: 5px;
 
+}
+#share-twitter a, #share-twitter a:link, #share-twitter a:visited, #share-twitter a:focus {
+    color: #2E2E2E;
+    padding:5px;
+    text-decoration: none;
+    background-color: #d1ebff;
+    display: inline-block;
+    border-style:inset;
+    border-radius: 25px;
+    border:1px solid #C0C0C0;
+    font-family: 'Risque', cursive;
+}
+#share-twitter a:hover {
+    border-style:outset;
+
+}
 /*
 
 FIN CUSTOM.CSS
