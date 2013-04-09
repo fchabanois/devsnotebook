@@ -152,7 +152,7 @@ flush();
   <h3>{{tpl:lang Suggestions d'articles :}}</h3>
   <ul class="posts">
   	<tpl:RelatedLinks>
-  	   <li><a href="{{tpl:RelatedLinkURL}}" onclick="_gaq.push(['_trackEvent', 'Tissage interne', 'Clic', 'Billet connexe']);">{{tpl:RelatedLinkTitle}}</a></li>
+  	   <li><a href="{{tpl:RelatedLinkURL}}&utm_source=autreBillet&utm_medium=website&utm_campaign=billetConnexe" onclick="_gaq.push(['_trackEvent', 'Tissage interne', 'Clic', 'Billet connexe']);">{{tpl:RelatedLinkTitle}}</a></li>
   	</tpl:RelatedLinks>
   </ul>
   </div>
