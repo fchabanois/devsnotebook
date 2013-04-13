@@ -69,10 +69,10 @@ flush();
   <div id="content">
   
   <p id="navlinks">
-  <tpl:EntryPrevious><a href="{{tpl:EntryURL}}"
+  <tpl:EntryPrevious><a href="{{tpl:EntryURL}}&utm_source=autreBillet&utm_medium=website&utm_campaign=NavigationSuivantPrecedent"
   title="{{tpl:EntryTitle encode_html="1"}}" class="prev">&#171; {{tpl:EntryTitle encode_html="1"
   cut_string="50"}}</a></tpl:EntryPrevious>
-  <tpl:EntryNext> <span>-</span> <a href="{{tpl:EntryURL}}"
+  <tpl:EntryNext> <span>&nbsp;&nbsp; - &nbsp;&nbsp;</span> <a href="{{tpl:EntryURL}}&utm_source=autreBillet&utm_medium=website&utm_campaign=NavigationSuivantPrecedent"
   title="{{tpl:EntryTitle encode_html="1"}}" class="next">{{tpl:EntryTitle encode_html="1"
   cut_string="50"}} &#187;</a></tpl:EntryNext>
   </p>
@@ -152,7 +152,7 @@ flush();
   <h3>{{tpl:lang Suggestions d'articles :}}</h3>
   <ul class="posts">
   	<tpl:RelatedLinks>
-  	   <li><a href="{{tpl:RelatedLinkURL}}&utm_source=autreBillet&utm_medium=website&utm_campaign=billetConnexe" onclick="_gaq.push(['_trackEvent', 'Tissage interne', 'Clic', 'Billet connexe']);">{{tpl:RelatedLinkTitle}}</a></li>
+  	   <li><a href="{{tpl:RelatedLinkURL}}?utm_source=autreBillet&utm_medium=website&utm_campaign=billetConnexe" onclick="_gaq.push(['_trackEvent', 'Tissage interne', 'Clic', 'Billet connexe']);">{{tpl:RelatedLinkTitle}}</a></li>
   	</tpl:RelatedLinks>
   </ul>
   </div>
